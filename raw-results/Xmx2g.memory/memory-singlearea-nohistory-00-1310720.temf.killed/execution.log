@@ -1,0 +1,7 @@
+     [copy] Copying 1 file to /root/git/temporal-emf-pubs/I40 - Case Study/edu.uoc.som.tll.simulation/memory-singlearea-nohistory-00-1310720.temf
+     [java] Loading ../benchmark-instances/memory-singlearea-nohistory-00-1310720.xmi
+     [java] log4j:WARN No appenders could be found for logger (org.apache.hadoop.util.Shell).
+     [java] log4j:WARN Please initialize the log4j system properly.
+     [java] log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+     [java] Simulating klyo-hbase://hbase/1524218547162
+     [java] Simulation start: 2018-04-20 10:02:30.368

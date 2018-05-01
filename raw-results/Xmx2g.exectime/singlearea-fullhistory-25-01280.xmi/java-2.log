@@ -1,0 +1,6 @@
+2018-04-17 22:00:19 FINER tll.impl.internal.InternalAreaImpl$IterationLogger run -- Logging numbers of iterations every 20000 millisecons
+2018-04-17 22:00:39 FINER tll.impl.internal.InternalAreaImpl$IterationLogger run -- Running iteration 224 on Area1
+2018-04-17 22:00:59 FINER tll.impl.internal.InternalAreaImpl$IterationLogger run -- Running iteration 448 on Area1
+2018-04-17 22:01:19 FINER tll.impl.internal.InternalAreaImpl$IterationLogger run -- Running iteration 671 on Area1
+2018-04-17 22:01:39 FINER tll.impl.internal.InternalAreaImpl$IterationLogger run -- Running iteration 895 on Area1
+2018-04-17 22:01:59 FINER tll.impl.internal.InternalAreaImpl$IterationLogger run -- Running iteration 1118 on Area1

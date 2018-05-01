@@ -1,0 +1,3 @@
+2018-04-17 21:59:17 FINER test.Simulate$MemoryLogger run -- Logging memory usage every 20000 millisecons
+2018-04-17 21:59:37 FINER test.Simulate$MemoryLogger run -- Using 45 MB out of 723 MB
+2018-04-17 21:59:57 FINER test.Simulate$MemoryLogger run -- Using 49 MB out of 723 MB

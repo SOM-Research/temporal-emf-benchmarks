@@ -1,0 +1,38 @@
+     [copy] Copying 1 file to /root/git/temporal-emf-pubs/I40 - Case Study/edu.uoc.som.tll.simulation/memory-singlearea-fullhistory-00-0327680.xmi
+     [java] Loading ../benchmark-instances/memory-singlearea-fullhistory-00-0327680.xmi
+     [java] Simulating sim-results/1524272844101.xmi
+     [java] Simulation start: 2018-04-21 01:07:24.102
+     [java] Exception in thread "Thread-3" Exception in thread "main" java.lang.OutOfMemoryError: Java heap space
+     [java] 
+     [java] Exception: java.lang.OutOfMemoryError thrown from the UncaughtExceptionHandler in thread "Thread-3"
+     [java] java.lang.OutOfMemoryError: Java heap space
+     [java] 	at java.lang.AbstractStringBuilder.<init>(AbstractStringBuilder.java:68)
+     [java] 	at java.lang.StringBuilder.<init>(StringBuilder.java:89)
+     [java] 	at sun.util.resources.LocaleData.getDateFormatData(LocaleData.java:127)
+     [java] 	at java.text.DateFormatSymbols.initializeData(DateFormatSymbols.java:710)
+     [java] 	at java.text.DateFormatSymbols.<init>(DateFormatSymbols.java:145)
+     [java] 	at sun.util.locale.provider.DateFormatSymbolsProviderImpl.getInstance(DateFormatSymbolsProviderImpl.java:85)
+     [java] 	at java.text.DateFormatSymbols.getProviderInstance(DateFormatSymbols.java:364)
+     [java] 	at java.text.DateFormatSymbols.getInstanceRef(DateFormatSymbols.java:354)
+     [java] 	at java.text.SimpleDateFormat.<init>(SimpleDateFormat.java:603)
+     [java] 	at java.text.SimpleDateFormat.<init>(SimpleDateFormat.java:580)
+     [java] 	at tll.impl.internal.InternalItemImpl$1.notifyChanged(InternalItemImpl.java:49)
+     [java] 	at org.eclipse.emf.common.notify.impl.BasicNotifierImpl.eNotify(BasicNotifierImpl.java:374)
+     [java] 	at org.eclipse.emf.common.notify.impl.NotificationImpl.dispatch(NotificationImpl.java:1027)
+     [java] 	at tll.impl.ComponentImpl.setHosts(ComponentImpl.java:177)
+     [java] 	at tll.impl.internal.InternalTurntableImpl.do_(InternalTurntableImpl.java:39)
+     [java] 	at tll.impl.internal.InternalAreaImpl.lambda$executeAssignment$3(InternalAreaImpl.java:144)
+     [java] 	at tll.impl.internal.InternalAreaImpl$$Lambda$7/1429880200.accept(Unknown Source)
+     [java] 	at java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1382)
+     [java] 	at java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:580)
+     [java] 	at tll.impl.internal.InternalAreaImpl.executeAssignment(InternalAreaImpl.java:144)
+     [java] 	at tll.impl.internal.InternalAreaImpl.start(InternalAreaImpl.java:86)
+     [java] 	at tll.impl.internal.InternalSystemImpl.lambda$simulate$0(InternalSystemImpl.java:13)
+     [java] 	at tll.impl.internal.InternalSystemImpl$$Lambda$1/1780132728.accept(Unknown Source)
+     [java] 	at java.util.Iterator.forEachRemaining(Iterator.java:116)
+     [java] 	at java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1801)
+     [java] 	at java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:580)
+     [java] 	at tll.impl.internal.InternalSystemImpl.simulate(InternalSystemImpl.java:13)
+     [java] 	at test.Simulate.simulate(Simulate.java:111)
+     [java] 	at test.Simulate.run(Simulate.java:89)
+     [java] 	at test.SimulateXmi.main(SimulateXmi.java:21)

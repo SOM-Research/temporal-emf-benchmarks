@@ -1,0 +1,70 @@
+2018-04-21 16:05:13 FINER test.Simulate$MemoryLogger run -- Logging memory usage every 20000 millisecons
+2018-04-21 16:05:33 FINER test.Simulate$MemoryLogger run -- Using 158 MB out of 723 MB
+2018-04-21 16:05:53 FINER test.Simulate$MemoryLogger run -- Using 52 MB out of 723 MB
+2018-04-21 16:06:13 FINER test.Simulate$MemoryLogger run -- Using 116 MB out of 723 MB
+2018-04-21 16:06:33 FINER test.Simulate$MemoryLogger run -- Using 149 MB out of 723 MB
+2018-04-21 16:06:53 FINER test.Simulate$MemoryLogger run -- Using 174 MB out of 723 MB
+2018-04-21 16:07:13 FINER test.Simulate$MemoryLogger run -- Using 204 MB out of 723 MB
+2018-04-21 16:07:33 FINER test.Simulate$MemoryLogger run -- Using 62 MB out of 723 MB
+2018-04-21 16:07:53 FINER test.Simulate$MemoryLogger run -- Using 88 MB out of 723 MB
+2018-04-21 16:08:13 FINER test.Simulate$MemoryLogger run -- Using 118 MB out of 723 MB
+2018-04-21 16:08:33 FINER test.Simulate$MemoryLogger run -- Using 139 MB out of 723 MB
+2018-04-21 16:08:53 FINER test.Simulate$MemoryLogger run -- Using 158 MB out of 723 MB
+2018-04-21 16:09:13 FINER test.Simulate$MemoryLogger run -- Using 183 MB out of 723 MB
+2018-04-21 16:09:33 FINER test.Simulate$MemoryLogger run -- Using 198 MB out of 723 MB
+2018-04-21 16:09:53 FINER test.Simulate$MemoryLogger run -- Using 212 MB out of 723 MB
+2018-04-21 16:10:13 FINER test.Simulate$MemoryLogger run -- Using 63 MB out of 723 MB
+2018-04-21 16:10:33 FINER test.Simulate$MemoryLogger run -- Using 93 MB out of 723 MB
+2018-04-21 16:10:53 FINER test.Simulate$MemoryLogger run -- Using 122 MB out of 723 MB
+2018-04-21 16:11:13 FINER test.Simulate$MemoryLogger run -- Using 144 MB out of 723 MB
+2018-04-21 16:11:33 FINER test.Simulate$MemoryLogger run -- Using 162 MB out of 723 MB
+2018-04-21 16:11:53 FINER test.Simulate$MemoryLogger run -- Using 184 MB out of 723 MB
+2018-04-21 16:12:13 FINER test.Simulate$MemoryLogger run -- Using 202 MB out of 723 MB
+2018-04-21 16:12:33 FINER test.Simulate$MemoryLogger run -- Using 217 MB out of 723 MB
+2018-04-21 16:12:53 FINER test.Simulate$MemoryLogger run -- Using 235 MB out of 723 MB
+2018-04-21 16:13:13 FINER test.Simulate$MemoryLogger run -- Using 83 MB out of 723 MB
+2018-04-21 16:13:33 FINER test.Simulate$MemoryLogger run -- Using 106 MB out of 723 MB
+2018-04-21 16:13:53 FINER test.Simulate$MemoryLogger run -- Using 124 MB out of 723 MB
+2018-04-21 16:14:13 FINER test.Simulate$MemoryLogger run -- Using 143 MB out of 723 MB
+2018-04-21 16:14:33 FINER test.Simulate$MemoryLogger run -- Using 158 MB out of 723 MB
+2018-04-21 16:14:53 FINER test.Simulate$MemoryLogger run -- Using 176 MB out of 723 MB
+2018-04-21 16:15:13 FINER test.Simulate$MemoryLogger run -- Using 191 MB out of 723 MB
+2018-04-21 16:15:33 FINER test.Simulate$MemoryLogger run -- Using 205 MB out of 723 MB
+2018-04-21 16:15:53 FINER test.Simulate$MemoryLogger run -- Using 220 MB out of 723 MB
+2018-04-21 16:16:13 FINER test.Simulate$MemoryLogger run -- Using 236 MB out of 723 MB
+2018-04-21 16:16:33 FINER test.Simulate$MemoryLogger run -- Using 251 MB out of 723 MB
+2018-04-21 16:16:53 FINER test.Simulate$MemoryLogger run -- Using 265 MB out of 723 MB
+2018-04-21 16:17:13 FINER test.Simulate$MemoryLogger run -- Using 111 MB out of 718 MB
+2018-04-21 16:17:33 FINER test.Simulate$MemoryLogger run -- Using 126 MB out of 718 MB
+2018-04-21 16:17:53 FINER test.Simulate$MemoryLogger run -- Using 141 MB out of 718 MB
+2018-04-21 16:18:13 FINER test.Simulate$MemoryLogger run -- Using 155 MB out of 718 MB
+2018-04-21 16:18:33 FINER test.Simulate$MemoryLogger run -- Using 170 MB out of 718 MB
+2018-04-21 16:18:53 FINER test.Simulate$MemoryLogger run -- Using 184 MB out of 718 MB
+2018-04-21 16:19:13 FINER test.Simulate$MemoryLogger run -- Using 195 MB out of 718 MB
+2018-04-21 16:19:33 FINER test.Simulate$MemoryLogger run -- Using 209 MB out of 718 MB
+2018-04-21 16:19:53 FINER test.Simulate$MemoryLogger run -- Using 220 MB out of 718 MB
+2018-04-21 16:20:13 FINER test.Simulate$MemoryLogger run -- Using 235 MB out of 718 MB
+2018-04-21 16:20:33 FINER test.Simulate$MemoryLogger run -- Using 246 MB out of 718 MB
+2018-04-21 16:20:53 FINER test.Simulate$MemoryLogger run -- Using 256 MB out of 718 MB
+2018-04-21 16:21:13 FINER test.Simulate$MemoryLogger run -- Using 267 MB out of 718 MB
+2018-04-21 16:21:33 FINER test.Simulate$MemoryLogger run -- Using 278 MB out of 718 MB
+2018-04-21 16:21:53 FINER test.Simulate$MemoryLogger run -- Using 127 MB out of 747 MB
+2018-04-21 16:22:13 FINER test.Simulate$MemoryLogger run -- Using 138 MB out of 747 MB
+2018-04-21 16:22:33 FINER test.Simulate$MemoryLogger run -- Using 152 MB out of 747 MB
+2018-04-21 16:22:53 FINER test.Simulate$MemoryLogger run -- Using 163 MB out of 747 MB
+2018-04-21 16:23:13 FINER test.Simulate$MemoryLogger run -- Using 177 MB out of 747 MB
+2018-04-21 16:23:33 FINER test.Simulate$MemoryLogger run -- Using 188 MB out of 747 MB
+2018-04-21 16:23:53 FINER test.Simulate$MemoryLogger run -- Using 199 MB out of 747 MB
+2018-04-21 16:24:13 FINER test.Simulate$MemoryLogger run -- Using 209 MB out of 747 MB
+2018-04-21 16:24:33 FINER test.Simulate$MemoryLogger run -- Using 220 MB out of 747 MB
+2018-04-21 16:24:53 FINER test.Simulate$MemoryLogger run -- Using 231 MB out of 747 MB
+2018-04-21 16:25:13 FINER test.Simulate$MemoryLogger run -- Using 242 MB out of 747 MB
+2018-04-21 16:25:33 FINER test.Simulate$MemoryLogger run -- Using 252 MB out of 747 MB
+2018-04-21 16:25:53 FINER test.Simulate$MemoryLogger run -- Using 263 MB out of 747 MB
+2018-04-21 16:26:13 FINER test.Simulate$MemoryLogger run -- Using 270 MB out of 747 MB
+2018-04-21 16:26:14 FINER test.Simulate simulate -- Requesting GC
+2018-04-21 16:26:14 FINER test.Simulate simulate -- Using 139 MB out of 758 MB before saving
+2018-04-21 16:26:18 FINER test.Simulate simulate -- Requesting GC
+2018-04-21 16:26:19 FINER test.Simulate simulate -- Using 225 MB out of 1,017 MB after saving
+2018-04-21 16:26:33 FINER test.Simulate$MemoryLogger run -- Using 236 MB out of 1,017 MB
+2018-04-21 16:26:33 FINER test.Simulate$MemoryLogger run -- Leaving memory monitor thread

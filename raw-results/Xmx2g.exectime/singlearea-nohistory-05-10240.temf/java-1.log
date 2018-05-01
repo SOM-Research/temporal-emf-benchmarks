@@ -1,0 +1,74 @@
+2018-04-17 18:38:40 FINER test.Simulate$MemoryLogger run -- Logging memory usage every 20000 millisecons
+2018-04-17 18:38:43 FINER tll.impl.internal.InternalAreaImpl$IterationLogger run -- Logging numbers of iterations every 20000 millisecons
+2018-04-17 18:39:00 FINER test.Simulate$MemoryLogger run -- Using 133 MB out of 691 MB
+2018-04-17 18:39:03 FINER tll.impl.internal.InternalAreaImpl$IterationLogger run -- Running iteration 239 on Area1
+2018-04-17 18:39:20 FINER test.Simulate$MemoryLogger run -- Using 125 MB out of 734 MB
+2018-04-17 18:39:23 FINER tll.impl.internal.InternalAreaImpl$IterationLogger run -- Running iteration 495 on Area1
+2018-04-17 18:39:40 FINER test.Simulate$MemoryLogger run -- Using 42 MB out of 731 MB
+2018-04-17 18:39:43 FINER tll.impl.internal.InternalAreaImpl$IterationLogger run -- Running iteration 768 on Area1
+2018-04-17 18:40:00 FINER test.Simulate$MemoryLogger run -- Using 55 MB out of 700 MB
+2018-04-17 18:40:03 FINER tll.impl.internal.InternalAreaImpl$IterationLogger run -- Running iteration 1055 on Area1
+2018-04-17 18:40:20 FINER test.Simulate$MemoryLogger run -- Using 172 MB out of 670 MB
+2018-04-17 18:40:23 FINER tll.impl.internal.InternalAreaImpl$IterationLogger run -- Running iteration 1339 on Area1
+2018-04-17 18:40:40 FINER test.Simulate$MemoryLogger run -- Using 27 MB out of 638 MB
+2018-04-17 18:40:43 FINER tll.impl.internal.InternalAreaImpl$IterationLogger run -- Running iteration 1619 on Area1
+2018-04-17 18:41:00 FINER test.Simulate$MemoryLogger run -- Using 302 MB out of 616 MB
+2018-04-17 18:41:03 FINER tll.impl.internal.InternalAreaImpl$IterationLogger run -- Running iteration 1904 on Area1
+2018-04-17 18:41:20 FINER test.Simulate$MemoryLogger run -- Using 104 MB out of 591 MB
+2018-04-17 18:41:23 FINER tll.impl.internal.InternalAreaImpl$IterationLogger run -- Running iteration 2183 on Area1
+2018-04-17 18:41:40 FINER test.Simulate$MemoryLogger run -- Using 45 MB out of 559 MB
+2018-04-17 18:41:43 FINER tll.impl.internal.InternalAreaImpl$IterationLogger run -- Running iteration 2469 on Area1
+2018-04-17 18:42:00 FINER test.Simulate$MemoryLogger run -- Using 113 MB out of 541 MB
+2018-04-17 18:42:03 FINER tll.impl.internal.InternalAreaImpl$IterationLogger run -- Running iteration 2752 on Area1
+2018-04-17 18:42:20 FINER test.Simulate$MemoryLogger run -- Using 107 MB out of 518 MB
+2018-04-17 18:42:23 FINER tll.impl.internal.InternalAreaImpl$IterationLogger run -- Running iteration 3037 on Area1
+2018-04-17 18:42:40 FINER test.Simulate$MemoryLogger run -- Using 54 MB out of 495 MB
+2018-04-17 18:42:43 FINER tll.impl.internal.InternalAreaImpl$IterationLogger run -- Running iteration 3325 on Area1
+2018-04-17 18:43:00 FINER test.Simulate$MemoryLogger run -- Using 119 MB out of 479 MB
+2018-04-17 18:43:03 FINER tll.impl.internal.InternalAreaImpl$IterationLogger run -- Running iteration 3601 on Area1
+2018-04-17 18:43:20 FINER test.Simulate$MemoryLogger run -- Using 126 MB out of 463 MB
+2018-04-17 18:43:23 FINER tll.impl.internal.InternalAreaImpl$IterationLogger run -- Running iteration 3885 on Area1
+2018-04-17 18:43:40 FINER test.Simulate$MemoryLogger run -- Using 49 MB out of 447 MB
+2018-04-17 18:43:43 FINER tll.impl.internal.InternalAreaImpl$IterationLogger run -- Running iteration 4170 on Area1
+2018-04-17 18:44:00 FINER test.Simulate$MemoryLogger run -- Using 97 MB out of 435 MB
+2018-04-17 18:44:03 FINER tll.impl.internal.InternalAreaImpl$IterationLogger run -- Running iteration 4453 on Area1
+2018-04-17 18:44:20 FINER test.Simulate$MemoryLogger run -- Using 89 MB out of 423 MB
+2018-04-17 18:44:23 FINER tll.impl.internal.InternalAreaImpl$IterationLogger run -- Running iteration 4742 on Area1
+2018-04-17 18:44:40 FINER test.Simulate$MemoryLogger run -- Using 29 MB out of 414 MB
+2018-04-17 18:44:43 FINER tll.impl.internal.InternalAreaImpl$IterationLogger run -- Running iteration 5028 on Area1
+2018-04-17 18:45:00 FINER test.Simulate$MemoryLogger run -- Using 62 MB out of 407 MB
+2018-04-17 18:45:03 FINER tll.impl.internal.InternalAreaImpl$IterationLogger run -- Running iteration 5311 on Area1
+2018-04-17 18:45:20 FINER test.Simulate$MemoryLogger run -- Using 35 MB out of 399 MB
+2018-04-17 18:45:23 FINER tll.impl.internal.InternalAreaImpl$IterationLogger run -- Running iteration 5591 on Area1
+2018-04-17 18:45:40 FINER test.Simulate$MemoryLogger run -- Using 82 MB out of 390 MB
+2018-04-17 18:45:43 FINER tll.impl.internal.InternalAreaImpl$IterationLogger run -- Running iteration 5870 on Area1
+2018-04-17 18:46:00 FINER test.Simulate$MemoryLogger run -- Using 34 MB out of 390 MB
+2018-04-17 18:46:03 FINER tll.impl.internal.InternalAreaImpl$IterationLogger run -- Running iteration 6153 on Area1
+2018-04-17 18:46:20 FINER test.Simulate$MemoryLogger run -- Using 50 MB out of 390 MB
+2018-04-17 18:46:23 FINER tll.impl.internal.InternalAreaImpl$IterationLogger run -- Running iteration 6436 on Area1
+2018-04-17 18:46:40 FINER test.Simulate$MemoryLogger run -- Using 72 MB out of 390 MB
+2018-04-17 18:46:43 FINER tll.impl.internal.InternalAreaImpl$IterationLogger run -- Running iteration 6720 on Area1
+2018-04-17 18:47:00 FINER test.Simulate$MemoryLogger run -- Using 36 MB out of 390 MB
+2018-04-17 18:47:03 FINER tll.impl.internal.InternalAreaImpl$IterationLogger run -- Running iteration 7003 on Area1
+2018-04-17 18:47:20 FINER test.Simulate$MemoryLogger run -- Using 59 MB out of 390 MB
+2018-04-17 18:47:23 FINER tll.impl.internal.InternalAreaImpl$IterationLogger run -- Running iteration 7287 on Area1
+2018-04-17 18:47:40 FINER test.Simulate$MemoryLogger run -- Using 82 MB out of 390 MB
+2018-04-17 18:47:43 FINER tll.impl.internal.InternalAreaImpl$IterationLogger run -- Running iteration 7573 on Area1
+2018-04-17 18:48:00 FINER test.Simulate$MemoryLogger run -- Using 41 MB out of 390 MB
+2018-04-17 18:48:03 FINER tll.impl.internal.InternalAreaImpl$IterationLogger run -- Running iteration 7841 on Area1
+2018-04-17 18:48:20 FINER test.Simulate$MemoryLogger run -- Using 48 MB out of 390 MB
+2018-04-17 18:48:23 FINER tll.impl.internal.InternalAreaImpl$IterationLogger run -- Running iteration 8101 on Area1
+2018-04-17 18:48:40 FINER test.Simulate$MemoryLogger run -- Using 70 MB out of 390 MB
+2018-04-17 18:48:43 FINER tll.impl.internal.InternalAreaImpl$IterationLogger run -- Running iteration 8376 on Area1
+2018-04-17 18:49:00 FINER test.Simulate$MemoryLogger run -- Using 25 MB out of 390 MB
+2018-04-17 18:49:03 FINER tll.impl.internal.InternalAreaImpl$IterationLogger run -- Running iteration 8643 on Area1
+2018-04-17 18:49:20 FINER test.Simulate$MemoryLogger run -- Using 25 MB out of 390 MB
+2018-04-17 18:49:23 FINER tll.impl.internal.InternalAreaImpl$IterationLogger run -- Running iteration 8918 on Area1
+2018-04-17 18:49:40 FINER test.Simulate$MemoryLogger run -- Using 55 MB out of 390 MB
+2018-04-17 18:49:43 FINER tll.impl.internal.InternalAreaImpl$IterationLogger run -- Running iteration 9194 on Area1
+2018-04-17 18:50:00 FINER test.Simulate$MemoryLogger run -- Using 67 MB out of 390 MB
+2018-04-17 18:50:03 FINER tll.impl.internal.InternalAreaImpl$IterationLogger run -- Running iteration 9473 on Area1
+2018-04-17 18:50:20 FINER test.Simulate$MemoryLogger run -- Using 79 MB out of 390 MB
+2018-04-17 18:50:23 FINER tll.impl.internal.InternalAreaImpl$IterationLogger run -- Running iteration 9757 on Area1
+2018-04-17 18:50:40 FINER test.Simulate$MemoryLogger run -- Using 53 MB out of 390 MB
+2018-04-17 18:50:43 FINER tll.impl.internal.InternalAreaImpl$IterationLogger run -- Running iteration 10040 on Area1

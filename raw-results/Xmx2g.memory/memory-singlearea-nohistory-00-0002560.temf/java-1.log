@@ -1,0 +1,22 @@
+2018-04-19 01:30:16 FINER test.Simulate$MemoryLogger run -- Logging memory usage every 20000 millisecons
+2018-04-19 01:30:19 FINER tll.impl.internal.InternalAreaImpl$IterationLogger run -- Logging numbers of iterations every 20000 millisecons
+2018-04-19 01:30:36 FINER test.Simulate$MemoryLogger run -- Using 43 MB out of 705 MB
+2018-04-19 01:30:39 FINER tll.impl.internal.InternalAreaImpl$IterationLogger run -- Running iteration 301 on Area1
+2018-04-19 01:30:56 FINER test.Simulate$MemoryLogger run -- Using 77 MB out of 739 MB
+2018-04-19 01:31:00 FINER tll.impl.internal.InternalAreaImpl$IterationLogger run -- Running iteration 657 on Area1
+2018-04-19 01:31:16 FINER test.Simulate$MemoryLogger run -- Using 43 MB out of 765 MB
+2018-04-19 01:31:20 FINER tll.impl.internal.InternalAreaImpl$IterationLogger run -- Running iteration 1025 on Area1
+2018-04-19 01:31:36 FINER test.Simulate$MemoryLogger run -- Using 287 MB out of 761 MB
+2018-04-19 01:31:40 FINER tll.impl.internal.InternalAreaImpl$IterationLogger run -- Running iteration 1380 on Area1
+2018-04-19 01:31:56 FINER test.Simulate$MemoryLogger run -- Using 196 MB out of 718 MB
+2018-04-19 01:32:00 FINER tll.impl.internal.InternalAreaImpl$IterationLogger run -- Running iteration 1747 on Area1
+2018-04-19 01:32:16 FINER test.Simulate$MemoryLogger run -- Using 325 MB out of 687 MB
+2018-04-19 01:32:20 FINER tll.impl.internal.InternalAreaImpl$IterationLogger run -- Running iteration 2126 on Area1
+2018-04-19 01:32:36 FINER test.Simulate$MemoryLogger run -- Using 273 MB out of 641 MB
+2018-04-19 01:32:40 FINER tll.impl.internal.InternalAreaImpl$IterationLogger run -- Running iteration 2500 on Area1
+2018-04-19 01:32:43 FINER test.Simulate simulate -- Requesting GC
+2018-04-19 01:32:43 FINER test.Simulate simulate -- Using 10 MB out of 631 MB before saving
+2018-04-19 01:32:43 FINER test.Simulate simulate -- Requesting GC
+2018-04-19 01:32:43 FINER test.Simulate simulate -- Using 10 MB out of 628 MB after saving
+2018-04-19 01:32:56 FINER test.Simulate$MemoryLogger run -- Using 19 MB out of 628 MB
+2018-04-19 01:32:56 FINER test.Simulate$MemoryLogger run -- Leaving memory monitor thread

@@ -1,0 +1,20 @@
+2018-04-17 17:52:11 FINER test.Simulate$MemoryLogger run -- Logging memory usage every 20000 millisecons
+2018-04-17 17:52:11 FINER tll.impl.internal.InternalAreaImpl$IterationLogger run -- Logging numbers of iterations every 20000 millisecons
+2018-04-17 17:52:31 FINER test.Simulate$MemoryLogger run -- Using 49 MB out of 723 MB
+2018-04-17 17:52:31 FINER tll.impl.internal.InternalAreaImpl$IterationLogger run -- Running iteration 540 on Area1
+2018-04-17 17:52:51 FINER test.Simulate$MemoryLogger run -- Using 60 MB out of 723 MB
+2018-04-17 17:52:51 FINER tll.impl.internal.InternalAreaImpl$IterationLogger run -- Running iteration 1081 on Area1
+2018-04-17 17:53:11 FINER test.Simulate$MemoryLogger run -- Using 68 MB out of 723 MB
+2018-04-17 17:53:11 FINER tll.impl.internal.InternalAreaImpl$IterationLogger run -- Running iteration 1621 on Area1
+2018-04-17 17:53:31 FINER test.Simulate$MemoryLogger run -- Using 75 MB out of 723 MB
+2018-04-17 17:53:31 FINER tll.impl.internal.InternalAreaImpl$IterationLogger run -- Running iteration 2159 on Area1
+2018-04-17 17:53:51 FINER test.Simulate$MemoryLogger run -- Using 83 MB out of 723 MB
+2018-04-17 17:53:51 FINER tll.impl.internal.InternalAreaImpl$IterationLogger run -- Running iteration 2694 on Area1
+2018-04-17 17:54:11 FINER test.Simulate$MemoryLogger run -- Using 90 MB out of 723 MB
+2018-04-17 17:54:11 FINER tll.impl.internal.InternalAreaImpl$IterationLogger run -- Running iteration 3232 on Area1
+2018-04-17 17:54:31 FINER test.Simulate$MemoryLogger run -- Using 98 MB out of 723 MB
+2018-04-17 17:54:31 FINER tll.impl.internal.InternalAreaImpl$IterationLogger run -- Running iteration 3764 on Area1
+2018-04-17 17:54:51 FINER test.Simulate$MemoryLogger run -- Using 106 MB out of 723 MB
+2018-04-17 17:54:51 FINER tll.impl.internal.InternalAreaImpl$IterationLogger run -- Running iteration 4291 on Area1
+2018-04-17 17:55:11 FINER test.Simulate$MemoryLogger run -- Using 117 MB out of 723 MB
+2018-04-17 17:55:11 FINER tll.impl.internal.InternalAreaImpl$IterationLogger run -- Running iteration 4820 on Area1

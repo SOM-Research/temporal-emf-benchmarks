@@ -1,0 +1,17 @@
+     [copy] Copying 1 file to /root/git/temporal-emf-pubs/I40 - Case Study/edu.uoc.som.tll.simulation/memory-singlearea-fullhistory-00-0000020.xmi
+     [java] Loading ../benchmark-instances/memory-singlearea-fullhistory-00-0000020.xmi
+     [java] Simulating sim-results/1524325968579.xmi
+     [java] Simulation start: 2018-04-21 15:52:48.58
+     [java] Simulation end: 2018-04-21 15:52:48.725
+     [java] Simulation time: 146
+     [java] Save time: 150
+     [java] Total time: 369
+     [java] Metamodel-based queries
+     [java]   Q0 - Number of assigned items for a1_m1: 11
+     [java]        3 ms
+     [java]   Q1 - Number of components at 15:52:44.949: 0
+     [java]        0 ms
+     [java]   Q2 - Number of components between 15:52:45.149 - 15:52:45.449: 0
+     [java]        1 ms
+     [java]   Q3 - Utilization of a1_m1: 0.488
+     [java]        1 ms

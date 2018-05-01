@@ -1,0 +1,7 @@
+2018-04-20 21:12:55 FINER test.Simulate$MemoryLogger run -- Logging memory usage every 20000 millisecons
+2018-04-20 21:12:58 FINER test.Simulate simulate -- Requesting GC
+2018-04-20 21:12:58 FINER test.Simulate simulate -- Using 10 MB out of 491 MB before saving
+2018-04-20 21:12:58 FINER test.Simulate simulate -- Requesting GC
+2018-04-20 21:12:58 FINER test.Simulate simulate -- Using 9 MB out of 491 MB after saving
+2018-04-20 21:13:15 FINER test.Simulate$MemoryLogger run -- Using 13 MB out of 491 MB
+2018-04-20 21:13:15 FINER test.Simulate$MemoryLogger run -- Leaving memory monitor thread

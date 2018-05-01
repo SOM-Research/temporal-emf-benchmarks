@@ -1,0 +1,24 @@
+2018-04-21 15:59:09 FINER test.Simulate$MemoryLogger run -- Logging memory usage every 20000 millisecons
+2018-04-21 15:59:29 FINER test.Simulate$MemoryLogger run -- Using 158 MB out of 723 MB
+2018-04-21 15:59:49 FINER test.Simulate$MemoryLogger run -- Using 48 MB out of 723 MB
+2018-04-21 16:00:09 FINER test.Simulate$MemoryLogger run -- Using 109 MB out of 723 MB
+2018-04-21 16:00:29 FINER test.Simulate$MemoryLogger run -- Using 164 MB out of 723 MB
+2018-04-21 16:00:49 FINER test.Simulate$MemoryLogger run -- Using 197 MB out of 723 MB
+2018-04-21 16:01:09 FINER test.Simulate$MemoryLogger run -- Using 62 MB out of 723 MB
+2018-04-21 16:01:29 FINER test.Simulate$MemoryLogger run -- Using 97 MB out of 723 MB
+2018-04-21 16:01:49 FINER test.Simulate$MemoryLogger run -- Using 126 MB out of 723 MB
+2018-04-21 16:02:09 FINER test.Simulate$MemoryLogger run -- Using 152 MB out of 723 MB
+2018-04-21 16:02:29 FINER test.Simulate$MemoryLogger run -- Using 174 MB out of 723 MB
+2018-04-21 16:02:49 FINER test.Simulate$MemoryLogger run -- Using 192 MB out of 723 MB
+2018-04-21 16:03:09 FINER test.Simulate$MemoryLogger run -- Using 217 MB out of 723 MB
+2018-04-21 16:03:29 FINER test.Simulate$MemoryLogger run -- Using 67 MB out of 723 MB
+2018-04-21 16:03:49 FINER test.Simulate$MemoryLogger run -- Using 86 MB out of 723 MB
+2018-04-21 16:04:09 FINER test.Simulate$MemoryLogger run -- Using 108 MB out of 723 MB
+2018-04-21 16:04:29 FINER test.Simulate$MemoryLogger run -- Using 126 MB out of 723 MB
+2018-04-21 16:04:49 FINER test.Simulate$MemoryLogger run -- Using 144 MB out of 723 MB
+2018-04-21 16:05:06 FINER test.Simulate simulate -- Requesting GC
+2018-04-21 16:05:06 FINER test.Simulate simulate -- Using 73 MB out of 723 MB before saving
+2018-04-21 16:05:08 FINER test.Simulate simulate -- Requesting GC
+2018-04-21 16:05:09 FINER test.Simulate simulate -- Using 118 MB out of 962 MB after saving
+2018-04-21 16:05:09 FINER test.Simulate$MemoryLogger run -- Using 129 MB out of 962 MB
+2018-04-21 16:05:09 FINER test.Simulate$MemoryLogger run -- Leaving memory monitor thread

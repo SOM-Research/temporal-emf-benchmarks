@@ -1,0 +1,18 @@
+2018-04-18 02:49:21 FINER tll.impl.internal.InternalAreaImpl$IterationLogger run -- Logging numbers of iterations every 20000 millisecons
+2018-04-18 02:49:41 FINER tll.impl.internal.InternalAreaImpl$IterationLogger run -- Running iteration 162 on Area1
+2018-04-18 02:50:01 FINER tll.impl.internal.InternalAreaImpl$IterationLogger run -- Running iteration 322 on Area1
+2018-04-18 02:50:21 FINER tll.impl.internal.InternalAreaImpl$IterationLogger run -- Running iteration 483 on Area1
+2018-04-18 02:50:41 FINER tll.impl.internal.InternalAreaImpl$IterationLogger run -- Running iteration 644 on Area1
+2018-04-18 02:51:01 FINER tll.impl.internal.InternalAreaImpl$IterationLogger run -- Running iteration 804 on Area1
+2018-04-18 02:51:21 FINER tll.impl.internal.InternalAreaImpl$IterationLogger run -- Running iteration 965 on Area1
+2018-04-18 02:51:41 FINER tll.impl.internal.InternalAreaImpl$IterationLogger run -- Running iteration 1126 on Area1
+2018-04-18 02:52:01 FINER tll.impl.internal.InternalAreaImpl$IterationLogger run -- Running iteration 1286 on Area1
+2018-04-18 02:52:21 FINER tll.impl.internal.InternalAreaImpl$IterationLogger run -- Running iteration 1446 on Area1
+2018-04-18 02:52:41 FINER tll.impl.internal.InternalAreaImpl$IterationLogger run -- Running iteration 1607 on Area1
+2018-04-18 02:53:01 FINER tll.impl.internal.InternalAreaImpl$IterationLogger run -- Running iteration 1767 on Area1
+2018-04-18 02:53:21 FINER tll.impl.internal.InternalAreaImpl$IterationLogger run -- Running iteration 1928 on Area1
+2018-04-18 02:53:41 FINER tll.impl.internal.InternalAreaImpl$IterationLogger run -- Running iteration 2088 on Area1
+2018-04-18 02:54:01 FINER tll.impl.internal.InternalAreaImpl$IterationLogger run -- Running iteration 2248 on Area1
+2018-04-18 02:54:21 FINER tll.impl.internal.InternalAreaImpl$IterationLogger run -- Running iteration 2408 on Area1
+2018-04-18 02:54:41 FINER tll.impl.internal.InternalAreaImpl$IterationLogger run -- Running iteration 2560 on Area1
+2018-04-18 02:54:41 FINE tll.impl.internal.InternalAreaImpl$IterationLogger run -- Last iteration was 2560

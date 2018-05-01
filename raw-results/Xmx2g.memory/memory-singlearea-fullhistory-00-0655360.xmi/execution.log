@@ -1,0 +1,39 @@
+     [copy] Copying 1 file to /root/git/temporal-emf-pubs/I40 - Case Study/edu.uoc.som.tll.simulation/memory-singlearea-fullhistory-00-0655360.xmi
+     [java] Loading ../benchmark-instances/memory-singlearea-fullhistory-00-0655360.xmi
+     [java] Simulating sim-results/1524350330517.xmi
+     [java] Simulation start: 2018-04-21 22:38:50.518
+     [java] Simulation end: 2018-04-22 18:40:41.766
+     [java] Simulation time: 72111248
+     [java] Exception in thread "main" java.lang.OutOfMemoryError: Java heap space
+     [java] 	at java.lang.Integer.toString(Integer.java:401)
+     [java] 	at java.sql.Timestamp.toString(Timestamp.java:327)
+     [java] 	at org.eclipse.emf.ecore.impl.EFactoryImpl.convertToString(EFactoryImpl.java:554)
+     [java] 	at tll.impl.TllFactoryImpl.convertTimestampToString(TllFactoryImpl.java:292)
+     [java] 	at tll.impl.TllFactoryImpl.convertToString(TllFactoryImpl.java:123)
+     [java] 	at org.eclipse.emf.ecore.xmi.impl.XMLHelperImpl.convertToString(XMLHelperImpl.java:1610)
+     [java] 	at org.eclipse.emf.ecore.xmi.impl.XMLSaveImpl.getDatatypeValue(XMLSaveImpl.java:3108)
+     [java] 	at org.eclipse.emf.ecore.xmi.impl.XMLSaveImpl.saveDataTypeSingle(XMLSaveImpl.java:1698)
+     [java] 	at org.eclipse.emf.ecore.xmi.impl.XMLSaveImpl.saveFeatures(XMLSaveImpl.java:1280)
+     [java] 	at org.eclipse.emf.ecore.xmi.impl.XMLSaveImpl.saveFeatures(XMLSaveImpl.java:1224)
+     [java] 	at org.eclipse.emf.ecore.xmi.impl.XMLSaveImpl.saveElementID(XMLSaveImpl.java:2716)
+     [java] 	at org.eclipse.emf.ecore.xmi.impl.XMLSaveImpl.saveElement(XMLSaveImpl.java:1181)
+     [java] 	at org.eclipse.emf.ecore.xmi.impl.XMLSaveImpl.saveElement(XMLSaveImpl.java:1042)
+     [java] 	at org.eclipse.emf.ecore.xmi.impl.XMLSaveImpl.saveContainedMany(XMLSaveImpl.java:2417)
+     [java] 	at org.eclipse.emf.ecore.xmi.impl.XMLSaveImpl.saveFeatures(XMLSaveImpl.java:1553)
+     [java] 	at org.eclipse.emf.ecore.xmi.impl.XMLSaveImpl.saveFeatures(XMLSaveImpl.java:1224)
+     [java] 	at org.eclipse.emf.ecore.xmi.impl.XMLSaveImpl.saveElementID(XMLSaveImpl.java:2716)
+     [java] 	at org.eclipse.emf.ecore.xmi.impl.XMLSaveImpl.saveElement(XMLSaveImpl.java:1181)
+     [java] 	at org.eclipse.emf.ecore.xmi.impl.XMLSaveImpl.saveElement(XMLSaveImpl.java:1042)
+     [java] 	at org.eclipse.emf.ecore.xmi.impl.XMLSaveImpl.saveContainedMany(XMLSaveImpl.java:2417)
+     [java] 	at org.eclipse.emf.ecore.xmi.impl.XMLSaveImpl.saveFeatures(XMLSaveImpl.java:1553)
+     [java] 	at org.eclipse.emf.ecore.xmi.impl.XMLSaveImpl.saveFeatures(XMLSaveImpl.java:1224)
+     [java] 	at org.eclipse.emf.ecore.xmi.impl.XMLSaveImpl.saveElementID(XMLSaveImpl.java:2716)
+     [java] 	at org.eclipse.emf.ecore.xmi.impl.XMLSaveImpl.saveElement(XMLSaveImpl.java:1181)
+     [java] 	at org.eclipse.emf.ecore.xmi.impl.XMLSaveImpl.saveElement(XMLSaveImpl.java:1042)
+     [java] 	at org.eclipse.emf.ecore.xmi.impl.XMLSaveImpl.saveContainedMany(XMLSaveImpl.java:2417)
+     [java] 	at org.eclipse.emf.ecore.xmi.impl.XMLSaveImpl.saveFeatures(XMLSaveImpl.java:1553)
+     [java] 	at org.eclipse.emf.ecore.xmi.impl.XMLSaveImpl.saveFeatures(XMLSaveImpl.java:1224)
+     [java] 	at org.eclipse.emf.ecore.xmi.impl.XMLSaveImpl.saveElementID(XMLSaveImpl.java:2716)
+     [java] 	at org.eclipse.emf.ecore.xmi.impl.XMLSaveImpl.writeTopObject(XMLSaveImpl.java:683)
+     [java] 	at org.eclipse.emf.ecore.xmi.impl.XMLSaveImpl.traverse(XMLSaveImpl.java:591)
+     [java] 	at org.eclipse.emf.ecore.xmi.impl.XMLSaveImpl.save(XMLSaveImpl.java:251)

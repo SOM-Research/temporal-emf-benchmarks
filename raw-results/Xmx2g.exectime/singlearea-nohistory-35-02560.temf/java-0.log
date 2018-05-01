@@ -1,0 +1,24 @@
+2018-04-18 15:37:30 FINER test.Simulate$MemoryLogger run -- Logging memory usage every 20000 millisecons
+2018-04-18 15:37:50 FINER test.Simulate$MemoryLogger run -- Using 234 MB out of 617 MB
+2018-04-18 15:38:10 FINER test.Simulate$MemoryLogger run -- Using 86 MB out of 693 MB
+2018-04-18 15:38:30 FINER test.Simulate$MemoryLogger run -- Using 188 MB out of 707 MB
+2018-04-18 15:38:50 FINER test.Simulate$MemoryLogger run -- Using 241 MB out of 695 MB
+2018-04-18 15:39:10 FINER test.Simulate$MemoryLogger run -- Using 326 MB out of 685 MB
+2018-04-18 15:39:30 FINER test.Simulate$MemoryLogger run -- Using 65 MB out of 665 MB
+2018-04-18 15:39:50 FINER test.Simulate$MemoryLogger run -- Using 180 MB out of 656 MB
+2018-04-18 15:40:10 FINER test.Simulate$MemoryLogger run -- Using 298 MB out of 647 MB
+2018-04-18 15:40:30 FINER test.Simulate$MemoryLogger run -- Using 110 MB out of 631 MB
+2018-04-18 15:40:50 FINER test.Simulate$MemoryLogger run -- Using 247 MB out of 623 MB
+2018-04-18 15:41:10 FINER test.Simulate$MemoryLogger run -- Using 98 MB out of 607 MB
+2018-04-18 15:41:30 FINER test.Simulate$MemoryLogger run -- Using 264 MB out of 599 MB
+2018-04-18 15:41:50 FINER test.Simulate$MemoryLogger run -- Using 157 MB out of 586 MB
+2018-04-18 15:42:10 FINER test.Simulate$MemoryLogger run -- Using 73 MB out of 574 MB
+2018-04-18 15:42:30 FINER test.Simulate$MemoryLogger run -- Using 268 MB out of 575 MB
+2018-04-18 15:42:50 FINER test.Simulate$MemoryLogger run -- Using 224 MB out of 564 MB
+2018-04-18 15:43:10 FINER test.Simulate$MemoryLogger run -- Using 207 MB out of 553 MB
+2018-04-18 15:43:30 FINER test.Simulate$MemoryLogger run -- Using 206 MB out of 543 MB
+2018-04-18 15:43:50 FINER test.Simulate$MemoryLogger run -- Using 219 MB out of 533 MB
+2018-04-18 15:44:10 FINER test.Simulate$MemoryLogger run -- Using 45 MB out of 517 MB
+2018-04-18 15:44:30 FINER test.Simulate$MemoryLogger run -- Using 106 MB out of 509 MB
+2018-04-18 15:44:50 FINER test.Simulate$MemoryLogger run -- Using 176 MB out of 502 MB
+2018-04-18 15:45:10 FINER test.Simulate$MemoryLogger run -- Using 78 MB out of 495 MB

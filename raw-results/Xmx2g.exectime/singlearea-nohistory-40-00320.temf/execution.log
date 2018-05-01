@@ -1,0 +1,20 @@
+     [copy] Copying 1 file to /root/git/temporal-emf-pubs/I40 - Case Study/edu.uoc.som.tll.simulation/singlearea-nohistory-40-00320.temf
+     [java] Loading ../benchmark-instances/singlearea-nohistory-40-00320.xmi
+     [java] log4j:WARN No appenders could be found for logger (org.apache.hadoop.util.Shell).
+     [java] log4j:WARN Please initialize the log4j system properly.
+     [java] log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+     [java] Simulating klyo-hbase://hbase/1524081313107
+     [java] Simulation start: 2018-04-18 19:55:16.169
+     [java] Simulation end: 2018-04-18 19:56:23.672
+     [java] Simulation time: 67503
+     [java] Save time: 0
+     [java] Total time: 70565
+     [java] HBase-based queries
+     [java]   Q0 - Number of assigned items for a1_m1: 161
+     [java]        47 ms
+     [java]   Q1 - Number of components at 19:56:19.672: 4
+     [java]        12 ms
+     [java]   Q2 - Number of components between 19:56:19.872 - 19:56:20.172: 7
+     [java]        14 ms
+     [java]   Q3 - Utilization of a1_m1: 0.566
+     [java]        14 ms
