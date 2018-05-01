@@ -1,0 +1,1304 @@
+<?xml version="1.0" encoding="ASCII"?>
+<tll:System xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:tll="http://www.example.org/tll" id="_large">
+  <area id="Area1" store="//@area.0/@component.9" buffer="//@area.0/@component.8">
+    <component xsi:type="tll:Turntable" id="a1_t1" processingTime="4" neighbour="//@area.0/@component.1"/>
+    <component xsi:type="tll:Conveyor" id="a1_c1" processingTime="2" neighbour="//@area.0/@component.2 //@area.0/@component.0"/>
+    <component xsi:type="tll:Turntable" id="a1_t2" processingTime="4" neighbour="//@area.0/@component.3 //@area.0/@component.1"/>
+    <component xsi:type="tll:Machine" id="a1_m1" processingTime="4" neighbour="//@area.0/@component.4 //@area.0/@component.2"/>
+    <component xsi:type="tll:Turntable" id="a1_t3" processingTime="4" neighbour="//@area.0/@component.5 //@area.0/@component.3"/>
+    <component xsi:type="tll:Conveyor" id="a1_c2" processingTime="4" neighbour="//@area.0/@component.6 //@area.0/@component.4"/>
+    <component xsi:type="tll:Turntable" id="a1_t4" processingTime="4" neighbour="//@area.0/@component.7 //@area.0/@component.5"/>
+    <component xsi:type="tll:Conveyor" id="a1_c3" processingTime="4" neighbour="//@area.0/@component.0 //@area.0/@component.6"/>
+    <component xsi:type="tll:WaitingQueue" id="a1_buffer" processingTime="2" entry="//@area.0/@component.0"/>
+    <component xsi:type="tll:StorageQueue" id="a1_store" processingTime="2" exit="//@area.0/@component.6"/>
+    <itemGen frequency="1"/>
+  </area>
+  <area id="Area1" store="//@area.1/@component.9" buffer="//@area.1/@component.8">
+    <component xsi:type="tll:Turntable" id="a1_t1" processingTime="4" neighbour="//@area.1/@component.1"/>
+    <component xsi:type="tll:Conveyor" id="a1_c1" processingTime="2" neighbour="//@area.1/@component.2 //@area.1/@component.0"/>
+    <component xsi:type="tll:Turntable" id="a1_t2" processingTime="4" neighbour="//@area.1/@component.3 //@area.1/@component.1"/>
+    <component xsi:type="tll:Machine" id="a1_m1" processingTime="4" neighbour="//@area.1/@component.4 //@area.1/@component.2"/>
+    <component xsi:type="tll:Turntable" id="a1_t3" processingTime="4" neighbour="//@area.1/@component.5 //@area.1/@component.3"/>
+    <component xsi:type="tll:Conveyor" id="a1_c2" processingTime="4" neighbour="//@area.1/@component.6 //@area.1/@component.4"/>
+    <component xsi:type="tll:Turntable" id="a1_t4" processingTime="4" neighbour="//@area.1/@component.7 //@area.1/@component.5"/>
+    <component xsi:type="tll:Conveyor" id="a1_c3" processingTime="4" neighbour="//@area.1/@component.0 //@area.1/@component.6"/>
+    <component xsi:type="tll:WaitingQueue" id="a1_buffer" processingTime="2" entry="//@area.1/@component.0"/>
+    <component xsi:type="tll:StorageQueue" id="a1_store" processingTime="2" exit="//@area.1/@component.6"/>
+    <itemGen frequency="1"/>
+  </area>
+  <area id="Area1" store="//@area.2/@component.9" buffer="//@area.2/@component.8">
+    <component xsi:type="tll:Turntable" id="a1_t1" processingTime="4" neighbour="//@area.2/@component.1"/>
+    <component xsi:type="tll:Conveyor" id="a1_c1" processingTime="2" neighbour="//@area.2/@component.2 //@area.2/@component.0"/>
+    <component xsi:type="tll:Turntable" id="a1_t2" processingTime="4" neighbour="//@area.2/@component.3 //@area.2/@component.1"/>
+    <component xsi:type="tll:Machine" id="a1_m1" processingTime="4" neighbour="//@area.2/@component.4 //@area.2/@component.2"/>
+    <component xsi:type="tll:Turntable" id="a1_t3" processingTime="4" neighbour="//@area.2/@component.5 //@area.2/@component.3"/>
+    <component xsi:type="tll:Conveyor" id="a1_c2" processingTime="4" neighbour="//@area.2/@component.6 //@area.2/@component.4"/>
+    <component xsi:type="tll:Turntable" id="a1_t4" processingTime="4" neighbour="//@area.2/@component.7 //@area.2/@component.5"/>
+    <component xsi:type="tll:Conveyor" id="a1_c3" processingTime="4" neighbour="//@area.2/@component.0 //@area.2/@component.6"/>
+    <component xsi:type="tll:WaitingQueue" id="a1_buffer" processingTime="2" entry="//@area.2/@component.0"/>
+    <component xsi:type="tll:StorageQueue" id="a1_store" processingTime="2" exit="//@area.2/@component.6"/>
+    <itemGen frequency="1"/>
+  </area>
+  <area id="Area1" store="//@area.3/@component.9" buffer="//@area.3/@component.8">
+    <component xsi:type="tll:Turntable" id="a1_t1" processingTime="4" neighbour="//@area.3/@component.1"/>
+    <component xsi:type="tll:Conveyor" id="a1_c1" processingTime="2" neighbour="//@area.3/@component.2 //@area.3/@component.0"/>
+    <component xsi:type="tll:Turntable" id="a1_t2" processingTime="4" neighbour="//@area.3/@component.3 //@area.3/@component.1"/>
+    <component xsi:type="tll:Machine" id="a1_m1" processingTime="4" neighbour="//@area.3/@component.4 //@area.3/@component.2"/>
+    <component xsi:type="tll:Turntable" id="a1_t3" processingTime="4" neighbour="//@area.3/@component.5 //@area.3/@component.3"/>
+    <component xsi:type="tll:Conveyor" id="a1_c2" processingTime="4" neighbour="//@area.3/@component.6 //@area.3/@component.4"/>
+    <component xsi:type="tll:Turntable" id="a1_t4" processingTime="4" neighbour="//@area.3/@component.7 //@area.3/@component.5"/>
+    <component xsi:type="tll:Conveyor" id="a1_c3" processingTime="4" neighbour="//@area.3/@component.0 //@area.3/@component.6"/>
+    <component xsi:type="tll:WaitingQueue" id="a1_buffer" processingTime="2" entry="//@area.3/@component.0"/>
+    <component xsi:type="tll:StorageQueue" id="a1_store" processingTime="2" exit="//@area.3/@component.6"/>
+    <itemGen frequency="1"/>
+  </area>
+  <area id="Area1" store="//@area.4/@component.9" buffer="//@area.4/@component.8">
+    <component xsi:type="tll:Turntable" id="a1_t1" processingTime="4" neighbour="//@area.4/@component.1"/>
+    <component xsi:type="tll:Conveyor" id="a1_c1" processingTime="2" neighbour="//@area.4/@component.2 //@area.4/@component.0"/>
+    <component xsi:type="tll:Turntable" id="a1_t2" processingTime="4" neighbour="//@area.4/@component.3 //@area.4/@component.1"/>
+    <component xsi:type="tll:Machine" id="a1_m1" processingTime="4" neighbour="//@area.4/@component.4 //@area.4/@component.2"/>
+    <component xsi:type="tll:Turntable" id="a1_t3" processingTime="4" neighbour="//@area.4/@component.5 //@area.4/@component.3"/>
+    <component xsi:type="tll:Conveyor" id="a1_c2" processingTime="4" neighbour="//@area.4/@component.6 //@area.4/@component.4"/>
+    <component xsi:type="tll:Turntable" id="a1_t4" processingTime="4" neighbour="//@area.4/@component.7 //@area.4/@component.5"/>
+    <component xsi:type="tll:Conveyor" id="a1_c3" processingTime="4" neighbour="//@area.4/@component.0 //@area.4/@component.6"/>
+    <component xsi:type="tll:WaitingQueue" id="a1_buffer" processingTime="2" entry="//@area.4/@component.0"/>
+    <component xsi:type="tll:StorageQueue" id="a1_store" processingTime="2" exit="//@area.4/@component.6"/>
+    <itemGen frequency="1"/>
+  </area>
+  <area id="Area1" store="//@area.5/@component.9" buffer="//@area.5/@component.8">
+    <component xsi:type="tll:Turntable" id="a1_t1" processingTime="4" neighbour="//@area.5/@component.1"/>
+    <component xsi:type="tll:Conveyor" id="a1_c1" processingTime="2" neighbour="//@area.5/@component.2 //@area.5/@component.0"/>
+    <component xsi:type="tll:Turntable" id="a1_t2" processingTime="4" neighbour="//@area.5/@component.3 //@area.5/@component.1"/>
+    <component xsi:type="tll:Machine" id="a1_m1" processingTime="4" neighbour="//@area.5/@component.4 //@area.5/@component.2"/>
+    <component xsi:type="tll:Turntable" id="a1_t3" processingTime="4" neighbour="//@area.5/@component.5 //@area.5/@component.3"/>
+    <component xsi:type="tll:Conveyor" id="a1_c2" processingTime="4" neighbour="//@area.5/@component.6 //@area.5/@component.4"/>
+    <component xsi:type="tll:Turntable" id="a1_t4" processingTime="4" neighbour="//@area.5/@component.7 //@area.5/@component.5"/>
+    <component xsi:type="tll:Conveyor" id="a1_c3" processingTime="4" neighbour="//@area.5/@component.0 //@area.5/@component.6"/>
+    <component xsi:type="tll:WaitingQueue" id="a1_buffer" processingTime="2" entry="//@area.5/@component.0"/>
+    <component xsi:type="tll:StorageQueue" id="a1_store" processingTime="2" exit="//@area.5/@component.6"/>
+    <itemGen frequency="1"/>
+  </area>
+  <area id="Area1" store="//@area.6/@component.9" buffer="//@area.6/@component.8">
+    <component xsi:type="tll:Turntable" id="a1_t1" processingTime="4" neighbour="//@area.6/@component.1"/>
+    <component xsi:type="tll:Conveyor" id="a1_c1" processingTime="2" neighbour="//@area.6/@component.2 //@area.6/@component.0"/>
+    <component xsi:type="tll:Turntable" id="a1_t2" processingTime="4" neighbour="//@area.6/@component.3 //@area.6/@component.1"/>
+    <component xsi:type="tll:Machine" id="a1_m1" processingTime="4" neighbour="//@area.6/@component.4 //@area.6/@component.2"/>
+    <component xsi:type="tll:Turntable" id="a1_t3" processingTime="4" neighbour="//@area.6/@component.5 //@area.6/@component.3"/>
+    <component xsi:type="tll:Conveyor" id="a1_c2" processingTime="4" neighbour="//@area.6/@component.6 //@area.6/@component.4"/>
+    <component xsi:type="tll:Turntable" id="a1_t4" processingTime="4" neighbour="//@area.6/@component.7 //@area.6/@component.5"/>
+    <component xsi:type="tll:Conveyor" id="a1_c3" processingTime="4" neighbour="//@area.6/@component.0 //@area.6/@component.6"/>
+    <component xsi:type="tll:WaitingQueue" id="a1_buffer" processingTime="2" entry="//@area.6/@component.0"/>
+    <component xsi:type="tll:StorageQueue" id="a1_store" processingTime="2" exit="//@area.6/@component.6"/>
+    <itemGen frequency="1"/>
+  </area>
+  <area id="Area1" store="//@area.7/@component.9" buffer="//@area.7/@component.8">
+    <component xsi:type="tll:Turntable" id="a1_t1" processingTime="4" neighbour="//@area.7/@component.1"/>
+    <component xsi:type="tll:Conveyor" id="a1_c1" processingTime="2" neighbour="//@area.7/@component.2 //@area.7/@component.0"/>
+    <component xsi:type="tll:Turntable" id="a1_t2" processingTime="4" neighbour="//@area.7/@component.3 //@area.7/@component.1"/>
+    <component xsi:type="tll:Machine" id="a1_m1" processingTime="4" neighbour="//@area.7/@component.4 //@area.7/@component.2"/>
+    <component xsi:type="tll:Turntable" id="a1_t3" processingTime="4" neighbour="//@area.7/@component.5 //@area.7/@component.3"/>
+    <component xsi:type="tll:Conveyor" id="a1_c2" processingTime="4" neighbour="//@area.7/@component.6 //@area.7/@component.4"/>
+    <component xsi:type="tll:Turntable" id="a1_t4" processingTime="4" neighbour="//@area.7/@component.7 //@area.7/@component.5"/>
+    <component xsi:type="tll:Conveyor" id="a1_c3" processingTime="4" neighbour="//@area.7/@component.0 //@area.7/@component.6"/>
+    <component xsi:type="tll:WaitingQueue" id="a1_buffer" processingTime="2" entry="//@area.7/@component.0"/>
+    <component xsi:type="tll:StorageQueue" id="a1_store" processingTime="2" exit="//@area.7/@component.6"/>
+    <itemGen frequency="1"/>
+  </area>
+  <area id="Area1" store="//@area.8/@component.9" buffer="//@area.8/@component.8">
+    <component xsi:type="tll:Turntable" id="a1_t1" processingTime="4" neighbour="//@area.8/@component.1"/>
+    <component xsi:type="tll:Conveyor" id="a1_c1" processingTime="2" neighbour="//@area.8/@component.2 //@area.8/@component.0"/>
+    <component xsi:type="tll:Turntable" id="a1_t2" processingTime="4" neighbour="//@area.8/@component.3 //@area.8/@component.1"/>
+    <component xsi:type="tll:Machine" id="a1_m1" processingTime="4" neighbour="//@area.8/@component.4 //@area.8/@component.2"/>
+    <component xsi:type="tll:Turntable" id="a1_t3" processingTime="4" neighbour="//@area.8/@component.5 //@area.8/@component.3"/>
+    <component xsi:type="tll:Conveyor" id="a1_c2" processingTime="4" neighbour="//@area.8/@component.6 //@area.8/@component.4"/>
+    <component xsi:type="tll:Turntable" id="a1_t4" processingTime="4" neighbour="//@area.8/@component.7 //@area.8/@component.5"/>
+    <component xsi:type="tll:Conveyor" id="a1_c3" processingTime="4" neighbour="//@area.8/@component.0 //@area.8/@component.6"/>
+    <component xsi:type="tll:WaitingQueue" id="a1_buffer" processingTime="2" entry="//@area.8/@component.0"/>
+    <component xsi:type="tll:StorageQueue" id="a1_store" processingTime="2" exit="//@area.8/@component.6"/>
+    <itemGen frequency="1"/>
+  </area>
+  <area id="Area1" store="//@area.9/@component.9" buffer="//@area.9/@component.8">
+    <component xsi:type="tll:Turntable" id="a1_t1" processingTime="4" neighbour="//@area.9/@component.1"/>
+    <component xsi:type="tll:Conveyor" id="a1_c1" processingTime="2" neighbour="//@area.9/@component.2 //@area.9/@component.0"/>
+    <component xsi:type="tll:Turntable" id="a1_t2" processingTime="4" neighbour="//@area.9/@component.3 //@area.9/@component.1"/>
+    <component xsi:type="tll:Machine" id="a1_m1" processingTime="4" neighbour="//@area.9/@component.4 //@area.9/@component.2"/>
+    <component xsi:type="tll:Turntable" id="a1_t3" processingTime="4" neighbour="//@area.9/@component.5 //@area.9/@component.3"/>
+    <component xsi:type="tll:Conveyor" id="a1_c2" processingTime="4" neighbour="//@area.9/@component.6 //@area.9/@component.4"/>
+    <component xsi:type="tll:Turntable" id="a1_t4" processingTime="4" neighbour="//@area.9/@component.7 //@area.9/@component.5"/>
+    <component xsi:type="tll:Conveyor" id="a1_c3" processingTime="4" neighbour="//@area.9/@component.0 //@area.9/@component.6"/>
+    <component xsi:type="tll:WaitingQueue" id="a1_buffer" processingTime="2" entry="//@area.9/@component.0"/>
+    <component xsi:type="tll:StorageQueue" id="a1_store" processingTime="2" exit="//@area.9/@component.6"/>
+    <itemGen frequency="1"/>
+  </area>
+  <area id="Area1" store="//@area.10/@component.9" buffer="//@area.10/@component.8">
+    <component xsi:type="tll:Turntable" id="a1_t1" processingTime="4" neighbour="//@area.10/@component.1"/>
+    <component xsi:type="tll:Conveyor" id="a1_c1" processingTime="2" neighbour="//@area.10/@component.2 //@area.10/@component.0"/>
+    <component xsi:type="tll:Turntable" id="a1_t2" processingTime="4" neighbour="//@area.10/@component.3 //@area.10/@component.1"/>
+    <component xsi:type="tll:Machine" id="a1_m1" processingTime="4" neighbour="//@area.10/@component.4 //@area.10/@component.2"/>
+    <component xsi:type="tll:Turntable" id="a1_t3" processingTime="4" neighbour="//@area.10/@component.5 //@area.10/@component.3"/>
+    <component xsi:type="tll:Conveyor" id="a1_c2" processingTime="4" neighbour="//@area.10/@component.6 //@area.10/@component.4"/>
+    <component xsi:type="tll:Turntable" id="a1_t4" processingTime="4" neighbour="//@area.10/@component.7 //@area.10/@component.5"/>
+    <component xsi:type="tll:Conveyor" id="a1_c3" processingTime="4" neighbour="//@area.10/@component.0 //@area.10/@component.6"/>
+    <component xsi:type="tll:WaitingQueue" id="a1_buffer" processingTime="2" entry="//@area.10/@component.0"/>
+    <component xsi:type="tll:StorageQueue" id="a1_store" processingTime="2" exit="//@area.10/@component.6"/>
+    <itemGen frequency="1"/>
+  </area>
+  <area id="Area1" store="//@area.11/@component.9" buffer="//@area.11/@component.8">
+    <component xsi:type="tll:Turntable" id="a1_t1" processingTime="4" neighbour="//@area.11/@component.1"/>
+    <component xsi:type="tll:Conveyor" id="a1_c1" processingTime="2" neighbour="//@area.11/@component.2 //@area.11/@component.0"/>
+    <component xsi:type="tll:Turntable" id="a1_t2" processingTime="4" neighbour="//@area.11/@component.3 //@area.11/@component.1"/>
+    <component xsi:type="tll:Machine" id="a1_m1" processingTime="4" neighbour="//@area.11/@component.4 //@area.11/@component.2"/>
+    <component xsi:type="tll:Turntable" id="a1_t3" processingTime="4" neighbour="//@area.11/@component.5 //@area.11/@component.3"/>
+    <component xsi:type="tll:Conveyor" id="a1_c2" processingTime="4" neighbour="//@area.11/@component.6 //@area.11/@component.4"/>
+    <component xsi:type="tll:Turntable" id="a1_t4" processingTime="4" neighbour="//@area.11/@component.7 //@area.11/@component.5"/>
+    <component xsi:type="tll:Conveyor" id="a1_c3" processingTime="4" neighbour="//@area.11/@component.0 //@area.11/@component.6"/>
+    <component xsi:type="tll:WaitingQueue" id="a1_buffer" processingTime="2" entry="//@area.11/@component.0"/>
+    <component xsi:type="tll:StorageQueue" id="a1_store" processingTime="2" exit="//@area.11/@component.6"/>
+    <itemGen frequency="1"/>
+  </area>
+  <area id="Area1" store="//@area.12/@component.9" buffer="//@area.12/@component.8">
+    <component xsi:type="tll:Turntable" id="a1_t1" processingTime="4" neighbour="//@area.12/@component.1"/>
+    <component xsi:type="tll:Conveyor" id="a1_c1" processingTime="2" neighbour="//@area.12/@component.2 //@area.12/@component.0"/>
+    <component xsi:type="tll:Turntable" id="a1_t2" processingTime="4" neighbour="//@area.12/@component.3 //@area.12/@component.1"/>
+    <component xsi:type="tll:Machine" id="a1_m1" processingTime="4" neighbour="//@area.12/@component.4 //@area.12/@component.2"/>
+    <component xsi:type="tll:Turntable" id="a1_t3" processingTime="4" neighbour="//@area.12/@component.5 //@area.12/@component.3"/>
+    <component xsi:type="tll:Conveyor" id="a1_c2" processingTime="4" neighbour="//@area.12/@component.6 //@area.12/@component.4"/>
+    <component xsi:type="tll:Turntable" id="a1_t4" processingTime="4" neighbour="//@area.12/@component.7 //@area.12/@component.5"/>
+    <component xsi:type="tll:Conveyor" id="a1_c3" processingTime="4" neighbour="//@area.12/@component.0 //@area.12/@component.6"/>
+    <component xsi:type="tll:WaitingQueue" id="a1_buffer" processingTime="2" entry="//@area.12/@component.0"/>
+    <component xsi:type="tll:StorageQueue" id="a1_store" processingTime="2" exit="//@area.12/@component.6"/>
+    <itemGen frequency="1"/>
+  </area>
+  <area id="Area1" store="//@area.13/@component.9" buffer="//@area.13/@component.8">
+    <component xsi:type="tll:Turntable" id="a1_t1" processingTime="4" neighbour="//@area.13/@component.1"/>
+    <component xsi:type="tll:Conveyor" id="a1_c1" processingTime="2" neighbour="//@area.13/@component.2 //@area.13/@component.0"/>
+    <component xsi:type="tll:Turntable" id="a1_t2" processingTime="4" neighbour="//@area.13/@component.3 //@area.13/@component.1"/>
+    <component xsi:type="tll:Machine" id="a1_m1" processingTime="4" neighbour="//@area.13/@component.4 //@area.13/@component.2"/>
+    <component xsi:type="tll:Turntable" id="a1_t3" processingTime="4" neighbour="//@area.13/@component.5 //@area.13/@component.3"/>
+    <component xsi:type="tll:Conveyor" id="a1_c2" processingTime="4" neighbour="//@area.13/@component.6 //@area.13/@component.4"/>
+    <component xsi:type="tll:Turntable" id="a1_t4" processingTime="4" neighbour="//@area.13/@component.7 //@area.13/@component.5"/>
+    <component xsi:type="tll:Conveyor" id="a1_c3" processingTime="4" neighbour="//@area.13/@component.0 //@area.13/@component.6"/>
+    <component xsi:type="tll:WaitingQueue" id="a1_buffer" processingTime="2" entry="//@area.13/@component.0"/>
+    <component xsi:type="tll:StorageQueue" id="a1_store" processingTime="2" exit="//@area.13/@component.6"/>
+    <itemGen frequency="1"/>
+  </area>
+  <area id="Area1" store="//@area.14/@component.9" buffer="//@area.14/@component.8">
+    <component xsi:type="tll:Turntable" id="a1_t1" processingTime="4" neighbour="//@area.14/@component.1"/>
+    <component xsi:type="tll:Conveyor" id="a1_c1" processingTime="2" neighbour="//@area.14/@component.2 //@area.14/@component.0"/>
+    <component xsi:type="tll:Turntable" id="a1_t2" processingTime="4" neighbour="//@area.14/@component.3 //@area.14/@component.1"/>
+    <component xsi:type="tll:Machine" id="a1_m1" processingTime="4" neighbour="//@area.14/@component.4 //@area.14/@component.2"/>
+    <component xsi:type="tll:Turntable" id="a1_t3" processingTime="4" neighbour="//@area.14/@component.5 //@area.14/@component.3"/>
+    <component xsi:type="tll:Conveyor" id="a1_c2" processingTime="4" neighbour="//@area.14/@component.6 //@area.14/@component.4"/>
+    <component xsi:type="tll:Turntable" id="a1_t4" processingTime="4" neighbour="//@area.14/@component.7 //@area.14/@component.5"/>
+    <component xsi:type="tll:Conveyor" id="a1_c3" processingTime="4" neighbour="//@area.14/@component.0 //@area.14/@component.6"/>
+    <component xsi:type="tll:WaitingQueue" id="a1_buffer" processingTime="2" entry="//@area.14/@component.0"/>
+    <component xsi:type="tll:StorageQueue" id="a1_store" processingTime="2" exit="//@area.14/@component.6"/>
+    <itemGen frequency="1"/>
+  </area>
+  <area id="Area1" store="//@area.15/@component.9" buffer="//@area.15/@component.8">
+    <component xsi:type="tll:Turntable" id="a1_t1" processingTime="4" neighbour="//@area.15/@component.1"/>
+    <component xsi:type="tll:Conveyor" id="a1_c1" processingTime="2" neighbour="//@area.15/@component.2 //@area.15/@component.0"/>
+    <component xsi:type="tll:Turntable" id="a1_t2" processingTime="4" neighbour="//@area.15/@component.3 //@area.15/@component.1"/>
+    <component xsi:type="tll:Machine" id="a1_m1" processingTime="4" neighbour="//@area.15/@component.4 //@area.15/@component.2"/>
+    <component xsi:type="tll:Turntable" id="a1_t3" processingTime="4" neighbour="//@area.15/@component.5 //@area.15/@component.3"/>
+    <component xsi:type="tll:Conveyor" id="a1_c2" processingTime="4" neighbour="//@area.15/@component.6 //@area.15/@component.4"/>
+    <component xsi:type="tll:Turntable" id="a1_t4" processingTime="4" neighbour="//@area.15/@component.7 //@area.15/@component.5"/>
+    <component xsi:type="tll:Conveyor" id="a1_c3" processingTime="4" neighbour="//@area.15/@component.0 //@area.15/@component.6"/>
+    <component xsi:type="tll:WaitingQueue" id="a1_buffer" processingTime="2" entry="//@area.15/@component.0"/>
+    <component xsi:type="tll:StorageQueue" id="a1_store" processingTime="2" exit="//@area.15/@component.6"/>
+    <itemGen frequency="1"/>
+  </area>
+  <area id="Area1" store="//@area.16/@component.9" buffer="//@area.16/@component.8">
+    <component xsi:type="tll:Turntable" id="a1_t1" processingTime="4" neighbour="//@area.16/@component.1"/>
+    <component xsi:type="tll:Conveyor" id="a1_c1" processingTime="2" neighbour="//@area.16/@component.2 //@area.16/@component.0"/>
+    <component xsi:type="tll:Turntable" id="a1_t2" processingTime="4" neighbour="//@area.16/@component.3 //@area.16/@component.1"/>
+    <component xsi:type="tll:Machine" id="a1_m1" processingTime="4" neighbour="//@area.16/@component.4 //@area.16/@component.2"/>
+    <component xsi:type="tll:Turntable" id="a1_t3" processingTime="4" neighbour="//@area.16/@component.5 //@area.16/@component.3"/>
+    <component xsi:type="tll:Conveyor" id="a1_c2" processingTime="4" neighbour="//@area.16/@component.6 //@area.16/@component.4"/>
+    <component xsi:type="tll:Turntable" id="a1_t4" processingTime="4" neighbour="//@area.16/@component.7 //@area.16/@component.5"/>
+    <component xsi:type="tll:Conveyor" id="a1_c3" processingTime="4" neighbour="//@area.16/@component.0 //@area.16/@component.6"/>
+    <component xsi:type="tll:WaitingQueue" id="a1_buffer" processingTime="2" entry="//@area.16/@component.0"/>
+    <component xsi:type="tll:StorageQueue" id="a1_store" processingTime="2" exit="//@area.16/@component.6"/>
+    <itemGen frequency="1"/>
+  </area>
+  <area id="Area1" store="//@area.17/@component.9" buffer="//@area.17/@component.8">
+    <component xsi:type="tll:Turntable" id="a1_t1" processingTime="4" neighbour="//@area.17/@component.1"/>
+    <component xsi:type="tll:Conveyor" id="a1_c1" processingTime="2" neighbour="//@area.17/@component.2 //@area.17/@component.0"/>
+    <component xsi:type="tll:Turntable" id="a1_t2" processingTime="4" neighbour="//@area.17/@component.3 //@area.17/@component.1"/>
+    <component xsi:type="tll:Machine" id="a1_m1" processingTime="4" neighbour="//@area.17/@component.4 //@area.17/@component.2"/>
+    <component xsi:type="tll:Turntable" id="a1_t3" processingTime="4" neighbour="//@area.17/@component.5 //@area.17/@component.3"/>
+    <component xsi:type="tll:Conveyor" id="a1_c2" processingTime="4" neighbour="//@area.17/@component.6 //@area.17/@component.4"/>
+    <component xsi:type="tll:Turntable" id="a1_t4" processingTime="4" neighbour="//@area.17/@component.7 //@area.17/@component.5"/>
+    <component xsi:type="tll:Conveyor" id="a1_c3" processingTime="4" neighbour="//@area.17/@component.0 //@area.17/@component.6"/>
+    <component xsi:type="tll:WaitingQueue" id="a1_buffer" processingTime="2" entry="//@area.17/@component.0"/>
+    <component xsi:type="tll:StorageQueue" id="a1_store" processingTime="2" exit="//@area.17/@component.6"/>
+    <itemGen frequency="1"/>
+  </area>
+  <area id="Area1" store="//@area.18/@component.9" buffer="//@area.18/@component.8">
+    <component xsi:type="tll:Turntable" id="a1_t1" processingTime="4" neighbour="//@area.18/@component.1"/>
+    <component xsi:type="tll:Conveyor" id="a1_c1" processingTime="2" neighbour="//@area.18/@component.2 //@area.18/@component.0"/>
+    <component xsi:type="tll:Turntable" id="a1_t2" processingTime="4" neighbour="//@area.18/@component.3 //@area.18/@component.1"/>
+    <component xsi:type="tll:Machine" id="a1_m1" processingTime="4" neighbour="//@area.18/@component.4 //@area.18/@component.2"/>
+    <component xsi:type="tll:Turntable" id="a1_t3" processingTime="4" neighbour="//@area.18/@component.5 //@area.18/@component.3"/>
+    <component xsi:type="tll:Conveyor" id="a1_c2" processingTime="4" neighbour="//@area.18/@component.6 //@area.18/@component.4"/>
+    <component xsi:type="tll:Turntable" id="a1_t4" processingTime="4" neighbour="//@area.18/@component.7 //@area.18/@component.5"/>
+    <component xsi:type="tll:Conveyor" id="a1_c3" processingTime="4" neighbour="//@area.18/@component.0 //@area.18/@component.6"/>
+    <component xsi:type="tll:WaitingQueue" id="a1_buffer" processingTime="2" entry="//@area.18/@component.0"/>
+    <component xsi:type="tll:StorageQueue" id="a1_store" processingTime="2" exit="//@area.18/@component.6"/>
+    <itemGen frequency="1"/>
+  </area>
+  <area id="Area1" store="//@area.19/@component.9" buffer="//@area.19/@component.8">
+    <component xsi:type="tll:Turntable" id="a1_t1" processingTime="4" neighbour="//@area.19/@component.1"/>
+    <component xsi:type="tll:Conveyor" id="a1_c1" processingTime="2" neighbour="//@area.19/@component.2 //@area.19/@component.0"/>
+    <component xsi:type="tll:Turntable" id="a1_t2" processingTime="4" neighbour="//@area.19/@component.3 //@area.19/@component.1"/>
+    <component xsi:type="tll:Machine" id="a1_m1" processingTime="4" neighbour="//@area.19/@component.4 //@area.19/@component.2"/>
+    <component xsi:type="tll:Turntable" id="a1_t3" processingTime="4" neighbour="//@area.19/@component.5 //@area.19/@component.3"/>
+    <component xsi:type="tll:Conveyor" id="a1_c2" processingTime="4" neighbour="//@area.19/@component.6 //@area.19/@component.4"/>
+    <component xsi:type="tll:Turntable" id="a1_t4" processingTime="4" neighbour="//@area.19/@component.7 //@area.19/@component.5"/>
+    <component xsi:type="tll:Conveyor" id="a1_c3" processingTime="4" neighbour="//@area.19/@component.0 //@area.19/@component.6"/>
+    <component xsi:type="tll:WaitingQueue" id="a1_buffer" processingTime="2" entry="//@area.19/@component.0"/>
+    <component xsi:type="tll:StorageQueue" id="a1_store" processingTime="2" exit="//@area.19/@component.6"/>
+    <itemGen frequency="1"/>
+  </area>
+  <area id="Area1" store="//@area.20/@component.9" buffer="//@area.20/@component.8">
+    <component xsi:type="tll:Turntable" id="a1_t1" processingTime="4" neighbour="//@area.20/@component.1"/>
+    <component xsi:type="tll:Conveyor" id="a1_c1" processingTime="2" neighbour="//@area.20/@component.2 //@area.20/@component.0"/>
+    <component xsi:type="tll:Turntable" id="a1_t2" processingTime="4" neighbour="//@area.20/@component.3 //@area.20/@component.1"/>
+    <component xsi:type="tll:Machine" id="a1_m1" processingTime="4" neighbour="//@area.20/@component.4 //@area.20/@component.2"/>
+    <component xsi:type="tll:Turntable" id="a1_t3" processingTime="4" neighbour="//@area.20/@component.5 //@area.20/@component.3"/>
+    <component xsi:type="tll:Conveyor" id="a1_c2" processingTime="4" neighbour="//@area.20/@component.6 //@area.20/@component.4"/>
+    <component xsi:type="tll:Turntable" id="a1_t4" processingTime="4" neighbour="//@area.20/@component.7 //@area.20/@component.5"/>
+    <component xsi:type="tll:Conveyor" id="a1_c3" processingTime="4" neighbour="//@area.20/@component.0 //@area.20/@component.6"/>
+    <component xsi:type="tll:WaitingQueue" id="a1_buffer" processingTime="2" entry="//@area.20/@component.0"/>
+    <component xsi:type="tll:StorageQueue" id="a1_store" processingTime="2" exit="//@area.20/@component.6"/>
+    <itemGen frequency="1"/>
+  </area>
+  <area id="Area1" store="//@area.21/@component.9" buffer="//@area.21/@component.8">
+    <component xsi:type="tll:Turntable" id="a1_t1" processingTime="4" neighbour="//@area.21/@component.1"/>
+    <component xsi:type="tll:Conveyor" id="a1_c1" processingTime="2" neighbour="//@area.21/@component.2 //@area.21/@component.0"/>
+    <component xsi:type="tll:Turntable" id="a1_t2" processingTime="4" neighbour="//@area.21/@component.3 //@area.21/@component.1"/>
+    <component xsi:type="tll:Machine" id="a1_m1" processingTime="4" neighbour="//@area.21/@component.4 //@area.21/@component.2"/>
+    <component xsi:type="tll:Turntable" id="a1_t3" processingTime="4" neighbour="//@area.21/@component.5 //@area.21/@component.3"/>
+    <component xsi:type="tll:Conveyor" id="a1_c2" processingTime="4" neighbour="//@area.21/@component.6 //@area.21/@component.4"/>
+    <component xsi:type="tll:Turntable" id="a1_t4" processingTime="4" neighbour="//@area.21/@component.7 //@area.21/@component.5"/>
+    <component xsi:type="tll:Conveyor" id="a1_c3" processingTime="4" neighbour="//@area.21/@component.0 //@area.21/@component.6"/>
+    <component xsi:type="tll:WaitingQueue" id="a1_buffer" processingTime="2" entry="//@area.21/@component.0"/>
+    <component xsi:type="tll:StorageQueue" id="a1_store" processingTime="2" exit="//@area.21/@component.6"/>
+    <itemGen frequency="1"/>
+  </area>
+  <area id="Area1" store="//@area.22/@component.9" buffer="//@area.22/@component.8">
+    <component xsi:type="tll:Turntable" id="a1_t1" processingTime="4" neighbour="//@area.22/@component.1"/>
+    <component xsi:type="tll:Conveyor" id="a1_c1" processingTime="2" neighbour="//@area.22/@component.2 //@area.22/@component.0"/>
+    <component xsi:type="tll:Turntable" id="a1_t2" processingTime="4" neighbour="//@area.22/@component.3 //@area.22/@component.1"/>
+    <component xsi:type="tll:Machine" id="a1_m1" processingTime="4" neighbour="//@area.22/@component.4 //@area.22/@component.2"/>
+    <component xsi:type="tll:Turntable" id="a1_t3" processingTime="4" neighbour="//@area.22/@component.5 //@area.22/@component.3"/>
+    <component xsi:type="tll:Conveyor" id="a1_c2" processingTime="4" neighbour="//@area.22/@component.6 //@area.22/@component.4"/>
+    <component xsi:type="tll:Turntable" id="a1_t4" processingTime="4" neighbour="//@area.22/@component.7 //@area.22/@component.5"/>
+    <component xsi:type="tll:Conveyor" id="a1_c3" processingTime="4" neighbour="//@area.22/@component.0 //@area.22/@component.6"/>
+    <component xsi:type="tll:WaitingQueue" id="a1_buffer" processingTime="2" entry="//@area.22/@component.0"/>
+    <component xsi:type="tll:StorageQueue" id="a1_store" processingTime="2" exit="//@area.22/@component.6"/>
+    <itemGen frequency="1"/>
+  </area>
+  <area id="Area1" store="//@area.23/@component.9" buffer="//@area.23/@component.8">
+    <component xsi:type="tll:Turntable" id="a1_t1" processingTime="4" neighbour="//@area.23/@component.1"/>
+    <component xsi:type="tll:Conveyor" id="a1_c1" processingTime="2" neighbour="//@area.23/@component.2 //@area.23/@component.0"/>
+    <component xsi:type="tll:Turntable" id="a1_t2" processingTime="4" neighbour="//@area.23/@component.3 //@area.23/@component.1"/>
+    <component xsi:type="tll:Machine" id="a1_m1" processingTime="4" neighbour="//@area.23/@component.4 //@area.23/@component.2"/>
+    <component xsi:type="tll:Turntable" id="a1_t3" processingTime="4" neighbour="//@area.23/@component.5 //@area.23/@component.3"/>
+    <component xsi:type="tll:Conveyor" id="a1_c2" processingTime="4" neighbour="//@area.23/@component.6 //@area.23/@component.4"/>
+    <component xsi:type="tll:Turntable" id="a1_t4" processingTime="4" neighbour="//@area.23/@component.7 //@area.23/@component.5"/>
+    <component xsi:type="tll:Conveyor" id="a1_c3" processingTime="4" neighbour="//@area.23/@component.0 //@area.23/@component.6"/>
+    <component xsi:type="tll:WaitingQueue" id="a1_buffer" processingTime="2" entry="//@area.23/@component.0"/>
+    <component xsi:type="tll:StorageQueue" id="a1_store" processingTime="2" exit="//@area.23/@component.6"/>
+    <itemGen frequency="1"/>
+  </area>
+  <area id="Area1" store="//@area.24/@component.9" buffer="//@area.24/@component.8">
+    <component xsi:type="tll:Turntable" id="a1_t1" processingTime="4" neighbour="//@area.24/@component.1"/>
+    <component xsi:type="tll:Conveyor" id="a1_c1" processingTime="2" neighbour="//@area.24/@component.2 //@area.24/@component.0"/>
+    <component xsi:type="tll:Turntable" id="a1_t2" processingTime="4" neighbour="//@area.24/@component.3 //@area.24/@component.1"/>
+    <component xsi:type="tll:Machine" id="a1_m1" processingTime="4" neighbour="//@area.24/@component.4 //@area.24/@component.2"/>
+    <component xsi:type="tll:Turntable" id="a1_t3" processingTime="4" neighbour="//@area.24/@component.5 //@area.24/@component.3"/>
+    <component xsi:type="tll:Conveyor" id="a1_c2" processingTime="4" neighbour="//@area.24/@component.6 //@area.24/@component.4"/>
+    <component xsi:type="tll:Turntable" id="a1_t4" processingTime="4" neighbour="//@area.24/@component.7 //@area.24/@component.5"/>
+    <component xsi:type="tll:Conveyor" id="a1_c3" processingTime="4" neighbour="//@area.24/@component.0 //@area.24/@component.6"/>
+    <component xsi:type="tll:WaitingQueue" id="a1_buffer" processingTime="2" entry="//@area.24/@component.0"/>
+    <component xsi:type="tll:StorageQueue" id="a1_store" processingTime="2" exit="//@area.24/@component.6"/>
+    <itemGen frequency="1"/>
+  </area>
+  <area id="Area1" store="//@area.25/@component.9" buffer="//@area.25/@component.8">
+    <component xsi:type="tll:Turntable" id="a1_t1" processingTime="4" neighbour="//@area.25/@component.1"/>
+    <component xsi:type="tll:Conveyor" id="a1_c1" processingTime="2" neighbour="//@area.25/@component.2 //@area.25/@component.0"/>
+    <component xsi:type="tll:Turntable" id="a1_t2" processingTime="4" neighbour="//@area.25/@component.3 //@area.25/@component.1"/>
+    <component xsi:type="tll:Machine" id="a1_m1" processingTime="4" neighbour="//@area.25/@component.4 //@area.25/@component.2"/>
+    <component xsi:type="tll:Turntable" id="a1_t3" processingTime="4" neighbour="//@area.25/@component.5 //@area.25/@component.3"/>
+    <component xsi:type="tll:Conveyor" id="a1_c2" processingTime="4" neighbour="//@area.25/@component.6 //@area.25/@component.4"/>
+    <component xsi:type="tll:Turntable" id="a1_t4" processingTime="4" neighbour="//@area.25/@component.7 //@area.25/@component.5"/>
+    <component xsi:type="tll:Conveyor" id="a1_c3" processingTime="4" neighbour="//@area.25/@component.0 //@area.25/@component.6"/>
+    <component xsi:type="tll:WaitingQueue" id="a1_buffer" processingTime="2" entry="//@area.25/@component.0"/>
+    <component xsi:type="tll:StorageQueue" id="a1_store" processingTime="2" exit="//@area.25/@component.6"/>
+    <itemGen frequency="1"/>
+  </area>
+  <area id="Area1" store="//@area.26/@component.9" buffer="//@area.26/@component.8">
+    <component xsi:type="tll:Turntable" id="a1_t1" processingTime="4" neighbour="//@area.26/@component.1"/>
+    <component xsi:type="tll:Conveyor" id="a1_c1" processingTime="2" neighbour="//@area.26/@component.2 //@area.26/@component.0"/>
+    <component xsi:type="tll:Turntable" id="a1_t2" processingTime="4" neighbour="//@area.26/@component.3 //@area.26/@component.1"/>
+    <component xsi:type="tll:Machine" id="a1_m1" processingTime="4" neighbour="//@area.26/@component.4 //@area.26/@component.2"/>
+    <component xsi:type="tll:Turntable" id="a1_t3" processingTime="4" neighbour="//@area.26/@component.5 //@area.26/@component.3"/>
+    <component xsi:type="tll:Conveyor" id="a1_c2" processingTime="4" neighbour="//@area.26/@component.6 //@area.26/@component.4"/>
+    <component xsi:type="tll:Turntable" id="a1_t4" processingTime="4" neighbour="//@area.26/@component.7 //@area.26/@component.5"/>
+    <component xsi:type="tll:Conveyor" id="a1_c3" processingTime="4" neighbour="//@area.26/@component.0 //@area.26/@component.6"/>
+    <component xsi:type="tll:WaitingQueue" id="a1_buffer" processingTime="2" entry="//@area.26/@component.0"/>
+    <component xsi:type="tll:StorageQueue" id="a1_store" processingTime="2" exit="//@area.26/@component.6"/>
+    <itemGen frequency="1"/>
+  </area>
+  <area id="Area1" store="//@area.27/@component.9" buffer="//@area.27/@component.8">
+    <component xsi:type="tll:Turntable" id="a1_t1" processingTime="4" neighbour="//@area.27/@component.1"/>
+    <component xsi:type="tll:Conveyor" id="a1_c1" processingTime="2" neighbour="//@area.27/@component.2 //@area.27/@component.0"/>
+    <component xsi:type="tll:Turntable" id="a1_t2" processingTime="4" neighbour="//@area.27/@component.3 //@area.27/@component.1"/>
+    <component xsi:type="tll:Machine" id="a1_m1" processingTime="4" neighbour="//@area.27/@component.4 //@area.27/@component.2"/>
+    <component xsi:type="tll:Turntable" id="a1_t3" processingTime="4" neighbour="//@area.27/@component.5 //@area.27/@component.3"/>
+    <component xsi:type="tll:Conveyor" id="a1_c2" processingTime="4" neighbour="//@area.27/@component.6 //@area.27/@component.4"/>
+    <component xsi:type="tll:Turntable" id="a1_t4" processingTime="4" neighbour="//@area.27/@component.7 //@area.27/@component.5"/>
+    <component xsi:type="tll:Conveyor" id="a1_c3" processingTime="4" neighbour="//@area.27/@component.0 //@area.27/@component.6"/>
+    <component xsi:type="tll:WaitingQueue" id="a1_buffer" processingTime="2" entry="//@area.27/@component.0"/>
+    <component xsi:type="tll:StorageQueue" id="a1_store" processingTime="2" exit="//@area.27/@component.6"/>
+    <itemGen frequency="1"/>
+  </area>
+  <area id="Area1" store="//@area.28/@component.9" buffer="//@area.28/@component.8">
+    <component xsi:type="tll:Turntable" id="a1_t1" processingTime="4" neighbour="//@area.28/@component.1"/>
+    <component xsi:type="tll:Conveyor" id="a1_c1" processingTime="2" neighbour="//@area.28/@component.2 //@area.28/@component.0"/>
+    <component xsi:type="tll:Turntable" id="a1_t2" processingTime="4" neighbour="//@area.28/@component.3 //@area.28/@component.1"/>
+    <component xsi:type="tll:Machine" id="a1_m1" processingTime="4" neighbour="//@area.28/@component.4 //@area.28/@component.2"/>
+    <component xsi:type="tll:Turntable" id="a1_t3" processingTime="4" neighbour="//@area.28/@component.5 //@area.28/@component.3"/>
+    <component xsi:type="tll:Conveyor" id="a1_c2" processingTime="4" neighbour="//@area.28/@component.6 //@area.28/@component.4"/>
+    <component xsi:type="tll:Turntable" id="a1_t4" processingTime="4" neighbour="//@area.28/@component.7 //@area.28/@component.5"/>
+    <component xsi:type="tll:Conveyor" id="a1_c3" processingTime="4" neighbour="//@area.28/@component.0 //@area.28/@component.6"/>
+    <component xsi:type="tll:WaitingQueue" id="a1_buffer" processingTime="2" entry="//@area.28/@component.0"/>
+    <component xsi:type="tll:StorageQueue" id="a1_store" processingTime="2" exit="//@area.28/@component.6"/>
+    <itemGen frequency="1"/>
+  </area>
+  <area id="Area1" store="//@area.29/@component.9" buffer="//@area.29/@component.8">
+    <component xsi:type="tll:Turntable" id="a1_t1" processingTime="4" neighbour="//@area.29/@component.1"/>
+    <component xsi:type="tll:Conveyor" id="a1_c1" processingTime="2" neighbour="//@area.29/@component.2 //@area.29/@component.0"/>
+    <component xsi:type="tll:Turntable" id="a1_t2" processingTime="4" neighbour="//@area.29/@component.3 //@area.29/@component.1"/>
+    <component xsi:type="tll:Machine" id="a1_m1" processingTime="4" neighbour="//@area.29/@component.4 //@area.29/@component.2"/>
+    <component xsi:type="tll:Turntable" id="a1_t3" processingTime="4" neighbour="//@area.29/@component.5 //@area.29/@component.3"/>
+    <component xsi:type="tll:Conveyor" id="a1_c2" processingTime="4" neighbour="//@area.29/@component.6 //@area.29/@component.4"/>
+    <component xsi:type="tll:Turntable" id="a1_t4" processingTime="4" neighbour="//@area.29/@component.7 //@area.29/@component.5"/>
+    <component xsi:type="tll:Conveyor" id="a1_c3" processingTime="4" neighbour="//@area.29/@component.0 //@area.29/@component.6"/>
+    <component xsi:type="tll:WaitingQueue" id="a1_buffer" processingTime="2" entry="//@area.29/@component.0"/>
+    <component xsi:type="tll:StorageQueue" id="a1_store" processingTime="2" exit="//@area.29/@component.6"/>
+    <itemGen frequency="1"/>
+  </area>
+  <area id="Area1" store="//@area.30/@component.9" buffer="//@area.30/@component.8">
+    <component xsi:type="tll:Turntable" id="a1_t1" processingTime="4" neighbour="//@area.30/@component.1"/>
+    <component xsi:type="tll:Conveyor" id="a1_c1" processingTime="2" neighbour="//@area.30/@component.2 //@area.30/@component.0"/>
+    <component xsi:type="tll:Turntable" id="a1_t2" processingTime="4" neighbour="//@area.30/@component.3 //@area.30/@component.1"/>
+    <component xsi:type="tll:Machine" id="a1_m1" processingTime="4" neighbour="//@area.30/@component.4 //@area.30/@component.2"/>
+    <component xsi:type="tll:Turntable" id="a1_t3" processingTime="4" neighbour="//@area.30/@component.5 //@area.30/@component.3"/>
+    <component xsi:type="tll:Conveyor" id="a1_c2" processingTime="4" neighbour="//@area.30/@component.6 //@area.30/@component.4"/>
+    <component xsi:type="tll:Turntable" id="a1_t4" processingTime="4" neighbour="//@area.30/@component.7 //@area.30/@component.5"/>
+    <component xsi:type="tll:Conveyor" id="a1_c3" processingTime="4" neighbour="//@area.30/@component.0 //@area.30/@component.6"/>
+    <component xsi:type="tll:WaitingQueue" id="a1_buffer" processingTime="2" entry="//@area.30/@component.0"/>
+    <component xsi:type="tll:StorageQueue" id="a1_store" processingTime="2" exit="//@area.30/@component.6"/>
+    <itemGen frequency="1"/>
+  </area>
+  <area id="Area1" store="//@area.31/@component.9" buffer="//@area.31/@component.8">
+    <component xsi:type="tll:Turntable" id="a1_t1" processingTime="4" neighbour="//@area.31/@component.1"/>
+    <component xsi:type="tll:Conveyor" id="a1_c1" processingTime="2" neighbour="//@area.31/@component.2 //@area.31/@component.0"/>
+    <component xsi:type="tll:Turntable" id="a1_t2" processingTime="4" neighbour="//@area.31/@component.3 //@area.31/@component.1"/>
+    <component xsi:type="tll:Machine" id="a1_m1" processingTime="4" neighbour="//@area.31/@component.4 //@area.31/@component.2"/>
+    <component xsi:type="tll:Turntable" id="a1_t3" processingTime="4" neighbour="//@area.31/@component.5 //@area.31/@component.3"/>
+    <component xsi:type="tll:Conveyor" id="a1_c2" processingTime="4" neighbour="//@area.31/@component.6 //@area.31/@component.4"/>
+    <component xsi:type="tll:Turntable" id="a1_t4" processingTime="4" neighbour="//@area.31/@component.7 //@area.31/@component.5"/>
+    <component xsi:type="tll:Conveyor" id="a1_c3" processingTime="4" neighbour="//@area.31/@component.0 //@area.31/@component.6"/>
+    <component xsi:type="tll:WaitingQueue" id="a1_buffer" processingTime="2" entry="//@area.31/@component.0"/>
+    <component xsi:type="tll:StorageQueue" id="a1_store" processingTime="2" exit="//@area.31/@component.6"/>
+    <itemGen frequency="1"/>
+  </area>
+  <area id="Area1" store="//@area.32/@component.9" buffer="//@area.32/@component.8">
+    <component xsi:type="tll:Turntable" id="a1_t1" processingTime="4" neighbour="//@area.32/@component.1"/>
+    <component xsi:type="tll:Conveyor" id="a1_c1" processingTime="2" neighbour="//@area.32/@component.2 //@area.32/@component.0"/>
+    <component xsi:type="tll:Turntable" id="a1_t2" processingTime="4" neighbour="//@area.32/@component.3 //@area.32/@component.1"/>
+    <component xsi:type="tll:Machine" id="a1_m1" processingTime="4" neighbour="//@area.32/@component.4 //@area.32/@component.2"/>
+    <component xsi:type="tll:Turntable" id="a1_t3" processingTime="4" neighbour="//@area.32/@component.5 //@area.32/@component.3"/>
+    <component xsi:type="tll:Conveyor" id="a1_c2" processingTime="4" neighbour="//@area.32/@component.6 //@area.32/@component.4"/>
+    <component xsi:type="tll:Turntable" id="a1_t4" processingTime="4" neighbour="//@area.32/@component.7 //@area.32/@component.5"/>
+    <component xsi:type="tll:Conveyor" id="a1_c3" processingTime="4" neighbour="//@area.32/@component.0 //@area.32/@component.6"/>
+    <component xsi:type="tll:WaitingQueue" id="a1_buffer" processingTime="2" entry="//@area.32/@component.0"/>
+    <component xsi:type="tll:StorageQueue" id="a1_store" processingTime="2" exit="//@area.32/@component.6"/>
+    <itemGen frequency="1"/>
+  </area>
+  <area id="Area1" store="//@area.33/@component.9" buffer="//@area.33/@component.8">
+    <component xsi:type="tll:Turntable" id="a1_t1" processingTime="4" neighbour="//@area.33/@component.1"/>
+    <component xsi:type="tll:Conveyor" id="a1_c1" processingTime="2" neighbour="//@area.33/@component.2 //@area.33/@component.0"/>
+    <component xsi:type="tll:Turntable" id="a1_t2" processingTime="4" neighbour="//@area.33/@component.3 //@area.33/@component.1"/>
+    <component xsi:type="tll:Machine" id="a1_m1" processingTime="4" neighbour="//@area.33/@component.4 //@area.33/@component.2"/>
+    <component xsi:type="tll:Turntable" id="a1_t3" processingTime="4" neighbour="//@area.33/@component.5 //@area.33/@component.3"/>
+    <component xsi:type="tll:Conveyor" id="a1_c2" processingTime="4" neighbour="//@area.33/@component.6 //@area.33/@component.4"/>
+    <component xsi:type="tll:Turntable" id="a1_t4" processingTime="4" neighbour="//@area.33/@component.7 //@area.33/@component.5"/>
+    <component xsi:type="tll:Conveyor" id="a1_c3" processingTime="4" neighbour="//@area.33/@component.0 //@area.33/@component.6"/>
+    <component xsi:type="tll:WaitingQueue" id="a1_buffer" processingTime="2" entry="//@area.33/@component.0"/>
+    <component xsi:type="tll:StorageQueue" id="a1_store" processingTime="2" exit="//@area.33/@component.6"/>
+    <itemGen frequency="1"/>
+  </area>
+  <area id="Area1" store="//@area.34/@component.9" buffer="//@area.34/@component.8">
+    <component xsi:type="tll:Turntable" id="a1_t1" processingTime="4" neighbour="//@area.34/@component.1"/>
+    <component xsi:type="tll:Conveyor" id="a1_c1" processingTime="2" neighbour="//@area.34/@component.2 //@area.34/@component.0"/>
+    <component xsi:type="tll:Turntable" id="a1_t2" processingTime="4" neighbour="//@area.34/@component.3 //@area.34/@component.1"/>
+    <component xsi:type="tll:Machine" id="a1_m1" processingTime="4" neighbour="//@area.34/@component.4 //@area.34/@component.2"/>
+    <component xsi:type="tll:Turntable" id="a1_t3" processingTime="4" neighbour="//@area.34/@component.5 //@area.34/@component.3"/>
+    <component xsi:type="tll:Conveyor" id="a1_c2" processingTime="4" neighbour="//@area.34/@component.6 //@area.34/@component.4"/>
+    <component xsi:type="tll:Turntable" id="a1_t4" processingTime="4" neighbour="//@area.34/@component.7 //@area.34/@component.5"/>
+    <component xsi:type="tll:Conveyor" id="a1_c3" processingTime="4" neighbour="//@area.34/@component.0 //@area.34/@component.6"/>
+    <component xsi:type="tll:WaitingQueue" id="a1_buffer" processingTime="2" entry="//@area.34/@component.0"/>
+    <component xsi:type="tll:StorageQueue" id="a1_store" processingTime="2" exit="//@area.34/@component.6"/>
+    <itemGen frequency="1"/>
+  </area>
+  <area id="Area1" store="//@area.35/@component.9" buffer="//@area.35/@component.8">
+    <component xsi:type="tll:Turntable" id="a1_t1" processingTime="4" neighbour="//@area.35/@component.1"/>
+    <component xsi:type="tll:Conveyor" id="a1_c1" processingTime="2" neighbour="//@area.35/@component.2 //@area.35/@component.0"/>
+    <component xsi:type="tll:Turntable" id="a1_t2" processingTime="4" neighbour="//@area.35/@component.3 //@area.35/@component.1"/>
+    <component xsi:type="tll:Machine" id="a1_m1" processingTime="4" neighbour="//@area.35/@component.4 //@area.35/@component.2"/>
+    <component xsi:type="tll:Turntable" id="a1_t3" processingTime="4" neighbour="//@area.35/@component.5 //@area.35/@component.3"/>
+    <component xsi:type="tll:Conveyor" id="a1_c2" processingTime="4" neighbour="//@area.35/@component.6 //@area.35/@component.4"/>
+    <component xsi:type="tll:Turntable" id="a1_t4" processingTime="4" neighbour="//@area.35/@component.7 //@area.35/@component.5"/>
+    <component xsi:type="tll:Conveyor" id="a1_c3" processingTime="4" neighbour="//@area.35/@component.0 //@area.35/@component.6"/>
+    <component xsi:type="tll:WaitingQueue" id="a1_buffer" processingTime="2" entry="//@area.35/@component.0"/>
+    <component xsi:type="tll:StorageQueue" id="a1_store" processingTime="2" exit="//@area.35/@component.6"/>
+    <itemGen frequency="1"/>
+  </area>
+  <area id="Area1" store="//@area.36/@component.9" buffer="//@area.36/@component.8">
+    <component xsi:type="tll:Turntable" id="a1_t1" processingTime="4" neighbour="//@area.36/@component.1"/>
+    <component xsi:type="tll:Conveyor" id="a1_c1" processingTime="2" neighbour="//@area.36/@component.2 //@area.36/@component.0"/>
+    <component xsi:type="tll:Turntable" id="a1_t2" processingTime="4" neighbour="//@area.36/@component.3 //@area.36/@component.1"/>
+    <component xsi:type="tll:Machine" id="a1_m1" processingTime="4" neighbour="//@area.36/@component.4 //@area.36/@component.2"/>
+    <component xsi:type="tll:Turntable" id="a1_t3" processingTime="4" neighbour="//@area.36/@component.5 //@area.36/@component.3"/>
+    <component xsi:type="tll:Conveyor" id="a1_c2" processingTime="4" neighbour="//@area.36/@component.6 //@area.36/@component.4"/>
+    <component xsi:type="tll:Turntable" id="a1_t4" processingTime="4" neighbour="//@area.36/@component.7 //@area.36/@component.5"/>
+    <component xsi:type="tll:Conveyor" id="a1_c3" processingTime="4" neighbour="//@area.36/@component.0 //@area.36/@component.6"/>
+    <component xsi:type="tll:WaitingQueue" id="a1_buffer" processingTime="2" entry="//@area.36/@component.0"/>
+    <component xsi:type="tll:StorageQueue" id="a1_store" processingTime="2" exit="//@area.36/@component.6"/>
+    <itemGen frequency="1"/>
+  </area>
+  <area id="Area1" store="//@area.37/@component.9" buffer="//@area.37/@component.8">
+    <component xsi:type="tll:Turntable" id="a1_t1" processingTime="4" neighbour="//@area.37/@component.1"/>
+    <component xsi:type="tll:Conveyor" id="a1_c1" processingTime="2" neighbour="//@area.37/@component.2 //@area.37/@component.0"/>
+    <component xsi:type="tll:Turntable" id="a1_t2" processingTime="4" neighbour="//@area.37/@component.3 //@area.37/@component.1"/>
+    <component xsi:type="tll:Machine" id="a1_m1" processingTime="4" neighbour="//@area.37/@component.4 //@area.37/@component.2"/>
+    <component xsi:type="tll:Turntable" id="a1_t3" processingTime="4" neighbour="//@area.37/@component.5 //@area.37/@component.3"/>
+    <component xsi:type="tll:Conveyor" id="a1_c2" processingTime="4" neighbour="//@area.37/@component.6 //@area.37/@component.4"/>
+    <component xsi:type="tll:Turntable" id="a1_t4" processingTime="4" neighbour="//@area.37/@component.7 //@area.37/@component.5"/>
+    <component xsi:type="tll:Conveyor" id="a1_c3" processingTime="4" neighbour="//@area.37/@component.0 //@area.37/@component.6"/>
+    <component xsi:type="tll:WaitingQueue" id="a1_buffer" processingTime="2" entry="//@area.37/@component.0"/>
+    <component xsi:type="tll:StorageQueue" id="a1_store" processingTime="2" exit="//@area.37/@component.6"/>
+    <itemGen frequency="1"/>
+  </area>
+  <area id="Area1" store="//@area.38/@component.9" buffer="//@area.38/@component.8">
+    <component xsi:type="tll:Turntable" id="a1_t1" processingTime="4" neighbour="//@area.38/@component.1"/>
+    <component xsi:type="tll:Conveyor" id="a1_c1" processingTime="2" neighbour="//@area.38/@component.2 //@area.38/@component.0"/>
+    <component xsi:type="tll:Turntable" id="a1_t2" processingTime="4" neighbour="//@area.38/@component.3 //@area.38/@component.1"/>
+    <component xsi:type="tll:Machine" id="a1_m1" processingTime="4" neighbour="//@area.38/@component.4 //@area.38/@component.2"/>
+    <component xsi:type="tll:Turntable" id="a1_t3" processingTime="4" neighbour="//@area.38/@component.5 //@area.38/@component.3"/>
+    <component xsi:type="tll:Conveyor" id="a1_c2" processingTime="4" neighbour="//@area.38/@component.6 //@area.38/@component.4"/>
+    <component xsi:type="tll:Turntable" id="a1_t4" processingTime="4" neighbour="//@area.38/@component.7 //@area.38/@component.5"/>
+    <component xsi:type="tll:Conveyor" id="a1_c3" processingTime="4" neighbour="//@area.38/@component.0 //@area.38/@component.6"/>
+    <component xsi:type="tll:WaitingQueue" id="a1_buffer" processingTime="2" entry="//@area.38/@component.0"/>
+    <component xsi:type="tll:StorageQueue" id="a1_store" processingTime="2" exit="//@area.38/@component.6"/>
+    <itemGen frequency="1"/>
+  </area>
+  <area id="Area1" store="//@area.39/@component.9" buffer="//@area.39/@component.8">
+    <component xsi:type="tll:Turntable" id="a1_t1" processingTime="4" neighbour="//@area.39/@component.1"/>
+    <component xsi:type="tll:Conveyor" id="a1_c1" processingTime="2" neighbour="//@area.39/@component.2 //@area.39/@component.0"/>
+    <component xsi:type="tll:Turntable" id="a1_t2" processingTime="4" neighbour="//@area.39/@component.3 //@area.39/@component.1"/>
+    <component xsi:type="tll:Machine" id="a1_m1" processingTime="4" neighbour="//@area.39/@component.4 //@area.39/@component.2"/>
+    <component xsi:type="tll:Turntable" id="a1_t3" processingTime="4" neighbour="//@area.39/@component.5 //@area.39/@component.3"/>
+    <component xsi:type="tll:Conveyor" id="a1_c2" processingTime="4" neighbour="//@area.39/@component.6 //@area.39/@component.4"/>
+    <component xsi:type="tll:Turntable" id="a1_t4" processingTime="4" neighbour="//@area.39/@component.7 //@area.39/@component.5"/>
+    <component xsi:type="tll:Conveyor" id="a1_c3" processingTime="4" neighbour="//@area.39/@component.0 //@area.39/@component.6"/>
+    <component xsi:type="tll:WaitingQueue" id="a1_buffer" processingTime="2" entry="//@area.39/@component.0"/>
+    <component xsi:type="tll:StorageQueue" id="a1_store" processingTime="2" exit="//@area.39/@component.6"/>
+    <itemGen frequency="1"/>
+  </area>
+  <area id="Area1" store="//@area.40/@component.9" buffer="//@area.40/@component.8">
+    <component xsi:type="tll:Turntable" id="a1_t1" processingTime="4" neighbour="//@area.40/@component.1"/>
+    <component xsi:type="tll:Conveyor" id="a1_c1" processingTime="2" neighbour="//@area.40/@component.2 //@area.40/@component.0"/>
+    <component xsi:type="tll:Turntable" id="a1_t2" processingTime="4" neighbour="//@area.40/@component.3 //@area.40/@component.1"/>
+    <component xsi:type="tll:Machine" id="a1_m1" processingTime="4" neighbour="//@area.40/@component.4 //@area.40/@component.2"/>
+    <component xsi:type="tll:Turntable" id="a1_t3" processingTime="4" neighbour="//@area.40/@component.5 //@area.40/@component.3"/>
+    <component xsi:type="tll:Conveyor" id="a1_c2" processingTime="4" neighbour="//@area.40/@component.6 //@area.40/@component.4"/>
+    <component xsi:type="tll:Turntable" id="a1_t4" processingTime="4" neighbour="//@area.40/@component.7 //@area.40/@component.5"/>
+    <component xsi:type="tll:Conveyor" id="a1_c3" processingTime="4" neighbour="//@area.40/@component.0 //@area.40/@component.6"/>
+    <component xsi:type="tll:WaitingQueue" id="a1_buffer" processingTime="2" entry="//@area.40/@component.0"/>
+    <component xsi:type="tll:StorageQueue" id="a1_store" processingTime="2" exit="//@area.40/@component.6"/>
+    <itemGen frequency="1"/>
+  </area>
+  <area id="Area1" store="//@area.41/@component.9" buffer="//@area.41/@component.8">
+    <component xsi:type="tll:Turntable" id="a1_t1" processingTime="4" neighbour="//@area.41/@component.1"/>
+    <component xsi:type="tll:Conveyor" id="a1_c1" processingTime="2" neighbour="//@area.41/@component.2 //@area.41/@component.0"/>
+    <component xsi:type="tll:Turntable" id="a1_t2" processingTime="4" neighbour="//@area.41/@component.3 //@area.41/@component.1"/>
+    <component xsi:type="tll:Machine" id="a1_m1" processingTime="4" neighbour="//@area.41/@component.4 //@area.41/@component.2"/>
+    <component xsi:type="tll:Turntable" id="a1_t3" processingTime="4" neighbour="//@area.41/@component.5 //@area.41/@component.3"/>
+    <component xsi:type="tll:Conveyor" id="a1_c2" processingTime="4" neighbour="//@area.41/@component.6 //@area.41/@component.4"/>
+    <component xsi:type="tll:Turntable" id="a1_t4" processingTime="4" neighbour="//@area.41/@component.7 //@area.41/@component.5"/>
+    <component xsi:type="tll:Conveyor" id="a1_c3" processingTime="4" neighbour="//@area.41/@component.0 //@area.41/@component.6"/>
+    <component xsi:type="tll:WaitingQueue" id="a1_buffer" processingTime="2" entry="//@area.41/@component.0"/>
+    <component xsi:type="tll:StorageQueue" id="a1_store" processingTime="2" exit="//@area.41/@component.6"/>
+    <itemGen frequency="1"/>
+  </area>
+  <area id="Area1" store="//@area.42/@component.9" buffer="//@area.42/@component.8">
+    <component xsi:type="tll:Turntable" id="a1_t1" processingTime="4" neighbour="//@area.42/@component.1"/>
+    <component xsi:type="tll:Conveyor" id="a1_c1" processingTime="2" neighbour="//@area.42/@component.2 //@area.42/@component.0"/>
+    <component xsi:type="tll:Turntable" id="a1_t2" processingTime="4" neighbour="//@area.42/@component.3 //@area.42/@component.1"/>
+    <component xsi:type="tll:Machine" id="a1_m1" processingTime="4" neighbour="//@area.42/@component.4 //@area.42/@component.2"/>
+    <component xsi:type="tll:Turntable" id="a1_t3" processingTime="4" neighbour="//@area.42/@component.5 //@area.42/@component.3"/>
+    <component xsi:type="tll:Conveyor" id="a1_c2" processingTime="4" neighbour="//@area.42/@component.6 //@area.42/@component.4"/>
+    <component xsi:type="tll:Turntable" id="a1_t4" processingTime="4" neighbour="//@area.42/@component.7 //@area.42/@component.5"/>
+    <component xsi:type="tll:Conveyor" id="a1_c3" processingTime="4" neighbour="//@area.42/@component.0 //@area.42/@component.6"/>
+    <component xsi:type="tll:WaitingQueue" id="a1_buffer" processingTime="2" entry="//@area.42/@component.0"/>
+    <component xsi:type="tll:StorageQueue" id="a1_store" processingTime="2" exit="//@area.42/@component.6"/>
+    <itemGen frequency="1"/>
+  </area>
+  <area id="Area1" store="//@area.43/@component.9" buffer="//@area.43/@component.8">
+    <component xsi:type="tll:Turntable" id="a1_t1" processingTime="4" neighbour="//@area.43/@component.1"/>
+    <component xsi:type="tll:Conveyor" id="a1_c1" processingTime="2" neighbour="//@area.43/@component.2 //@area.43/@component.0"/>
+    <component xsi:type="tll:Turntable" id="a1_t2" processingTime="4" neighbour="//@area.43/@component.3 //@area.43/@component.1"/>
+    <component xsi:type="tll:Machine" id="a1_m1" processingTime="4" neighbour="//@area.43/@component.4 //@area.43/@component.2"/>
+    <component xsi:type="tll:Turntable" id="a1_t3" processingTime="4" neighbour="//@area.43/@component.5 //@area.43/@component.3"/>
+    <component xsi:type="tll:Conveyor" id="a1_c2" processingTime="4" neighbour="//@area.43/@component.6 //@area.43/@component.4"/>
+    <component xsi:type="tll:Turntable" id="a1_t4" processingTime="4" neighbour="//@area.43/@component.7 //@area.43/@component.5"/>
+    <component xsi:type="tll:Conveyor" id="a1_c3" processingTime="4" neighbour="//@area.43/@component.0 //@area.43/@component.6"/>
+    <component xsi:type="tll:WaitingQueue" id="a1_buffer" processingTime="2" entry="//@area.43/@component.0"/>
+    <component xsi:type="tll:StorageQueue" id="a1_store" processingTime="2" exit="//@area.43/@component.6"/>
+    <itemGen frequency="1"/>
+  </area>
+  <area id="Area1" store="//@area.44/@component.9" buffer="//@area.44/@component.8">
+    <component xsi:type="tll:Turntable" id="a1_t1" processingTime="4" neighbour="//@area.44/@component.1"/>
+    <component xsi:type="tll:Conveyor" id="a1_c1" processingTime="2" neighbour="//@area.44/@component.2 //@area.44/@component.0"/>
+    <component xsi:type="tll:Turntable" id="a1_t2" processingTime="4" neighbour="//@area.44/@component.3 //@area.44/@component.1"/>
+    <component xsi:type="tll:Machine" id="a1_m1" processingTime="4" neighbour="//@area.44/@component.4 //@area.44/@component.2"/>
+    <component xsi:type="tll:Turntable" id="a1_t3" processingTime="4" neighbour="//@area.44/@component.5 //@area.44/@component.3"/>
+    <component xsi:type="tll:Conveyor" id="a1_c2" processingTime="4" neighbour="//@area.44/@component.6 //@area.44/@component.4"/>
+    <component xsi:type="tll:Turntable" id="a1_t4" processingTime="4" neighbour="//@area.44/@component.7 //@area.44/@component.5"/>
+    <component xsi:type="tll:Conveyor" id="a1_c3" processingTime="4" neighbour="//@area.44/@component.0 //@area.44/@component.6"/>
+    <component xsi:type="tll:WaitingQueue" id="a1_buffer" processingTime="2" entry="//@area.44/@component.0"/>
+    <component xsi:type="tll:StorageQueue" id="a1_store" processingTime="2" exit="//@area.44/@component.6"/>
+    <itemGen frequency="1"/>
+  </area>
+  <area id="Area1" store="//@area.45/@component.9" buffer="//@area.45/@component.8">
+    <component xsi:type="tll:Turntable" id="a1_t1" processingTime="4" neighbour="//@area.45/@component.1"/>
+    <component xsi:type="tll:Conveyor" id="a1_c1" processingTime="2" neighbour="//@area.45/@component.2 //@area.45/@component.0"/>
+    <component xsi:type="tll:Turntable" id="a1_t2" processingTime="4" neighbour="//@area.45/@component.3 //@area.45/@component.1"/>
+    <component xsi:type="tll:Machine" id="a1_m1" processingTime="4" neighbour="//@area.45/@component.4 //@area.45/@component.2"/>
+    <component xsi:type="tll:Turntable" id="a1_t3" processingTime="4" neighbour="//@area.45/@component.5 //@area.45/@component.3"/>
+    <component xsi:type="tll:Conveyor" id="a1_c2" processingTime="4" neighbour="//@area.45/@component.6 //@area.45/@component.4"/>
+    <component xsi:type="tll:Turntable" id="a1_t4" processingTime="4" neighbour="//@area.45/@component.7 //@area.45/@component.5"/>
+    <component xsi:type="tll:Conveyor" id="a1_c3" processingTime="4" neighbour="//@area.45/@component.0 //@area.45/@component.6"/>
+    <component xsi:type="tll:WaitingQueue" id="a1_buffer" processingTime="2" entry="//@area.45/@component.0"/>
+    <component xsi:type="tll:StorageQueue" id="a1_store" processingTime="2" exit="//@area.45/@component.6"/>
+    <itemGen frequency="1"/>
+  </area>
+  <area id="Area1" store="//@area.46/@component.9" buffer="//@area.46/@component.8">
+    <component xsi:type="tll:Turntable" id="a1_t1" processingTime="4" neighbour="//@area.46/@component.1"/>
+    <component xsi:type="tll:Conveyor" id="a1_c1" processingTime="2" neighbour="//@area.46/@component.2 //@area.46/@component.0"/>
+    <component xsi:type="tll:Turntable" id="a1_t2" processingTime="4" neighbour="//@area.46/@component.3 //@area.46/@component.1"/>
+    <component xsi:type="tll:Machine" id="a1_m1" processingTime="4" neighbour="//@area.46/@component.4 //@area.46/@component.2"/>
+    <component xsi:type="tll:Turntable" id="a1_t3" processingTime="4" neighbour="//@area.46/@component.5 //@area.46/@component.3"/>
+    <component xsi:type="tll:Conveyor" id="a1_c2" processingTime="4" neighbour="//@area.46/@component.6 //@area.46/@component.4"/>
+    <component xsi:type="tll:Turntable" id="a1_t4" processingTime="4" neighbour="//@area.46/@component.7 //@area.46/@component.5"/>
+    <component xsi:type="tll:Conveyor" id="a1_c3" processingTime="4" neighbour="//@area.46/@component.0 //@area.46/@component.6"/>
+    <component xsi:type="tll:WaitingQueue" id="a1_buffer" processingTime="2" entry="//@area.46/@component.0"/>
+    <component xsi:type="tll:StorageQueue" id="a1_store" processingTime="2" exit="//@area.46/@component.6"/>
+    <itemGen frequency="1"/>
+  </area>
+  <area id="Area1" store="//@area.47/@component.9" buffer="//@area.47/@component.8">
+    <component xsi:type="tll:Turntable" id="a1_t1" processingTime="4" neighbour="//@area.47/@component.1"/>
+    <component xsi:type="tll:Conveyor" id="a1_c1" processingTime="2" neighbour="//@area.47/@component.2 //@area.47/@component.0"/>
+    <component xsi:type="tll:Turntable" id="a1_t2" processingTime="4" neighbour="//@area.47/@component.3 //@area.47/@component.1"/>
+    <component xsi:type="tll:Machine" id="a1_m1" processingTime="4" neighbour="//@area.47/@component.4 //@area.47/@component.2"/>
+    <component xsi:type="tll:Turntable" id="a1_t3" processingTime="4" neighbour="//@area.47/@component.5 //@area.47/@component.3"/>
+    <component xsi:type="tll:Conveyor" id="a1_c2" processingTime="4" neighbour="//@area.47/@component.6 //@area.47/@component.4"/>
+    <component xsi:type="tll:Turntable" id="a1_t4" processingTime="4" neighbour="//@area.47/@component.7 //@area.47/@component.5"/>
+    <component xsi:type="tll:Conveyor" id="a1_c3" processingTime="4" neighbour="//@area.47/@component.0 //@area.47/@component.6"/>
+    <component xsi:type="tll:WaitingQueue" id="a1_buffer" processingTime="2" entry="//@area.47/@component.0"/>
+    <component xsi:type="tll:StorageQueue" id="a1_store" processingTime="2" exit="//@area.47/@component.6"/>
+    <itemGen frequency="1"/>
+  </area>
+  <area id="Area1" store="//@area.48/@component.9" buffer="//@area.48/@component.8">
+    <component xsi:type="tll:Turntable" id="a1_t1" processingTime="4" neighbour="//@area.48/@component.1"/>
+    <component xsi:type="tll:Conveyor" id="a1_c1" processingTime="2" neighbour="//@area.48/@component.2 //@area.48/@component.0"/>
+    <component xsi:type="tll:Turntable" id="a1_t2" processingTime="4" neighbour="//@area.48/@component.3 //@area.48/@component.1"/>
+    <component xsi:type="tll:Machine" id="a1_m1" processingTime="4" neighbour="//@area.48/@component.4 //@area.48/@component.2"/>
+    <component xsi:type="tll:Turntable" id="a1_t3" processingTime="4" neighbour="//@area.48/@component.5 //@area.48/@component.3"/>
+    <component xsi:type="tll:Conveyor" id="a1_c2" processingTime="4" neighbour="//@area.48/@component.6 //@area.48/@component.4"/>
+    <component xsi:type="tll:Turntable" id="a1_t4" processingTime="4" neighbour="//@area.48/@component.7 //@area.48/@component.5"/>
+    <component xsi:type="tll:Conveyor" id="a1_c3" processingTime="4" neighbour="//@area.48/@component.0 //@area.48/@component.6"/>
+    <component xsi:type="tll:WaitingQueue" id="a1_buffer" processingTime="2" entry="//@area.48/@component.0"/>
+    <component xsi:type="tll:StorageQueue" id="a1_store" processingTime="2" exit="//@area.48/@component.6"/>
+    <itemGen frequency="1"/>
+  </area>
+  <area id="Area1" store="//@area.49/@component.9" buffer="//@area.49/@component.8">
+    <component xsi:type="tll:Turntable" id="a1_t1" processingTime="4" neighbour="//@area.49/@component.1"/>
+    <component xsi:type="tll:Conveyor" id="a1_c1" processingTime="2" neighbour="//@area.49/@component.2 //@area.49/@component.0"/>
+    <component xsi:type="tll:Turntable" id="a1_t2" processingTime="4" neighbour="//@area.49/@component.3 //@area.49/@component.1"/>
+    <component xsi:type="tll:Machine" id="a1_m1" processingTime="4" neighbour="//@area.49/@component.4 //@area.49/@component.2"/>
+    <component xsi:type="tll:Turntable" id="a1_t3" processingTime="4" neighbour="//@area.49/@component.5 //@area.49/@component.3"/>
+    <component xsi:type="tll:Conveyor" id="a1_c2" processingTime="4" neighbour="//@area.49/@component.6 //@area.49/@component.4"/>
+    <component xsi:type="tll:Turntable" id="a1_t4" processingTime="4" neighbour="//@area.49/@component.7 //@area.49/@component.5"/>
+    <component xsi:type="tll:Conveyor" id="a1_c3" processingTime="4" neighbour="//@area.49/@component.0 //@area.49/@component.6"/>
+    <component xsi:type="tll:WaitingQueue" id="a1_buffer" processingTime="2" entry="//@area.49/@component.0"/>
+    <component xsi:type="tll:StorageQueue" id="a1_store" processingTime="2" exit="//@area.49/@component.6"/>
+    <itemGen frequency="1"/>
+  </area>
+  <area id="Area1" store="//@area.50/@component.9" buffer="//@area.50/@component.8">
+    <component xsi:type="tll:Turntable" id="a1_t1" processingTime="4" neighbour="//@area.50/@component.1"/>
+    <component xsi:type="tll:Conveyor" id="a1_c1" processingTime="2" neighbour="//@area.50/@component.2 //@area.50/@component.0"/>
+    <component xsi:type="tll:Turntable" id="a1_t2" processingTime="4" neighbour="//@area.50/@component.3 //@area.50/@component.1"/>
+    <component xsi:type="tll:Machine" id="a1_m1" processingTime="4" neighbour="//@area.50/@component.4 //@area.50/@component.2"/>
+    <component xsi:type="tll:Turntable" id="a1_t3" processingTime="4" neighbour="//@area.50/@component.5 //@area.50/@component.3"/>
+    <component xsi:type="tll:Conveyor" id="a1_c2" processingTime="4" neighbour="//@area.50/@component.6 //@area.50/@component.4"/>
+    <component xsi:type="tll:Turntable" id="a1_t4" processingTime="4" neighbour="//@area.50/@component.7 //@area.50/@component.5"/>
+    <component xsi:type="tll:Conveyor" id="a1_c3" processingTime="4" neighbour="//@area.50/@component.0 //@area.50/@component.6"/>
+    <component xsi:type="tll:WaitingQueue" id="a1_buffer" processingTime="2" entry="//@area.50/@component.0"/>
+    <component xsi:type="tll:StorageQueue" id="a1_store" processingTime="2" exit="//@area.50/@component.6"/>
+    <itemGen frequency="1"/>
+  </area>
+  <area id="Area1" store="//@area.51/@component.9" buffer="//@area.51/@component.8">
+    <component xsi:type="tll:Turntable" id="a1_t1" processingTime="4" neighbour="//@area.51/@component.1"/>
+    <component xsi:type="tll:Conveyor" id="a1_c1" processingTime="2" neighbour="//@area.51/@component.2 //@area.51/@component.0"/>
+    <component xsi:type="tll:Turntable" id="a1_t2" processingTime="4" neighbour="//@area.51/@component.3 //@area.51/@component.1"/>
+    <component xsi:type="tll:Machine" id="a1_m1" processingTime="4" neighbour="//@area.51/@component.4 //@area.51/@component.2"/>
+    <component xsi:type="tll:Turntable" id="a1_t3" processingTime="4" neighbour="//@area.51/@component.5 //@area.51/@component.3"/>
+    <component xsi:type="tll:Conveyor" id="a1_c2" processingTime="4" neighbour="//@area.51/@component.6 //@area.51/@component.4"/>
+    <component xsi:type="tll:Turntable" id="a1_t4" processingTime="4" neighbour="//@area.51/@component.7 //@area.51/@component.5"/>
+    <component xsi:type="tll:Conveyor" id="a1_c3" processingTime="4" neighbour="//@area.51/@component.0 //@area.51/@component.6"/>
+    <component xsi:type="tll:WaitingQueue" id="a1_buffer" processingTime="2" entry="//@area.51/@component.0"/>
+    <component xsi:type="tll:StorageQueue" id="a1_store" processingTime="2" exit="//@area.51/@component.6"/>
+    <itemGen frequency="1"/>
+  </area>
+  <area id="Area1" store="//@area.52/@component.9" buffer="//@area.52/@component.8">
+    <component xsi:type="tll:Turntable" id="a1_t1" processingTime="4" neighbour="//@area.52/@component.1"/>
+    <component xsi:type="tll:Conveyor" id="a1_c1" processingTime="2" neighbour="//@area.52/@component.2 //@area.52/@component.0"/>
+    <component xsi:type="tll:Turntable" id="a1_t2" processingTime="4" neighbour="//@area.52/@component.3 //@area.52/@component.1"/>
+    <component xsi:type="tll:Machine" id="a1_m1" processingTime="4" neighbour="//@area.52/@component.4 //@area.52/@component.2"/>
+    <component xsi:type="tll:Turntable" id="a1_t3" processingTime="4" neighbour="//@area.52/@component.5 //@area.52/@component.3"/>
+    <component xsi:type="tll:Conveyor" id="a1_c2" processingTime="4" neighbour="//@area.52/@component.6 //@area.52/@component.4"/>
+    <component xsi:type="tll:Turntable" id="a1_t4" processingTime="4" neighbour="//@area.52/@component.7 //@area.52/@component.5"/>
+    <component xsi:type="tll:Conveyor" id="a1_c3" processingTime="4" neighbour="//@area.52/@component.0 //@area.52/@component.6"/>
+    <component xsi:type="tll:WaitingQueue" id="a1_buffer" processingTime="2" entry="//@area.52/@component.0"/>
+    <component xsi:type="tll:StorageQueue" id="a1_store" processingTime="2" exit="//@area.52/@component.6"/>
+    <itemGen frequency="1"/>
+  </area>
+  <area id="Area1" store="//@area.53/@component.9" buffer="//@area.53/@component.8">
+    <component xsi:type="tll:Turntable" id="a1_t1" processingTime="4" neighbour="//@area.53/@component.1"/>
+    <component xsi:type="tll:Conveyor" id="a1_c1" processingTime="2" neighbour="//@area.53/@component.2 //@area.53/@component.0"/>
+    <component xsi:type="tll:Turntable" id="a1_t2" processingTime="4" neighbour="//@area.53/@component.3 //@area.53/@component.1"/>
+    <component xsi:type="tll:Machine" id="a1_m1" processingTime="4" neighbour="//@area.53/@component.4 //@area.53/@component.2"/>
+    <component xsi:type="tll:Turntable" id="a1_t3" processingTime="4" neighbour="//@area.53/@component.5 //@area.53/@component.3"/>
+    <component xsi:type="tll:Conveyor" id="a1_c2" processingTime="4" neighbour="//@area.53/@component.6 //@area.53/@component.4"/>
+    <component xsi:type="tll:Turntable" id="a1_t4" processingTime="4" neighbour="//@area.53/@component.7 //@area.53/@component.5"/>
+    <component xsi:type="tll:Conveyor" id="a1_c3" processingTime="4" neighbour="//@area.53/@component.0 //@area.53/@component.6"/>
+    <component xsi:type="tll:WaitingQueue" id="a1_buffer" processingTime="2" entry="//@area.53/@component.0"/>
+    <component xsi:type="tll:StorageQueue" id="a1_store" processingTime="2" exit="//@area.53/@component.6"/>
+    <itemGen frequency="1"/>
+  </area>
+  <area id="Area1" store="//@area.54/@component.9" buffer="//@area.54/@component.8">
+    <component xsi:type="tll:Turntable" id="a1_t1" processingTime="4" neighbour="//@area.54/@component.1"/>
+    <component xsi:type="tll:Conveyor" id="a1_c1" processingTime="2" neighbour="//@area.54/@component.2 //@area.54/@component.0"/>
+    <component xsi:type="tll:Turntable" id="a1_t2" processingTime="4" neighbour="//@area.54/@component.3 //@area.54/@component.1"/>
+    <component xsi:type="tll:Machine" id="a1_m1" processingTime="4" neighbour="//@area.54/@component.4 //@area.54/@component.2"/>
+    <component xsi:type="tll:Turntable" id="a1_t3" processingTime="4" neighbour="//@area.54/@component.5 //@area.54/@component.3"/>
+    <component xsi:type="tll:Conveyor" id="a1_c2" processingTime="4" neighbour="//@area.54/@component.6 //@area.54/@component.4"/>
+    <component xsi:type="tll:Turntable" id="a1_t4" processingTime="4" neighbour="//@area.54/@component.7 //@area.54/@component.5"/>
+    <component xsi:type="tll:Conveyor" id="a1_c3" processingTime="4" neighbour="//@area.54/@component.0 //@area.54/@component.6"/>
+    <component xsi:type="tll:WaitingQueue" id="a1_buffer" processingTime="2" entry="//@area.54/@component.0"/>
+    <component xsi:type="tll:StorageQueue" id="a1_store" processingTime="2" exit="//@area.54/@component.6"/>
+    <itemGen frequency="1"/>
+  </area>
+  <area id="Area1" store="//@area.55/@component.9" buffer="//@area.55/@component.8">
+    <component xsi:type="tll:Turntable" id="a1_t1" processingTime="4" neighbour="//@area.55/@component.1"/>
+    <component xsi:type="tll:Conveyor" id="a1_c1" processingTime="2" neighbour="//@area.55/@component.2 //@area.55/@component.0"/>
+    <component xsi:type="tll:Turntable" id="a1_t2" processingTime="4" neighbour="//@area.55/@component.3 //@area.55/@component.1"/>
+    <component xsi:type="tll:Machine" id="a1_m1" processingTime="4" neighbour="//@area.55/@component.4 //@area.55/@component.2"/>
+    <component xsi:type="tll:Turntable" id="a1_t3" processingTime="4" neighbour="//@area.55/@component.5 //@area.55/@component.3"/>
+    <component xsi:type="tll:Conveyor" id="a1_c2" processingTime="4" neighbour="//@area.55/@component.6 //@area.55/@component.4"/>
+    <component xsi:type="tll:Turntable" id="a1_t4" processingTime="4" neighbour="//@area.55/@component.7 //@area.55/@component.5"/>
+    <component xsi:type="tll:Conveyor" id="a1_c3" processingTime="4" neighbour="//@area.55/@component.0 //@area.55/@component.6"/>
+    <component xsi:type="tll:WaitingQueue" id="a1_buffer" processingTime="2" entry="//@area.55/@component.0"/>
+    <component xsi:type="tll:StorageQueue" id="a1_store" processingTime="2" exit="//@area.55/@component.6"/>
+    <itemGen frequency="1"/>
+  </area>
+  <area id="Area1" store="//@area.56/@component.9" buffer="//@area.56/@component.8">
+    <component xsi:type="tll:Turntable" id="a1_t1" processingTime="4" neighbour="//@area.56/@component.1"/>
+    <component xsi:type="tll:Conveyor" id="a1_c1" processingTime="2" neighbour="//@area.56/@component.2 //@area.56/@component.0"/>
+    <component xsi:type="tll:Turntable" id="a1_t2" processingTime="4" neighbour="//@area.56/@component.3 //@area.56/@component.1"/>
+    <component xsi:type="tll:Machine" id="a1_m1" processingTime="4" neighbour="//@area.56/@component.4 //@area.56/@component.2"/>
+    <component xsi:type="tll:Turntable" id="a1_t3" processingTime="4" neighbour="//@area.56/@component.5 //@area.56/@component.3"/>
+    <component xsi:type="tll:Conveyor" id="a1_c2" processingTime="4" neighbour="//@area.56/@component.6 //@area.56/@component.4"/>
+    <component xsi:type="tll:Turntable" id="a1_t4" processingTime="4" neighbour="//@area.56/@component.7 //@area.56/@component.5"/>
+    <component xsi:type="tll:Conveyor" id="a1_c3" processingTime="4" neighbour="//@area.56/@component.0 //@area.56/@component.6"/>
+    <component xsi:type="tll:WaitingQueue" id="a1_buffer" processingTime="2" entry="//@area.56/@component.0"/>
+    <component xsi:type="tll:StorageQueue" id="a1_store" processingTime="2" exit="//@area.56/@component.6"/>
+    <itemGen frequency="1"/>
+  </area>
+  <area id="Area1" store="//@area.57/@component.9" buffer="//@area.57/@component.8">
+    <component xsi:type="tll:Turntable" id="a1_t1" processingTime="4" neighbour="//@area.57/@component.1"/>
+    <component xsi:type="tll:Conveyor" id="a1_c1" processingTime="2" neighbour="//@area.57/@component.2 //@area.57/@component.0"/>
+    <component xsi:type="tll:Turntable" id="a1_t2" processingTime="4" neighbour="//@area.57/@component.3 //@area.57/@component.1"/>
+    <component xsi:type="tll:Machine" id="a1_m1" processingTime="4" neighbour="//@area.57/@component.4 //@area.57/@component.2"/>
+    <component xsi:type="tll:Turntable" id="a1_t3" processingTime="4" neighbour="//@area.57/@component.5 //@area.57/@component.3"/>
+    <component xsi:type="tll:Conveyor" id="a1_c2" processingTime="4" neighbour="//@area.57/@component.6 //@area.57/@component.4"/>
+    <component xsi:type="tll:Turntable" id="a1_t4" processingTime="4" neighbour="//@area.57/@component.7 //@area.57/@component.5"/>
+    <component xsi:type="tll:Conveyor" id="a1_c3" processingTime="4" neighbour="//@area.57/@component.0 //@area.57/@component.6"/>
+    <component xsi:type="tll:WaitingQueue" id="a1_buffer" processingTime="2" entry="//@area.57/@component.0"/>
+    <component xsi:type="tll:StorageQueue" id="a1_store" processingTime="2" exit="//@area.57/@component.6"/>
+    <itemGen frequency="1"/>
+  </area>
+  <area id="Area1" store="//@area.58/@component.9" buffer="//@area.58/@component.8">
+    <component xsi:type="tll:Turntable" id="a1_t1" processingTime="4" neighbour="//@area.58/@component.1"/>
+    <component xsi:type="tll:Conveyor" id="a1_c1" processingTime="2" neighbour="//@area.58/@component.2 //@area.58/@component.0"/>
+    <component xsi:type="tll:Turntable" id="a1_t2" processingTime="4" neighbour="//@area.58/@component.3 //@area.58/@component.1"/>
+    <component xsi:type="tll:Machine" id="a1_m1" processingTime="4" neighbour="//@area.58/@component.4 //@area.58/@component.2"/>
+    <component xsi:type="tll:Turntable" id="a1_t3" processingTime="4" neighbour="//@area.58/@component.5 //@area.58/@component.3"/>
+    <component xsi:type="tll:Conveyor" id="a1_c2" processingTime="4" neighbour="//@area.58/@component.6 //@area.58/@component.4"/>
+    <component xsi:type="tll:Turntable" id="a1_t4" processingTime="4" neighbour="//@area.58/@component.7 //@area.58/@component.5"/>
+    <component xsi:type="tll:Conveyor" id="a1_c3" processingTime="4" neighbour="//@area.58/@component.0 //@area.58/@component.6"/>
+    <component xsi:type="tll:WaitingQueue" id="a1_buffer" processingTime="2" entry="//@area.58/@component.0"/>
+    <component xsi:type="tll:StorageQueue" id="a1_store" processingTime="2" exit="//@area.58/@component.6"/>
+    <itemGen frequency="1"/>
+  </area>
+  <area id="Area1" store="//@area.59/@component.9" buffer="//@area.59/@component.8">
+    <component xsi:type="tll:Turntable" id="a1_t1" processingTime="4" neighbour="//@area.59/@component.1"/>
+    <component xsi:type="tll:Conveyor" id="a1_c1" processingTime="2" neighbour="//@area.59/@component.2 //@area.59/@component.0"/>
+    <component xsi:type="tll:Turntable" id="a1_t2" processingTime="4" neighbour="//@area.59/@component.3 //@area.59/@component.1"/>
+    <component xsi:type="tll:Machine" id="a1_m1" processingTime="4" neighbour="//@area.59/@component.4 //@area.59/@component.2"/>
+    <component xsi:type="tll:Turntable" id="a1_t3" processingTime="4" neighbour="//@area.59/@component.5 //@area.59/@component.3"/>
+    <component xsi:type="tll:Conveyor" id="a1_c2" processingTime="4" neighbour="//@area.59/@component.6 //@area.59/@component.4"/>
+    <component xsi:type="tll:Turntable" id="a1_t4" processingTime="4" neighbour="//@area.59/@component.7 //@area.59/@component.5"/>
+    <component xsi:type="tll:Conveyor" id="a1_c3" processingTime="4" neighbour="//@area.59/@component.0 //@area.59/@component.6"/>
+    <component xsi:type="tll:WaitingQueue" id="a1_buffer" processingTime="2" entry="//@area.59/@component.0"/>
+    <component xsi:type="tll:StorageQueue" id="a1_store" processingTime="2" exit="//@area.59/@component.6"/>
+    <itemGen frequency="1"/>
+  </area>
+  <area id="Area1" store="//@area.60/@component.9" buffer="//@area.60/@component.8">
+    <component xsi:type="tll:Turntable" id="a1_t1" processingTime="4" neighbour="//@area.60/@component.1"/>
+    <component xsi:type="tll:Conveyor" id="a1_c1" processingTime="2" neighbour="//@area.60/@component.2 //@area.60/@component.0"/>
+    <component xsi:type="tll:Turntable" id="a1_t2" processingTime="4" neighbour="//@area.60/@component.3 //@area.60/@component.1"/>
+    <component xsi:type="tll:Machine" id="a1_m1" processingTime="4" neighbour="//@area.60/@component.4 //@area.60/@component.2"/>
+    <component xsi:type="tll:Turntable" id="a1_t3" processingTime="4" neighbour="//@area.60/@component.5 //@area.60/@component.3"/>
+    <component xsi:type="tll:Conveyor" id="a1_c2" processingTime="4" neighbour="//@area.60/@component.6 //@area.60/@component.4"/>
+    <component xsi:type="tll:Turntable" id="a1_t4" processingTime="4" neighbour="//@area.60/@component.7 //@area.60/@component.5"/>
+    <component xsi:type="tll:Conveyor" id="a1_c3" processingTime="4" neighbour="//@area.60/@component.0 //@area.60/@component.6"/>
+    <component xsi:type="tll:WaitingQueue" id="a1_buffer" processingTime="2" entry="//@area.60/@component.0"/>
+    <component xsi:type="tll:StorageQueue" id="a1_store" processingTime="2" exit="//@area.60/@component.6"/>
+    <itemGen frequency="1"/>
+  </area>
+  <area id="Area1" store="//@area.61/@component.9" buffer="//@area.61/@component.8">
+    <component xsi:type="tll:Turntable" id="a1_t1" processingTime="4" neighbour="//@area.61/@component.1"/>
+    <component xsi:type="tll:Conveyor" id="a1_c1" processingTime="2" neighbour="//@area.61/@component.2 //@area.61/@component.0"/>
+    <component xsi:type="tll:Turntable" id="a1_t2" processingTime="4" neighbour="//@area.61/@component.3 //@area.61/@component.1"/>
+    <component xsi:type="tll:Machine" id="a1_m1" processingTime="4" neighbour="//@area.61/@component.4 //@area.61/@component.2"/>
+    <component xsi:type="tll:Turntable" id="a1_t3" processingTime="4" neighbour="//@area.61/@component.5 //@area.61/@component.3"/>
+    <component xsi:type="tll:Conveyor" id="a1_c2" processingTime="4" neighbour="//@area.61/@component.6 //@area.61/@component.4"/>
+    <component xsi:type="tll:Turntable" id="a1_t4" processingTime="4" neighbour="//@area.61/@component.7 //@area.61/@component.5"/>
+    <component xsi:type="tll:Conveyor" id="a1_c3" processingTime="4" neighbour="//@area.61/@component.0 //@area.61/@component.6"/>
+    <component xsi:type="tll:WaitingQueue" id="a1_buffer" processingTime="2" entry="//@area.61/@component.0"/>
+    <component xsi:type="tll:StorageQueue" id="a1_store" processingTime="2" exit="//@area.61/@component.6"/>
+    <itemGen frequency="1"/>
+  </area>
+  <area id="Area1" store="//@area.62/@component.9" buffer="//@area.62/@component.8">
+    <component xsi:type="tll:Turntable" id="a1_t1" processingTime="4" neighbour="//@area.62/@component.1"/>
+    <component xsi:type="tll:Conveyor" id="a1_c1" processingTime="2" neighbour="//@area.62/@component.2 //@area.62/@component.0"/>
+    <component xsi:type="tll:Turntable" id="a1_t2" processingTime="4" neighbour="//@area.62/@component.3 //@area.62/@component.1"/>
+    <component xsi:type="tll:Machine" id="a1_m1" processingTime="4" neighbour="//@area.62/@component.4 //@area.62/@component.2"/>
+    <component xsi:type="tll:Turntable" id="a1_t3" processingTime="4" neighbour="//@area.62/@component.5 //@area.62/@component.3"/>
+    <component xsi:type="tll:Conveyor" id="a1_c2" processingTime="4" neighbour="//@area.62/@component.6 //@area.62/@component.4"/>
+    <component xsi:type="tll:Turntable" id="a1_t4" processingTime="4" neighbour="//@area.62/@component.7 //@area.62/@component.5"/>
+    <component xsi:type="tll:Conveyor" id="a1_c3" processingTime="4" neighbour="//@area.62/@component.0 //@area.62/@component.6"/>
+    <component xsi:type="tll:WaitingQueue" id="a1_buffer" processingTime="2" entry="//@area.62/@component.0"/>
+    <component xsi:type="tll:StorageQueue" id="a1_store" processingTime="2" exit="//@area.62/@component.6"/>
+    <itemGen frequency="1"/>
+  </area>
+  <area id="Area1" store="//@area.63/@component.9" buffer="//@area.63/@component.8">
+    <component xsi:type="tll:Turntable" id="a1_t1" processingTime="4" neighbour="//@area.63/@component.1"/>
+    <component xsi:type="tll:Conveyor" id="a1_c1" processingTime="2" neighbour="//@area.63/@component.2 //@area.63/@component.0"/>
+    <component xsi:type="tll:Turntable" id="a1_t2" processingTime="4" neighbour="//@area.63/@component.3 //@area.63/@component.1"/>
+    <component xsi:type="tll:Machine" id="a1_m1" processingTime="4" neighbour="//@area.63/@component.4 //@area.63/@component.2"/>
+    <component xsi:type="tll:Turntable" id="a1_t3" processingTime="4" neighbour="//@area.63/@component.5 //@area.63/@component.3"/>
+    <component xsi:type="tll:Conveyor" id="a1_c2" processingTime="4" neighbour="//@area.63/@component.6 //@area.63/@component.4"/>
+    <component xsi:type="tll:Turntable" id="a1_t4" processingTime="4" neighbour="//@area.63/@component.7 //@area.63/@component.5"/>
+    <component xsi:type="tll:Conveyor" id="a1_c3" processingTime="4" neighbour="//@area.63/@component.0 //@area.63/@component.6"/>
+    <component xsi:type="tll:WaitingQueue" id="a1_buffer" processingTime="2" entry="//@area.63/@component.0"/>
+    <component xsi:type="tll:StorageQueue" id="a1_store" processingTime="2" exit="//@area.63/@component.6"/>
+    <itemGen frequency="1"/>
+  </area>
+  <area id="Area1" store="//@area.64/@component.9" buffer="//@area.64/@component.8">
+    <component xsi:type="tll:Turntable" id="a1_t1" processingTime="4" neighbour="//@area.64/@component.1"/>
+    <component xsi:type="tll:Conveyor" id="a1_c1" processingTime="2" neighbour="//@area.64/@component.2 //@area.64/@component.0"/>
+    <component xsi:type="tll:Turntable" id="a1_t2" processingTime="4" neighbour="//@area.64/@component.3 //@area.64/@component.1"/>
+    <component xsi:type="tll:Machine" id="a1_m1" processingTime="4" neighbour="//@area.64/@component.4 //@area.64/@component.2"/>
+    <component xsi:type="tll:Turntable" id="a1_t3" processingTime="4" neighbour="//@area.64/@component.5 //@area.64/@component.3"/>
+    <component xsi:type="tll:Conveyor" id="a1_c2" processingTime="4" neighbour="//@area.64/@component.6 //@area.64/@component.4"/>
+    <component xsi:type="tll:Turntable" id="a1_t4" processingTime="4" neighbour="//@area.64/@component.7 //@area.64/@component.5"/>
+    <component xsi:type="tll:Conveyor" id="a1_c3" processingTime="4" neighbour="//@area.64/@component.0 //@area.64/@component.6"/>
+    <component xsi:type="tll:WaitingQueue" id="a1_buffer" processingTime="2" entry="//@area.64/@component.0"/>
+    <component xsi:type="tll:StorageQueue" id="a1_store" processingTime="2" exit="//@area.64/@component.6"/>
+    <itemGen frequency="1"/>
+  </area>
+  <area id="Area1" store="//@area.65/@component.9" buffer="//@area.65/@component.8">
+    <component xsi:type="tll:Turntable" id="a1_t1" processingTime="4" neighbour="//@area.65/@component.1"/>
+    <component xsi:type="tll:Conveyor" id="a1_c1" processingTime="2" neighbour="//@area.65/@component.2 //@area.65/@component.0"/>
+    <component xsi:type="tll:Turntable" id="a1_t2" processingTime="4" neighbour="//@area.65/@component.3 //@area.65/@component.1"/>
+    <component xsi:type="tll:Machine" id="a1_m1" processingTime="4" neighbour="//@area.65/@component.4 //@area.65/@component.2"/>
+    <component xsi:type="tll:Turntable" id="a1_t3" processingTime="4" neighbour="//@area.65/@component.5 //@area.65/@component.3"/>
+    <component xsi:type="tll:Conveyor" id="a1_c2" processingTime="4" neighbour="//@area.65/@component.6 //@area.65/@component.4"/>
+    <component xsi:type="tll:Turntable" id="a1_t4" processingTime="4" neighbour="//@area.65/@component.7 //@area.65/@component.5"/>
+    <component xsi:type="tll:Conveyor" id="a1_c3" processingTime="4" neighbour="//@area.65/@component.0 //@area.65/@component.6"/>
+    <component xsi:type="tll:WaitingQueue" id="a1_buffer" processingTime="2" entry="//@area.65/@component.0"/>
+    <component xsi:type="tll:StorageQueue" id="a1_store" processingTime="2" exit="//@area.65/@component.6"/>
+    <itemGen frequency="1"/>
+  </area>
+  <area id="Area1" store="//@area.66/@component.9" buffer="//@area.66/@component.8">
+    <component xsi:type="tll:Turntable" id="a1_t1" processingTime="4" neighbour="//@area.66/@component.1"/>
+    <component xsi:type="tll:Conveyor" id="a1_c1" processingTime="2" neighbour="//@area.66/@component.2 //@area.66/@component.0"/>
+    <component xsi:type="tll:Turntable" id="a1_t2" processingTime="4" neighbour="//@area.66/@component.3 //@area.66/@component.1"/>
+    <component xsi:type="tll:Machine" id="a1_m1" processingTime="4" neighbour="//@area.66/@component.4 //@area.66/@component.2"/>
+    <component xsi:type="tll:Turntable" id="a1_t3" processingTime="4" neighbour="//@area.66/@component.5 //@area.66/@component.3"/>
+    <component xsi:type="tll:Conveyor" id="a1_c2" processingTime="4" neighbour="//@area.66/@component.6 //@area.66/@component.4"/>
+    <component xsi:type="tll:Turntable" id="a1_t4" processingTime="4" neighbour="//@area.66/@component.7 //@area.66/@component.5"/>
+    <component xsi:type="tll:Conveyor" id="a1_c3" processingTime="4" neighbour="//@area.66/@component.0 //@area.66/@component.6"/>
+    <component xsi:type="tll:WaitingQueue" id="a1_buffer" processingTime="2" entry="//@area.66/@component.0"/>
+    <component xsi:type="tll:StorageQueue" id="a1_store" processingTime="2" exit="//@area.66/@component.6"/>
+    <itemGen frequency="1"/>
+  </area>
+  <area id="Area1" store="//@area.67/@component.9" buffer="//@area.67/@component.8">
+    <component xsi:type="tll:Turntable" id="a1_t1" processingTime="4" neighbour="//@area.67/@component.1"/>
+    <component xsi:type="tll:Conveyor" id="a1_c1" processingTime="2" neighbour="//@area.67/@component.2 //@area.67/@component.0"/>
+    <component xsi:type="tll:Turntable" id="a1_t2" processingTime="4" neighbour="//@area.67/@component.3 //@area.67/@component.1"/>
+    <component xsi:type="tll:Machine" id="a1_m1" processingTime="4" neighbour="//@area.67/@component.4 //@area.67/@component.2"/>
+    <component xsi:type="tll:Turntable" id="a1_t3" processingTime="4" neighbour="//@area.67/@component.5 //@area.67/@component.3"/>
+    <component xsi:type="tll:Conveyor" id="a1_c2" processingTime="4" neighbour="//@area.67/@component.6 //@area.67/@component.4"/>
+    <component xsi:type="tll:Turntable" id="a1_t4" processingTime="4" neighbour="//@area.67/@component.7 //@area.67/@component.5"/>
+    <component xsi:type="tll:Conveyor" id="a1_c3" processingTime="4" neighbour="//@area.67/@component.0 //@area.67/@component.6"/>
+    <component xsi:type="tll:WaitingQueue" id="a1_buffer" processingTime="2" entry="//@area.67/@component.0"/>
+    <component xsi:type="tll:StorageQueue" id="a1_store" processingTime="2" exit="//@area.67/@component.6"/>
+    <itemGen frequency="1"/>
+  </area>
+  <area id="Area1" store="//@area.68/@component.9" buffer="//@area.68/@component.8">
+    <component xsi:type="tll:Turntable" id="a1_t1" processingTime="4" neighbour="//@area.68/@component.1"/>
+    <component xsi:type="tll:Conveyor" id="a1_c1" processingTime="2" neighbour="//@area.68/@component.2 //@area.68/@component.0"/>
+    <component xsi:type="tll:Turntable" id="a1_t2" processingTime="4" neighbour="//@area.68/@component.3 //@area.68/@component.1"/>
+    <component xsi:type="tll:Machine" id="a1_m1" processingTime="4" neighbour="//@area.68/@component.4 //@area.68/@component.2"/>
+    <component xsi:type="tll:Turntable" id="a1_t3" processingTime="4" neighbour="//@area.68/@component.5 //@area.68/@component.3"/>
+    <component xsi:type="tll:Conveyor" id="a1_c2" processingTime="4" neighbour="//@area.68/@component.6 //@area.68/@component.4"/>
+    <component xsi:type="tll:Turntable" id="a1_t4" processingTime="4" neighbour="//@area.68/@component.7 //@area.68/@component.5"/>
+    <component xsi:type="tll:Conveyor" id="a1_c3" processingTime="4" neighbour="//@area.68/@component.0 //@area.68/@component.6"/>
+    <component xsi:type="tll:WaitingQueue" id="a1_buffer" processingTime="2" entry="//@area.68/@component.0"/>
+    <component xsi:type="tll:StorageQueue" id="a1_store" processingTime="2" exit="//@area.68/@component.6"/>
+    <itemGen frequency="1"/>
+  </area>
+  <area id="Area1" store="//@area.69/@component.9" buffer="//@area.69/@component.8">
+    <component xsi:type="tll:Turntable" id="a1_t1" processingTime="4" neighbour="//@area.69/@component.1"/>
+    <component xsi:type="tll:Conveyor" id="a1_c1" processingTime="2" neighbour="//@area.69/@component.2 //@area.69/@component.0"/>
+    <component xsi:type="tll:Turntable" id="a1_t2" processingTime="4" neighbour="//@area.69/@component.3 //@area.69/@component.1"/>
+    <component xsi:type="tll:Machine" id="a1_m1" processingTime="4" neighbour="//@area.69/@component.4 //@area.69/@component.2"/>
+    <component xsi:type="tll:Turntable" id="a1_t3" processingTime="4" neighbour="//@area.69/@component.5 //@area.69/@component.3"/>
+    <component xsi:type="tll:Conveyor" id="a1_c2" processingTime="4" neighbour="//@area.69/@component.6 //@area.69/@component.4"/>
+    <component xsi:type="tll:Turntable" id="a1_t4" processingTime="4" neighbour="//@area.69/@component.7 //@area.69/@component.5"/>
+    <component xsi:type="tll:Conveyor" id="a1_c3" processingTime="4" neighbour="//@area.69/@component.0 //@area.69/@component.6"/>
+    <component xsi:type="tll:WaitingQueue" id="a1_buffer" processingTime="2" entry="//@area.69/@component.0"/>
+    <component xsi:type="tll:StorageQueue" id="a1_store" processingTime="2" exit="//@area.69/@component.6"/>
+    <itemGen frequency="1"/>
+  </area>
+  <area id="Area1" store="//@area.70/@component.9" buffer="//@area.70/@component.8">
+    <component xsi:type="tll:Turntable" id="a1_t1" processingTime="4" neighbour="//@area.70/@component.1"/>
+    <component xsi:type="tll:Conveyor" id="a1_c1" processingTime="2" neighbour="//@area.70/@component.2 //@area.70/@component.0"/>
+    <component xsi:type="tll:Turntable" id="a1_t2" processingTime="4" neighbour="//@area.70/@component.3 //@area.70/@component.1"/>
+    <component xsi:type="tll:Machine" id="a1_m1" processingTime="4" neighbour="//@area.70/@component.4 //@area.70/@component.2"/>
+    <component xsi:type="tll:Turntable" id="a1_t3" processingTime="4" neighbour="//@area.70/@component.5 //@area.70/@component.3"/>
+    <component xsi:type="tll:Conveyor" id="a1_c2" processingTime="4" neighbour="//@area.70/@component.6 //@area.70/@component.4"/>
+    <component xsi:type="tll:Turntable" id="a1_t4" processingTime="4" neighbour="//@area.70/@component.7 //@area.70/@component.5"/>
+    <component xsi:type="tll:Conveyor" id="a1_c3" processingTime="4" neighbour="//@area.70/@component.0 //@area.70/@component.6"/>
+    <component xsi:type="tll:WaitingQueue" id="a1_buffer" processingTime="2" entry="//@area.70/@component.0"/>
+    <component xsi:type="tll:StorageQueue" id="a1_store" processingTime="2" exit="//@area.70/@component.6"/>
+    <itemGen frequency="1"/>
+  </area>
+  <area id="Area1" store="//@area.71/@component.9" buffer="//@area.71/@component.8">
+    <component xsi:type="tll:Turntable" id="a1_t1" processingTime="4" neighbour="//@area.71/@component.1"/>
+    <component xsi:type="tll:Conveyor" id="a1_c1" processingTime="2" neighbour="//@area.71/@component.2 //@area.71/@component.0"/>
+    <component xsi:type="tll:Turntable" id="a1_t2" processingTime="4" neighbour="//@area.71/@component.3 //@area.71/@component.1"/>
+    <component xsi:type="tll:Machine" id="a1_m1" processingTime="4" neighbour="//@area.71/@component.4 //@area.71/@component.2"/>
+    <component xsi:type="tll:Turntable" id="a1_t3" processingTime="4" neighbour="//@area.71/@component.5 //@area.71/@component.3"/>
+    <component xsi:type="tll:Conveyor" id="a1_c2" processingTime="4" neighbour="//@area.71/@component.6 //@area.71/@component.4"/>
+    <component xsi:type="tll:Turntable" id="a1_t4" processingTime="4" neighbour="//@area.71/@component.7 //@area.71/@component.5"/>
+    <component xsi:type="tll:Conveyor" id="a1_c3" processingTime="4" neighbour="//@area.71/@component.0 //@area.71/@component.6"/>
+    <component xsi:type="tll:WaitingQueue" id="a1_buffer" processingTime="2" entry="//@area.71/@component.0"/>
+    <component xsi:type="tll:StorageQueue" id="a1_store" processingTime="2" exit="//@area.71/@component.6"/>
+    <itemGen frequency="1"/>
+  </area>
+  <area id="Area1" store="//@area.72/@component.9" buffer="//@area.72/@component.8">
+    <component xsi:type="tll:Turntable" id="a1_t1" processingTime="4" neighbour="//@area.72/@component.1"/>
+    <component xsi:type="tll:Conveyor" id="a1_c1" processingTime="2" neighbour="//@area.72/@component.2 //@area.72/@component.0"/>
+    <component xsi:type="tll:Turntable" id="a1_t2" processingTime="4" neighbour="//@area.72/@component.3 //@area.72/@component.1"/>
+    <component xsi:type="tll:Machine" id="a1_m1" processingTime="4" neighbour="//@area.72/@component.4 //@area.72/@component.2"/>
+    <component xsi:type="tll:Turntable" id="a1_t3" processingTime="4" neighbour="//@area.72/@component.5 //@area.72/@component.3"/>
+    <component xsi:type="tll:Conveyor" id="a1_c2" processingTime="4" neighbour="//@area.72/@component.6 //@area.72/@component.4"/>
+    <component xsi:type="tll:Turntable" id="a1_t4" processingTime="4" neighbour="//@area.72/@component.7 //@area.72/@component.5"/>
+    <component xsi:type="tll:Conveyor" id="a1_c3" processingTime="4" neighbour="//@area.72/@component.0 //@area.72/@component.6"/>
+    <component xsi:type="tll:WaitingQueue" id="a1_buffer" processingTime="2" entry="//@area.72/@component.0"/>
+    <component xsi:type="tll:StorageQueue" id="a1_store" processingTime="2" exit="//@area.72/@component.6"/>
+    <itemGen frequency="1"/>
+  </area>
+  <area id="Area1" store="//@area.73/@component.9" buffer="//@area.73/@component.8">
+    <component xsi:type="tll:Turntable" id="a1_t1" processingTime="4" neighbour="//@area.73/@component.1"/>
+    <component xsi:type="tll:Conveyor" id="a1_c1" processingTime="2" neighbour="//@area.73/@component.2 //@area.73/@component.0"/>
+    <component xsi:type="tll:Turntable" id="a1_t2" processingTime="4" neighbour="//@area.73/@component.3 //@area.73/@component.1"/>
+    <component xsi:type="tll:Machine" id="a1_m1" processingTime="4" neighbour="//@area.73/@component.4 //@area.73/@component.2"/>
+    <component xsi:type="tll:Turntable" id="a1_t3" processingTime="4" neighbour="//@area.73/@component.5 //@area.73/@component.3"/>
+    <component xsi:type="tll:Conveyor" id="a1_c2" processingTime="4" neighbour="//@area.73/@component.6 //@area.73/@component.4"/>
+    <component xsi:type="tll:Turntable" id="a1_t4" processingTime="4" neighbour="//@area.73/@component.7 //@area.73/@component.5"/>
+    <component xsi:type="tll:Conveyor" id="a1_c3" processingTime="4" neighbour="//@area.73/@component.0 //@area.73/@component.6"/>
+    <component xsi:type="tll:WaitingQueue" id="a1_buffer" processingTime="2" entry="//@area.73/@component.0"/>
+    <component xsi:type="tll:StorageQueue" id="a1_store" processingTime="2" exit="//@area.73/@component.6"/>
+    <itemGen frequency="1"/>
+  </area>
+  <area id="Area1" store="//@area.74/@component.9" buffer="//@area.74/@component.8">
+    <component xsi:type="tll:Turntable" id="a1_t1" processingTime="4" neighbour="//@area.74/@component.1"/>
+    <component xsi:type="tll:Conveyor" id="a1_c1" processingTime="2" neighbour="//@area.74/@component.2 //@area.74/@component.0"/>
+    <component xsi:type="tll:Turntable" id="a1_t2" processingTime="4" neighbour="//@area.74/@component.3 //@area.74/@component.1"/>
+    <component xsi:type="tll:Machine" id="a1_m1" processingTime="4" neighbour="//@area.74/@component.4 //@area.74/@component.2"/>
+    <component xsi:type="tll:Turntable" id="a1_t3" processingTime="4" neighbour="//@area.74/@component.5 //@area.74/@component.3"/>
+    <component xsi:type="tll:Conveyor" id="a1_c2" processingTime="4" neighbour="//@area.74/@component.6 //@area.74/@component.4"/>
+    <component xsi:type="tll:Turntable" id="a1_t4" processingTime="4" neighbour="//@area.74/@component.7 //@area.74/@component.5"/>
+    <component xsi:type="tll:Conveyor" id="a1_c3" processingTime="4" neighbour="//@area.74/@component.0 //@area.74/@component.6"/>
+    <component xsi:type="tll:WaitingQueue" id="a1_buffer" processingTime="2" entry="//@area.74/@component.0"/>
+    <component xsi:type="tll:StorageQueue" id="a1_store" processingTime="2" exit="//@area.74/@component.6"/>
+    <itemGen frequency="1"/>
+  </area>
+  <area id="Area1" store="//@area.75/@component.9" buffer="//@area.75/@component.8">
+    <component xsi:type="tll:Turntable" id="a1_t1" processingTime="4" neighbour="//@area.75/@component.1"/>
+    <component xsi:type="tll:Conveyor" id="a1_c1" processingTime="2" neighbour="//@area.75/@component.2 //@area.75/@component.0"/>
+    <component xsi:type="tll:Turntable" id="a1_t2" processingTime="4" neighbour="//@area.75/@component.3 //@area.75/@component.1"/>
+    <component xsi:type="tll:Machine" id="a1_m1" processingTime="4" neighbour="//@area.75/@component.4 //@area.75/@component.2"/>
+    <component xsi:type="tll:Turntable" id="a1_t3" processingTime="4" neighbour="//@area.75/@component.5 //@area.75/@component.3"/>
+    <component xsi:type="tll:Conveyor" id="a1_c2" processingTime="4" neighbour="//@area.75/@component.6 //@area.75/@component.4"/>
+    <component xsi:type="tll:Turntable" id="a1_t4" processingTime="4" neighbour="//@area.75/@component.7 //@area.75/@component.5"/>
+    <component xsi:type="tll:Conveyor" id="a1_c3" processingTime="4" neighbour="//@area.75/@component.0 //@area.75/@component.6"/>
+    <component xsi:type="tll:WaitingQueue" id="a1_buffer" processingTime="2" entry="//@area.75/@component.0"/>
+    <component xsi:type="tll:StorageQueue" id="a1_store" processingTime="2" exit="//@area.75/@component.6"/>
+    <itemGen frequency="1"/>
+  </area>
+  <area id="Area1" store="//@area.76/@component.9" buffer="//@area.76/@component.8">
+    <component xsi:type="tll:Turntable" id="a1_t1" processingTime="4" neighbour="//@area.76/@component.1"/>
+    <component xsi:type="tll:Conveyor" id="a1_c1" processingTime="2" neighbour="//@area.76/@component.2 //@area.76/@component.0"/>
+    <component xsi:type="tll:Turntable" id="a1_t2" processingTime="4" neighbour="//@area.76/@component.3 //@area.76/@component.1"/>
+    <component xsi:type="tll:Machine" id="a1_m1" processingTime="4" neighbour="//@area.76/@component.4 //@area.76/@component.2"/>
+    <component xsi:type="tll:Turntable" id="a1_t3" processingTime="4" neighbour="//@area.76/@component.5 //@area.76/@component.3"/>
+    <component xsi:type="tll:Conveyor" id="a1_c2" processingTime="4" neighbour="//@area.76/@component.6 //@area.76/@component.4"/>
+    <component xsi:type="tll:Turntable" id="a1_t4" processingTime="4" neighbour="//@area.76/@component.7 //@area.76/@component.5"/>
+    <component xsi:type="tll:Conveyor" id="a1_c3" processingTime="4" neighbour="//@area.76/@component.0 //@area.76/@component.6"/>
+    <component xsi:type="tll:WaitingQueue" id="a1_buffer" processingTime="2" entry="//@area.76/@component.0"/>
+    <component xsi:type="tll:StorageQueue" id="a1_store" processingTime="2" exit="//@area.76/@component.6"/>
+    <itemGen frequency="1"/>
+  </area>
+  <area id="Area1" store="//@area.77/@component.9" buffer="//@area.77/@component.8">
+    <component xsi:type="tll:Turntable" id="a1_t1" processingTime="4" neighbour="//@area.77/@component.1"/>
+    <component xsi:type="tll:Conveyor" id="a1_c1" processingTime="2" neighbour="//@area.77/@component.2 //@area.77/@component.0"/>
+    <component xsi:type="tll:Turntable" id="a1_t2" processingTime="4" neighbour="//@area.77/@component.3 //@area.77/@component.1"/>
+    <component xsi:type="tll:Machine" id="a1_m1" processingTime="4" neighbour="//@area.77/@component.4 //@area.77/@component.2"/>
+    <component xsi:type="tll:Turntable" id="a1_t3" processingTime="4" neighbour="//@area.77/@component.5 //@area.77/@component.3"/>
+    <component xsi:type="tll:Conveyor" id="a1_c2" processingTime="4" neighbour="//@area.77/@component.6 //@area.77/@component.4"/>
+    <component xsi:type="tll:Turntable" id="a1_t4" processingTime="4" neighbour="//@area.77/@component.7 //@area.77/@component.5"/>
+    <component xsi:type="tll:Conveyor" id="a1_c3" processingTime="4" neighbour="//@area.77/@component.0 //@area.77/@component.6"/>
+    <component xsi:type="tll:WaitingQueue" id="a1_buffer" processingTime="2" entry="//@area.77/@component.0"/>
+    <component xsi:type="tll:StorageQueue" id="a1_store" processingTime="2" exit="//@area.77/@component.6"/>
+    <itemGen frequency="1"/>
+  </area>
+  <area id="Area1" store="//@area.78/@component.9" buffer="//@area.78/@component.8">
+    <component xsi:type="tll:Turntable" id="a1_t1" processingTime="4" neighbour="//@area.78/@component.1"/>
+    <component xsi:type="tll:Conveyor" id="a1_c1" processingTime="2" neighbour="//@area.78/@component.2 //@area.78/@component.0"/>
+    <component xsi:type="tll:Turntable" id="a1_t2" processingTime="4" neighbour="//@area.78/@component.3 //@area.78/@component.1"/>
+    <component xsi:type="tll:Machine" id="a1_m1" processingTime="4" neighbour="//@area.78/@component.4 //@area.78/@component.2"/>
+    <component xsi:type="tll:Turntable" id="a1_t3" processingTime="4" neighbour="//@area.78/@component.5 //@area.78/@component.3"/>
+    <component xsi:type="tll:Conveyor" id="a1_c2" processingTime="4" neighbour="//@area.78/@component.6 //@area.78/@component.4"/>
+    <component xsi:type="tll:Turntable" id="a1_t4" processingTime="4" neighbour="//@area.78/@component.7 //@area.78/@component.5"/>
+    <component xsi:type="tll:Conveyor" id="a1_c3" processingTime="4" neighbour="//@area.78/@component.0 //@area.78/@component.6"/>
+    <component xsi:type="tll:WaitingQueue" id="a1_buffer" processingTime="2" entry="//@area.78/@component.0"/>
+    <component xsi:type="tll:StorageQueue" id="a1_store" processingTime="2" exit="//@area.78/@component.6"/>
+    <itemGen frequency="1"/>
+  </area>
+  <area id="Area1" store="//@area.79/@component.9" buffer="//@area.79/@component.8">
+    <component xsi:type="tll:Turntable" id="a1_t1" processingTime="4" neighbour="//@area.79/@component.1"/>
+    <component xsi:type="tll:Conveyor" id="a1_c1" processingTime="2" neighbour="//@area.79/@component.2 //@area.79/@component.0"/>
+    <component xsi:type="tll:Turntable" id="a1_t2" processingTime="4" neighbour="//@area.79/@component.3 //@area.79/@component.1"/>
+    <component xsi:type="tll:Machine" id="a1_m1" processingTime="4" neighbour="//@area.79/@component.4 //@area.79/@component.2"/>
+    <component xsi:type="tll:Turntable" id="a1_t3" processingTime="4" neighbour="//@area.79/@component.5 //@area.79/@component.3"/>
+    <component xsi:type="tll:Conveyor" id="a1_c2" processingTime="4" neighbour="//@area.79/@component.6 //@area.79/@component.4"/>
+    <component xsi:type="tll:Turntable" id="a1_t4" processingTime="4" neighbour="//@area.79/@component.7 //@area.79/@component.5"/>
+    <component xsi:type="tll:Conveyor" id="a1_c3" processingTime="4" neighbour="//@area.79/@component.0 //@area.79/@component.6"/>
+    <component xsi:type="tll:WaitingQueue" id="a1_buffer" processingTime="2" entry="//@area.79/@component.0"/>
+    <component xsi:type="tll:StorageQueue" id="a1_store" processingTime="2" exit="//@area.79/@component.6"/>
+    <itemGen frequency="1"/>
+  </area>
+  <area id="Area1" store="//@area.80/@component.9" buffer="//@area.80/@component.8">
+    <component xsi:type="tll:Turntable" id="a1_t1" processingTime="4" neighbour="//@area.80/@component.1"/>
+    <component xsi:type="tll:Conveyor" id="a1_c1" processingTime="2" neighbour="//@area.80/@component.2 //@area.80/@component.0"/>
+    <component xsi:type="tll:Turntable" id="a1_t2" processingTime="4" neighbour="//@area.80/@component.3 //@area.80/@component.1"/>
+    <component xsi:type="tll:Machine" id="a1_m1" processingTime="4" neighbour="//@area.80/@component.4 //@area.80/@component.2"/>
+    <component xsi:type="tll:Turntable" id="a1_t3" processingTime="4" neighbour="//@area.80/@component.5 //@area.80/@component.3"/>
+    <component xsi:type="tll:Conveyor" id="a1_c2" processingTime="4" neighbour="//@area.80/@component.6 //@area.80/@component.4"/>
+    <component xsi:type="tll:Turntable" id="a1_t4" processingTime="4" neighbour="//@area.80/@component.7 //@area.80/@component.5"/>
+    <component xsi:type="tll:Conveyor" id="a1_c3" processingTime="4" neighbour="//@area.80/@component.0 //@area.80/@component.6"/>
+    <component xsi:type="tll:WaitingQueue" id="a1_buffer" processingTime="2" entry="//@area.80/@component.0"/>
+    <component xsi:type="tll:StorageQueue" id="a1_store" processingTime="2" exit="//@area.80/@component.6"/>
+    <itemGen frequency="1"/>
+  </area>
+  <area id="Area1" store="//@area.81/@component.9" buffer="//@area.81/@component.8">
+    <component xsi:type="tll:Turntable" id="a1_t1" processingTime="4" neighbour="//@area.81/@component.1"/>
+    <component xsi:type="tll:Conveyor" id="a1_c1" processingTime="2" neighbour="//@area.81/@component.2 //@area.81/@component.0"/>
+    <component xsi:type="tll:Turntable" id="a1_t2" processingTime="4" neighbour="//@area.81/@component.3 //@area.81/@component.1"/>
+    <component xsi:type="tll:Machine" id="a1_m1" processingTime="4" neighbour="//@area.81/@component.4 //@area.81/@component.2"/>
+    <component xsi:type="tll:Turntable" id="a1_t3" processingTime="4" neighbour="//@area.81/@component.5 //@area.81/@component.3"/>
+    <component xsi:type="tll:Conveyor" id="a1_c2" processingTime="4" neighbour="//@area.81/@component.6 //@area.81/@component.4"/>
+    <component xsi:type="tll:Turntable" id="a1_t4" processingTime="4" neighbour="//@area.81/@component.7 //@area.81/@component.5"/>
+    <component xsi:type="tll:Conveyor" id="a1_c3" processingTime="4" neighbour="//@area.81/@component.0 //@area.81/@component.6"/>
+    <component xsi:type="tll:WaitingQueue" id="a1_buffer" processingTime="2" entry="//@area.81/@component.0"/>
+    <component xsi:type="tll:StorageQueue" id="a1_store" processingTime="2" exit="//@area.81/@component.6"/>
+    <itemGen frequency="1"/>
+  </area>
+  <area id="Area1" store="//@area.82/@component.9" buffer="//@area.82/@component.8">
+    <component xsi:type="tll:Turntable" id="a1_t1" processingTime="4" neighbour="//@area.82/@component.1"/>
+    <component xsi:type="tll:Conveyor" id="a1_c1" processingTime="2" neighbour="//@area.82/@component.2 //@area.82/@component.0"/>
+    <component xsi:type="tll:Turntable" id="a1_t2" processingTime="4" neighbour="//@area.82/@component.3 //@area.82/@component.1"/>
+    <component xsi:type="tll:Machine" id="a1_m1" processingTime="4" neighbour="//@area.82/@component.4 //@area.82/@component.2"/>
+    <component xsi:type="tll:Turntable" id="a1_t3" processingTime="4" neighbour="//@area.82/@component.5 //@area.82/@component.3"/>
+    <component xsi:type="tll:Conveyor" id="a1_c2" processingTime="4" neighbour="//@area.82/@component.6 //@area.82/@component.4"/>
+    <component xsi:type="tll:Turntable" id="a1_t4" processingTime="4" neighbour="//@area.82/@component.7 //@area.82/@component.5"/>
+    <component xsi:type="tll:Conveyor" id="a1_c3" processingTime="4" neighbour="//@area.82/@component.0 //@area.82/@component.6"/>
+    <component xsi:type="tll:WaitingQueue" id="a1_buffer" processingTime="2" entry="//@area.82/@component.0"/>
+    <component xsi:type="tll:StorageQueue" id="a1_store" processingTime="2" exit="//@area.82/@component.6"/>
+    <itemGen frequency="1"/>
+  </area>
+  <area id="Area1" store="//@area.83/@component.9" buffer="//@area.83/@component.8">
+    <component xsi:type="tll:Turntable" id="a1_t1" processingTime="4" neighbour="//@area.83/@component.1"/>
+    <component xsi:type="tll:Conveyor" id="a1_c1" processingTime="2" neighbour="//@area.83/@component.2 //@area.83/@component.0"/>
+    <component xsi:type="tll:Turntable" id="a1_t2" processingTime="4" neighbour="//@area.83/@component.3 //@area.83/@component.1"/>
+    <component xsi:type="tll:Machine" id="a1_m1" processingTime="4" neighbour="//@area.83/@component.4 //@area.83/@component.2"/>
+    <component xsi:type="tll:Turntable" id="a1_t3" processingTime="4" neighbour="//@area.83/@component.5 //@area.83/@component.3"/>
+    <component xsi:type="tll:Conveyor" id="a1_c2" processingTime="4" neighbour="//@area.83/@component.6 //@area.83/@component.4"/>
+    <component xsi:type="tll:Turntable" id="a1_t4" processingTime="4" neighbour="//@area.83/@component.7 //@area.83/@component.5"/>
+    <component xsi:type="tll:Conveyor" id="a1_c3" processingTime="4" neighbour="//@area.83/@component.0 //@area.83/@component.6"/>
+    <component xsi:type="tll:WaitingQueue" id="a1_buffer" processingTime="2" entry="//@area.83/@component.0"/>
+    <component xsi:type="tll:StorageQueue" id="a1_store" processingTime="2" exit="//@area.83/@component.6"/>
+    <itemGen frequency="1"/>
+  </area>
+  <area id="Area1" store="//@area.84/@component.9" buffer="//@area.84/@component.8">
+    <component xsi:type="tll:Turntable" id="a1_t1" processingTime="4" neighbour="//@area.84/@component.1"/>
+    <component xsi:type="tll:Conveyor" id="a1_c1" processingTime="2" neighbour="//@area.84/@component.2 //@area.84/@component.0"/>
+    <component xsi:type="tll:Turntable" id="a1_t2" processingTime="4" neighbour="//@area.84/@component.3 //@area.84/@component.1"/>
+    <component xsi:type="tll:Machine" id="a1_m1" processingTime="4" neighbour="//@area.84/@component.4 //@area.84/@component.2"/>
+    <component xsi:type="tll:Turntable" id="a1_t3" processingTime="4" neighbour="//@area.84/@component.5 //@area.84/@component.3"/>
+    <component xsi:type="tll:Conveyor" id="a1_c2" processingTime="4" neighbour="//@area.84/@component.6 //@area.84/@component.4"/>
+    <component xsi:type="tll:Turntable" id="a1_t4" processingTime="4" neighbour="//@area.84/@component.7 //@area.84/@component.5"/>
+    <component xsi:type="tll:Conveyor" id="a1_c3" processingTime="4" neighbour="//@area.84/@component.0 //@area.84/@component.6"/>
+    <component xsi:type="tll:WaitingQueue" id="a1_buffer" processingTime="2" entry="//@area.84/@component.0"/>
+    <component xsi:type="tll:StorageQueue" id="a1_store" processingTime="2" exit="//@area.84/@component.6"/>
+    <itemGen frequency="1"/>
+  </area>
+  <area id="Area1" store="//@area.85/@component.9" buffer="//@area.85/@component.8">
+    <component xsi:type="tll:Turntable" id="a1_t1" processingTime="4" neighbour="//@area.85/@component.1"/>
+    <component xsi:type="tll:Conveyor" id="a1_c1" processingTime="2" neighbour="//@area.85/@component.2 //@area.85/@component.0"/>
+    <component xsi:type="tll:Turntable" id="a1_t2" processingTime="4" neighbour="//@area.85/@component.3 //@area.85/@component.1"/>
+    <component xsi:type="tll:Machine" id="a1_m1" processingTime="4" neighbour="//@area.85/@component.4 //@area.85/@component.2"/>
+    <component xsi:type="tll:Turntable" id="a1_t3" processingTime="4" neighbour="//@area.85/@component.5 //@area.85/@component.3"/>
+    <component xsi:type="tll:Conveyor" id="a1_c2" processingTime="4" neighbour="//@area.85/@component.6 //@area.85/@component.4"/>
+    <component xsi:type="tll:Turntable" id="a1_t4" processingTime="4" neighbour="//@area.85/@component.7 //@area.85/@component.5"/>
+    <component xsi:type="tll:Conveyor" id="a1_c3" processingTime="4" neighbour="//@area.85/@component.0 //@area.85/@component.6"/>
+    <component xsi:type="tll:WaitingQueue" id="a1_buffer" processingTime="2" entry="//@area.85/@component.0"/>
+    <component xsi:type="tll:StorageQueue" id="a1_store" processingTime="2" exit="//@area.85/@component.6"/>
+    <itemGen frequency="1"/>
+  </area>
+  <area id="Area1" store="//@area.86/@component.9" buffer="//@area.86/@component.8">
+    <component xsi:type="tll:Turntable" id="a1_t1" processingTime="4" neighbour="//@area.86/@component.1"/>
+    <component xsi:type="tll:Conveyor" id="a1_c1" processingTime="2" neighbour="//@area.86/@component.2 //@area.86/@component.0"/>
+    <component xsi:type="tll:Turntable" id="a1_t2" processingTime="4" neighbour="//@area.86/@component.3 //@area.86/@component.1"/>
+    <component xsi:type="tll:Machine" id="a1_m1" processingTime="4" neighbour="//@area.86/@component.4 //@area.86/@component.2"/>
+    <component xsi:type="tll:Turntable" id="a1_t3" processingTime="4" neighbour="//@area.86/@component.5 //@area.86/@component.3"/>
+    <component xsi:type="tll:Conveyor" id="a1_c2" processingTime="4" neighbour="//@area.86/@component.6 //@area.86/@component.4"/>
+    <component xsi:type="tll:Turntable" id="a1_t4" processingTime="4" neighbour="//@area.86/@component.7 //@area.86/@component.5"/>
+    <component xsi:type="tll:Conveyor" id="a1_c3" processingTime="4" neighbour="//@area.86/@component.0 //@area.86/@component.6"/>
+    <component xsi:type="tll:WaitingQueue" id="a1_buffer" processingTime="2" entry="//@area.86/@component.0"/>
+    <component xsi:type="tll:StorageQueue" id="a1_store" processingTime="2" exit="//@area.86/@component.6"/>
+    <itemGen frequency="1"/>
+  </area>
+  <area id="Area1" store="//@area.87/@component.9" buffer="//@area.87/@component.8">
+    <component xsi:type="tll:Turntable" id="a1_t1" processingTime="4" neighbour="//@area.87/@component.1"/>
+    <component xsi:type="tll:Conveyor" id="a1_c1" processingTime="2" neighbour="//@area.87/@component.2 //@area.87/@component.0"/>
+    <component xsi:type="tll:Turntable" id="a1_t2" processingTime="4" neighbour="//@area.87/@component.3 //@area.87/@component.1"/>
+    <component xsi:type="tll:Machine" id="a1_m1" processingTime="4" neighbour="//@area.87/@component.4 //@area.87/@component.2"/>
+    <component xsi:type="tll:Turntable" id="a1_t3" processingTime="4" neighbour="//@area.87/@component.5 //@area.87/@component.3"/>
+    <component xsi:type="tll:Conveyor" id="a1_c2" processingTime="4" neighbour="//@area.87/@component.6 //@area.87/@component.4"/>
+    <component xsi:type="tll:Turntable" id="a1_t4" processingTime="4" neighbour="//@area.87/@component.7 //@area.87/@component.5"/>
+    <component xsi:type="tll:Conveyor" id="a1_c3" processingTime="4" neighbour="//@area.87/@component.0 //@area.87/@component.6"/>
+    <component xsi:type="tll:WaitingQueue" id="a1_buffer" processingTime="2" entry="//@area.87/@component.0"/>
+    <component xsi:type="tll:StorageQueue" id="a1_store" processingTime="2" exit="//@area.87/@component.6"/>
+    <itemGen frequency="1"/>
+  </area>
+  <area id="Area1" store="//@area.88/@component.9" buffer="//@area.88/@component.8">
+    <component xsi:type="tll:Turntable" id="a1_t1" processingTime="4" neighbour="//@area.88/@component.1"/>
+    <component xsi:type="tll:Conveyor" id="a1_c1" processingTime="2" neighbour="//@area.88/@component.2 //@area.88/@component.0"/>
+    <component xsi:type="tll:Turntable" id="a1_t2" processingTime="4" neighbour="//@area.88/@component.3 //@area.88/@component.1"/>
+    <component xsi:type="tll:Machine" id="a1_m1" processingTime="4" neighbour="//@area.88/@component.4 //@area.88/@component.2"/>
+    <component xsi:type="tll:Turntable" id="a1_t3" processingTime="4" neighbour="//@area.88/@component.5 //@area.88/@component.3"/>
+    <component xsi:type="tll:Conveyor" id="a1_c2" processingTime="4" neighbour="//@area.88/@component.6 //@area.88/@component.4"/>
+    <component xsi:type="tll:Turntable" id="a1_t4" processingTime="4" neighbour="//@area.88/@component.7 //@area.88/@component.5"/>
+    <component xsi:type="tll:Conveyor" id="a1_c3" processingTime="4" neighbour="//@area.88/@component.0 //@area.88/@component.6"/>
+    <component xsi:type="tll:WaitingQueue" id="a1_buffer" processingTime="2" entry="//@area.88/@component.0"/>
+    <component xsi:type="tll:StorageQueue" id="a1_store" processingTime="2" exit="//@area.88/@component.6"/>
+    <itemGen frequency="1"/>
+  </area>
+  <area id="Area1" store="//@area.89/@component.9" buffer="//@area.89/@component.8">
+    <component xsi:type="tll:Turntable" id="a1_t1" processingTime="4" neighbour="//@area.89/@component.1"/>
+    <component xsi:type="tll:Conveyor" id="a1_c1" processingTime="2" neighbour="//@area.89/@component.2 //@area.89/@component.0"/>
+    <component xsi:type="tll:Turntable" id="a1_t2" processingTime="4" neighbour="//@area.89/@component.3 //@area.89/@component.1"/>
+    <component xsi:type="tll:Machine" id="a1_m1" processingTime="4" neighbour="//@area.89/@component.4 //@area.89/@component.2"/>
+    <component xsi:type="tll:Turntable" id="a1_t3" processingTime="4" neighbour="//@area.89/@component.5 //@area.89/@component.3"/>
+    <component xsi:type="tll:Conveyor" id="a1_c2" processingTime="4" neighbour="//@area.89/@component.6 //@area.89/@component.4"/>
+    <component xsi:type="tll:Turntable" id="a1_t4" processingTime="4" neighbour="//@area.89/@component.7 //@area.89/@component.5"/>
+    <component xsi:type="tll:Conveyor" id="a1_c3" processingTime="4" neighbour="//@area.89/@component.0 //@area.89/@component.6"/>
+    <component xsi:type="tll:WaitingQueue" id="a1_buffer" processingTime="2" entry="//@area.89/@component.0"/>
+    <component xsi:type="tll:StorageQueue" id="a1_store" processingTime="2" exit="//@area.89/@component.6"/>
+    <itemGen frequency="1"/>
+  </area>
+  <area id="Area1" store="//@area.90/@component.9" buffer="//@area.90/@component.8">
+    <component xsi:type="tll:Turntable" id="a1_t1" processingTime="4" neighbour="//@area.90/@component.1"/>
+    <component xsi:type="tll:Conveyor" id="a1_c1" processingTime="2" neighbour="//@area.90/@component.2 //@area.90/@component.0"/>
+    <component xsi:type="tll:Turntable" id="a1_t2" processingTime="4" neighbour="//@area.90/@component.3 //@area.90/@component.1"/>
+    <component xsi:type="tll:Machine" id="a1_m1" processingTime="4" neighbour="//@area.90/@component.4 //@area.90/@component.2"/>
+    <component xsi:type="tll:Turntable" id="a1_t3" processingTime="4" neighbour="//@area.90/@component.5 //@area.90/@component.3"/>
+    <component xsi:type="tll:Conveyor" id="a1_c2" processingTime="4" neighbour="//@area.90/@component.6 //@area.90/@component.4"/>
+    <component xsi:type="tll:Turntable" id="a1_t4" processingTime="4" neighbour="//@area.90/@component.7 //@area.90/@component.5"/>
+    <component xsi:type="tll:Conveyor" id="a1_c3" processingTime="4" neighbour="//@area.90/@component.0 //@area.90/@component.6"/>
+    <component xsi:type="tll:WaitingQueue" id="a1_buffer" processingTime="2" entry="//@area.90/@component.0"/>
+    <component xsi:type="tll:StorageQueue" id="a1_store" processingTime="2" exit="//@area.90/@component.6"/>
+    <itemGen frequency="1"/>
+  </area>
+  <area id="Area1" store="//@area.91/@component.9" buffer="//@area.91/@component.8">
+    <component xsi:type="tll:Turntable" id="a1_t1" processingTime="4" neighbour="//@area.91/@component.1"/>
+    <component xsi:type="tll:Conveyor" id="a1_c1" processingTime="2" neighbour="//@area.91/@component.2 //@area.91/@component.0"/>
+    <component xsi:type="tll:Turntable" id="a1_t2" processingTime="4" neighbour="//@area.91/@component.3 //@area.91/@component.1"/>
+    <component xsi:type="tll:Machine" id="a1_m1" processingTime="4" neighbour="//@area.91/@component.4 //@area.91/@component.2"/>
+    <component xsi:type="tll:Turntable" id="a1_t3" processingTime="4" neighbour="//@area.91/@component.5 //@area.91/@component.3"/>
+    <component xsi:type="tll:Conveyor" id="a1_c2" processingTime="4" neighbour="//@area.91/@component.6 //@area.91/@component.4"/>
+    <component xsi:type="tll:Turntable" id="a1_t4" processingTime="4" neighbour="//@area.91/@component.7 //@area.91/@component.5"/>
+    <component xsi:type="tll:Conveyor" id="a1_c3" processingTime="4" neighbour="//@area.91/@component.0 //@area.91/@component.6"/>
+    <component xsi:type="tll:WaitingQueue" id="a1_buffer" processingTime="2" entry="//@area.91/@component.0"/>
+    <component xsi:type="tll:StorageQueue" id="a1_store" processingTime="2" exit="//@area.91/@component.6"/>
+    <itemGen frequency="1"/>
+  </area>
+  <area id="Area1" store="//@area.92/@component.9" buffer="//@area.92/@component.8">
+    <component xsi:type="tll:Turntable" id="a1_t1" processingTime="4" neighbour="//@area.92/@component.1"/>
+    <component xsi:type="tll:Conveyor" id="a1_c1" processingTime="2" neighbour="//@area.92/@component.2 //@area.92/@component.0"/>
+    <component xsi:type="tll:Turntable" id="a1_t2" processingTime="4" neighbour="//@area.92/@component.3 //@area.92/@component.1"/>
+    <component xsi:type="tll:Machine" id="a1_m1" processingTime="4" neighbour="//@area.92/@component.4 //@area.92/@component.2"/>
+    <component xsi:type="tll:Turntable" id="a1_t3" processingTime="4" neighbour="//@area.92/@component.5 //@area.92/@component.3"/>
+    <component xsi:type="tll:Conveyor" id="a1_c2" processingTime="4" neighbour="//@area.92/@component.6 //@area.92/@component.4"/>
+    <component xsi:type="tll:Turntable" id="a1_t4" processingTime="4" neighbour="//@area.92/@component.7 //@area.92/@component.5"/>
+    <component xsi:type="tll:Conveyor" id="a1_c3" processingTime="4" neighbour="//@area.92/@component.0 //@area.92/@component.6"/>
+    <component xsi:type="tll:WaitingQueue" id="a1_buffer" processingTime="2" entry="//@area.92/@component.0"/>
+    <component xsi:type="tll:StorageQueue" id="a1_store" processingTime="2" exit="//@area.92/@component.6"/>
+    <itemGen frequency="1"/>
+  </area>
+  <area id="Area1" store="//@area.93/@component.9" buffer="//@area.93/@component.8">
+    <component xsi:type="tll:Turntable" id="a1_t1" processingTime="4" neighbour="//@area.93/@component.1"/>
+    <component xsi:type="tll:Conveyor" id="a1_c1" processingTime="2" neighbour="//@area.93/@component.2 //@area.93/@component.0"/>
+    <component xsi:type="tll:Turntable" id="a1_t2" processingTime="4" neighbour="//@area.93/@component.3 //@area.93/@component.1"/>
+    <component xsi:type="tll:Machine" id="a1_m1" processingTime="4" neighbour="//@area.93/@component.4 //@area.93/@component.2"/>
+    <component xsi:type="tll:Turntable" id="a1_t3" processingTime="4" neighbour="//@area.93/@component.5 //@area.93/@component.3"/>
+    <component xsi:type="tll:Conveyor" id="a1_c2" processingTime="4" neighbour="//@area.93/@component.6 //@area.93/@component.4"/>
+    <component xsi:type="tll:Turntable" id="a1_t4" processingTime="4" neighbour="//@area.93/@component.7 //@area.93/@component.5"/>
+    <component xsi:type="tll:Conveyor" id="a1_c3" processingTime="4" neighbour="//@area.93/@component.0 //@area.93/@component.6"/>
+    <component xsi:type="tll:WaitingQueue" id="a1_buffer" processingTime="2" entry="//@area.93/@component.0"/>
+    <component xsi:type="tll:StorageQueue" id="a1_store" processingTime="2" exit="//@area.93/@component.6"/>
+    <itemGen frequency="1"/>
+  </area>
+  <area id="Area1" store="//@area.94/@component.9" buffer="//@area.94/@component.8">
+    <component xsi:type="tll:Turntable" id="a1_t1" processingTime="4" neighbour="//@area.94/@component.1"/>
+    <component xsi:type="tll:Conveyor" id="a1_c1" processingTime="2" neighbour="//@area.94/@component.2 //@area.94/@component.0"/>
+    <component xsi:type="tll:Turntable" id="a1_t2" processingTime="4" neighbour="//@area.94/@component.3 //@area.94/@component.1"/>
+    <component xsi:type="tll:Machine" id="a1_m1" processingTime="4" neighbour="//@area.94/@component.4 //@area.94/@component.2"/>
+    <component xsi:type="tll:Turntable" id="a1_t3" processingTime="4" neighbour="//@area.94/@component.5 //@area.94/@component.3"/>
+    <component xsi:type="tll:Conveyor" id="a1_c2" processingTime="4" neighbour="//@area.94/@component.6 //@area.94/@component.4"/>
+    <component xsi:type="tll:Turntable" id="a1_t4" processingTime="4" neighbour="//@area.94/@component.7 //@area.94/@component.5"/>
+    <component xsi:type="tll:Conveyor" id="a1_c3" processingTime="4" neighbour="//@area.94/@component.0 //@area.94/@component.6"/>
+    <component xsi:type="tll:WaitingQueue" id="a1_buffer" processingTime="2" entry="//@area.94/@component.0"/>
+    <component xsi:type="tll:StorageQueue" id="a1_store" processingTime="2" exit="//@area.94/@component.6"/>
+    <itemGen frequency="1"/>
+  </area>
+  <area id="Area1" store="//@area.95/@component.9" buffer="//@area.95/@component.8">
+    <component xsi:type="tll:Turntable" id="a1_t1" processingTime="4" neighbour="//@area.95/@component.1"/>
+    <component xsi:type="tll:Conveyor" id="a1_c1" processingTime="2" neighbour="//@area.95/@component.2 //@area.95/@component.0"/>
+    <component xsi:type="tll:Turntable" id="a1_t2" processingTime="4" neighbour="//@area.95/@component.3 //@area.95/@component.1"/>
+    <component xsi:type="tll:Machine" id="a1_m1" processingTime="4" neighbour="//@area.95/@component.4 //@area.95/@component.2"/>
+    <component xsi:type="tll:Turntable" id="a1_t3" processingTime="4" neighbour="//@area.95/@component.5 //@area.95/@component.3"/>
+    <component xsi:type="tll:Conveyor" id="a1_c2" processingTime="4" neighbour="//@area.95/@component.6 //@area.95/@component.4"/>
+    <component xsi:type="tll:Turntable" id="a1_t4" processingTime="4" neighbour="//@area.95/@component.7 //@area.95/@component.5"/>
+    <component xsi:type="tll:Conveyor" id="a1_c3" processingTime="4" neighbour="//@area.95/@component.0 //@area.95/@component.6"/>
+    <component xsi:type="tll:WaitingQueue" id="a1_buffer" processingTime="2" entry="//@area.95/@component.0"/>
+    <component xsi:type="tll:StorageQueue" id="a1_store" processingTime="2" exit="//@area.95/@component.6"/>
+    <itemGen frequency="1"/>
+  </area>
+  <area id="Area1" store="//@area.96/@component.9" buffer="//@area.96/@component.8">
+    <component xsi:type="tll:Turntable" id="a1_t1" processingTime="4" neighbour="//@area.96/@component.1"/>
+    <component xsi:type="tll:Conveyor" id="a1_c1" processingTime="2" neighbour="//@area.96/@component.2 //@area.96/@component.0"/>
+    <component xsi:type="tll:Turntable" id="a1_t2" processingTime="4" neighbour="//@area.96/@component.3 //@area.96/@component.1"/>
+    <component xsi:type="tll:Machine" id="a1_m1" processingTime="4" neighbour="//@area.96/@component.4 //@area.96/@component.2"/>
+    <component xsi:type="tll:Turntable" id="a1_t3" processingTime="4" neighbour="//@area.96/@component.5 //@area.96/@component.3"/>
+    <component xsi:type="tll:Conveyor" id="a1_c2" processingTime="4" neighbour="//@area.96/@component.6 //@area.96/@component.4"/>
+    <component xsi:type="tll:Turntable" id="a1_t4" processingTime="4" neighbour="//@area.96/@component.7 //@area.96/@component.5"/>
+    <component xsi:type="tll:Conveyor" id="a1_c3" processingTime="4" neighbour="//@area.96/@component.0 //@area.96/@component.6"/>
+    <component xsi:type="tll:WaitingQueue" id="a1_buffer" processingTime="2" entry="//@area.96/@component.0"/>
+    <component xsi:type="tll:StorageQueue" id="a1_store" processingTime="2" exit="//@area.96/@component.6"/>
+    <itemGen frequency="1"/>
+  </area>
+  <area id="Area1" store="//@area.97/@component.9" buffer="//@area.97/@component.8">
+    <component xsi:type="tll:Turntable" id="a1_t1" processingTime="4" neighbour="//@area.97/@component.1"/>
+    <component xsi:type="tll:Conveyor" id="a1_c1" processingTime="2" neighbour="//@area.97/@component.2 //@area.97/@component.0"/>
+    <component xsi:type="tll:Turntable" id="a1_t2" processingTime="4" neighbour="//@area.97/@component.3 //@area.97/@component.1"/>
+    <component xsi:type="tll:Machine" id="a1_m1" processingTime="4" neighbour="//@area.97/@component.4 //@area.97/@component.2"/>
+    <component xsi:type="tll:Turntable" id="a1_t3" processingTime="4" neighbour="//@area.97/@component.5 //@area.97/@component.3"/>
+    <component xsi:type="tll:Conveyor" id="a1_c2" processingTime="4" neighbour="//@area.97/@component.6 //@area.97/@component.4"/>
+    <component xsi:type="tll:Turntable" id="a1_t4" processingTime="4" neighbour="//@area.97/@component.7 //@area.97/@component.5"/>
+    <component xsi:type="tll:Conveyor" id="a1_c3" processingTime="4" neighbour="//@area.97/@component.0 //@area.97/@component.6"/>
+    <component xsi:type="tll:WaitingQueue" id="a1_buffer" processingTime="2" entry="//@area.97/@component.0"/>
+    <component xsi:type="tll:StorageQueue" id="a1_store" processingTime="2" exit="//@area.97/@component.6"/>
+    <itemGen frequency="1"/>
+  </area>
+  <area id="Area1" store="//@area.98/@component.9" buffer="//@area.98/@component.8">
+    <component xsi:type="tll:Turntable" id="a1_t1" processingTime="4" neighbour="//@area.98/@component.1"/>
+    <component xsi:type="tll:Conveyor" id="a1_c1" processingTime="2" neighbour="//@area.98/@component.2 //@area.98/@component.0"/>
+    <component xsi:type="tll:Turntable" id="a1_t2" processingTime="4" neighbour="//@area.98/@component.3 //@area.98/@component.1"/>
+    <component xsi:type="tll:Machine" id="a1_m1" processingTime="4" neighbour="//@area.98/@component.4 //@area.98/@component.2"/>
+    <component xsi:type="tll:Turntable" id="a1_t3" processingTime="4" neighbour="//@area.98/@component.5 //@area.98/@component.3"/>
+    <component xsi:type="tll:Conveyor" id="a1_c2" processingTime="4" neighbour="//@area.98/@component.6 //@area.98/@component.4"/>
+    <component xsi:type="tll:Turntable" id="a1_t4" processingTime="4" neighbour="//@area.98/@component.7 //@area.98/@component.5"/>
+    <component xsi:type="tll:Conveyor" id="a1_c3" processingTime="4" neighbour="//@area.98/@component.0 //@area.98/@component.6"/>
+    <component xsi:type="tll:WaitingQueue" id="a1_buffer" processingTime="2" entry="//@area.98/@component.0"/>
+    <component xsi:type="tll:StorageQueue" id="a1_store" processingTime="2" exit="//@area.98/@component.6"/>
+    <itemGen frequency="1"/>
+  </area>
+  <area id="Area1" store="//@area.99/@component.9" buffer="//@area.99/@component.8">
+    <component xsi:type="tll:Turntable" id="a1_t1" processingTime="4" neighbour="//@area.99/@component.1"/>
+    <component xsi:type="tll:Conveyor" id="a1_c1" processingTime="2" neighbour="//@area.99/@component.2 //@area.99/@component.0"/>
+    <component xsi:type="tll:Turntable" id="a1_t2" processingTime="4" neighbour="//@area.99/@component.3 //@area.99/@component.1"/>
+    <component xsi:type="tll:Machine" id="a1_m1" processingTime="4" neighbour="//@area.99/@component.4 //@area.99/@component.2"/>
+    <component xsi:type="tll:Turntable" id="a1_t3" processingTime="4" neighbour="//@area.99/@component.5 //@area.99/@component.3"/>
+    <component xsi:type="tll:Conveyor" id="a1_c2" processingTime="4" neighbour="//@area.99/@component.6 //@area.99/@component.4"/>
+    <component xsi:type="tll:Turntable" id="a1_t4" processingTime="4" neighbour="//@area.99/@component.7 //@area.99/@component.5"/>
+    <component xsi:type="tll:Conveyor" id="a1_c3" processingTime="4" neighbour="//@area.99/@component.0 //@area.99/@component.6"/>
+    <component xsi:type="tll:WaitingQueue" id="a1_buffer" processingTime="2" entry="//@area.99/@component.0"/>
+    <component xsi:type="tll:StorageQueue" id="a1_store" processingTime="2" exit="//@area.99/@component.6"/>
+    <itemGen frequency="1"/>
+  </area>
+  <simconfig timeout="-1" iterations="2000"/>
+</tll:System>

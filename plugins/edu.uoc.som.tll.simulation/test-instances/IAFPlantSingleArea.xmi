@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tll:System
+    xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:tll="http://www.example.org/tll"
+    id="IAFPlant">
+  <area id="Area1"
+      store="//@area.0/@component.9"
+      buffer="//@area.0/@component.8">
+    <component
+        xsi:type="tll:Turntable"
+        id="a1_t1"
+        processingTime="4"
+        neighbour="//@area.0/@component.1"/>
+    <component
+        xsi:type="tll:Conveyor"
+        id="a1_c1"
+        processingTime="2"
+        neighbour="//@area.0/@component.2 //@area.0/@component.0"/>
+    <component
+        xsi:type="tll:Turntable"
+        id="a1_t2"
+        processingTime="4"
+        neighbour="//@area.0/@component.3 //@area.0/@component.1"/>
+    <component
+        xsi:type="tll:Machine"
+        id="a1_m1"
+        processingTime="4"
+        neighbour="//@area.0/@component.4 //@area.0/@component.2"/>
+    <component
+        xsi:type="tll:Turntable"
+        id="a1_t3"
+        processingTime="4"
+        neighbour="//@area.0/@component.5 //@area.0/@component.3"/>
+    <component
+        xsi:type="tll:Conveyor"
+        id="a1_c2"
+        processingTime="4"
+        neighbour="//@area.0/@component.6 //@area.0/@component.4"/>
+    <component
+        xsi:type="tll:Turntable"
+        id="a1_t4"
+        processingTime="4"
+        neighbour="//@area.0/@component.7 //@area.0/@component.5"/>
+    <component
+        xsi:type="tll:Conveyor"
+        id="a1_c3"
+        processingTime="4"
+        neighbour="//@area.0/@component.0 //@area.0/@component.6"/>
+    <component
+        xsi:type="tll:WaitingQueue"
+        id="a1_buffer"
+        processingTime="2"
+        entry="//@area.0/@component.0"/>
+    <component
+        xsi:type="tll:StorageQueue"
+        id="a1_store"
+        processingTime="2"
+        exit="//@area.0/@component.6"/>
+    <itemGen
+        frequency="1"/>
+  </area>
+  <simconfig
+      timeout="-1"
+      iterations="20"/>
+</tll:System>

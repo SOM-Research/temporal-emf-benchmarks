@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project basedir="." default="build" name="edu.uoc.som.tll.simulation">
+	<taskdef resource="net/sf/antcontrib/antlib.xml">
+		<classpath>
+			<fileset dir="${basedir}/ant.lib/ant-contrib" />
+		</classpath>
+	</taskdef>
+	<taskdef name="xmltask" classname="com.oopsconsultancy.xmltask.ant.XmlTask">
+		<classpath>
+			<fileset dir="${basedir}/ant.lib/xmltask" />
+		</classpath>
+	</taskdef>
+	<property environment="env" />
+	<property file = "config.properties"/>
+	<property name="edu.uoc.som.tll.base.location" value="../edu.uoc.som.tll.base" />
+	<property name="edu.uoc.som.tll.temf.location" value="../edu.uoc.som.tll.temf" />
+	<property name="edu.uoc.som.tll.xmi.location" value="../edu.uoc.som.tll.xmi" />
+	<property name="debuglevel" value="source,lines,vars" />
+	<property name="target" value="1.8" />
+	<property name="source" value="1.8" />
+	<property name="ECLIPSE_HOME" value="${eclipse.home}"/>
+
+	<import file="run-experiments.xml" />
+	<path id="Plug-in Dependencies.libraryclasspath">
+		<fileset dir="${ECLIPSE_HOME}/plugins/" includes="org.eclipse.core.runtime_*.jar" />
+		<fileset dir="${ECLIPSE_HOME}/plugins/" includes="javax.inject_*.jar" />
+		<fileset dir="${ECLIPSE_HOME}/plugins/" includes="org.eclipse.osgi_*.jar" />
+		<fileset dir="${ECLIPSE_HOME}/plugins/" includes="org.eclipse.osgi.compatibility.state_*.jar" />
+		<fileset dir="${ECLIPSE_HOME}/plugins/" includes="org.eclipse.equinox.common_*.jar" />
+		<fileset dir="${ECLIPSE_HOME}/plugins/" includes="org.eclipse.core.jobs_*.jar" />
+		<fileset dir="${ECLIPSE_HOME}/plugins/" includes="org.eclipse.equinox.registry_*.jar" />
+		<fileset dir="${ECLIPSE_HOME}/plugins/" includes="org.eclipse.equinox.preferences_*.jar" />
+		<fileset dir="${ECLIPSE_HOME}/plugins/" includes="org.eclipse.core.contenttype_*.jar" />
+		<fileset dir="${ECLIPSE_HOME}/plugins/" includes="org.eclipse.equinox.app_*.jar" />
+		<fileset dir="${ECLIPSE_HOME}/plugins/" includes="org.eclipse.emf.ecore_*.jar" />
+		<fileset dir="${ECLIPSE_HOME}/plugins/" includes="org.eclipse.emf.common_*.jar" />
+		<fileset dir="${ECLIPSE_HOME}/plugins/" includes="org.eclipse.emf.ecore.xmi_*.jar" />
+		<fileset dir="${ECLIPSE_HOME}/plugins/" includes="org.hamcrest.core_*.jar" />
+		<fileset dir="${ECLIPSE_HOME}/plugins/" includes="org.junit_*/junit.jar" />
+		<fileset dir="${ECLIPSE_HOME}/plugins/" includes="edu.uoc.som.temf_*.jar" />
+		<fileset dir="${ECLIPSE_HOME}/plugins/" includes="org.apache.hadoop.hbase_*.jar" />
+	</path>
+	<path id="edu.uoc.som.tll.base.classpath">
+		<path refid="Plug-in Dependencies.libraryclasspath" />
+		<pathelement location="${edu.uoc.som.tll.base.location}/bin" />
+	</path>
+	<path id="edu.uoc.som.tll.temf.classpath">
+		<pathelement location="${edu.uoc.som.tll.temf.location}/bin" />
+		<path refid="Plug-in Dependencies.libraryclasspath" />
+	</path>
+	<path id="edu.uoc.som.tll.xmi.classpath">
+		<pathelement location="${edu.uoc.som.tll.xmi.location}/bin" />
+		<path refid="Plug-in Dependencies.libraryclasspath" />
+	</path>
+	<path id="edu.uoc.som.tll.simulation.classpath">
+		<path refid="Plug-in Dependencies.libraryclasspath" />
+		<path refid="edu.uoc.som.tll.base.classpath" />
+		<path refid="edu.uoc.som.tll.temf.classpath" />
+		<path refid="edu.uoc.som.tll.xmi.classpath" />
+		<pathelement location="bin" />
+		<fileset dir="bin/.jars" includes="**/*.jar" />
+	</path>
+	<target name="init">
+		<mkdir dir="bin" />
+		<unzip dest="bin/.jars">
+			<fileset dir="${ECLIPSE_HOME}/plugins/">
+				<include name="edu.uoc.som.temf_*.jar" />
+				<include name="org.apache.hadoop.hbase_*.jar" />
+			</fileset>
+			<patternset>
+				<include name="**/*.jar" />
+			</patternset>
+		</unzip>
+		<copy includeemptydirs="false" todir="bin">
+			<fileset dir="src">
+				<exclude name="**/*.java" />
+			</fileset>
+		</copy>
+	</target>
+	<target name="clean">
+		<delete dir="bin" />
+	</target>
+	<target depends="clean" name="cleanall">
+		<ant antfile="build.manual.xml" dir="${edu.uoc.som.tll.base.location}" inheritAll="false" target="clean" />
+		<ant antfile="build.manual.xml" dir="${edu.uoc.som.tll.temf.location}" inheritAll="false" target="clean" />
+		<ant antfile="build.manual.xml" dir="${edu.uoc.som.tll.xmi.location}" inheritAll="false" target="clean" />
+	</target>
+	<target depends="build-subprojects,build-project" name="build" />
+	<target name="build-subprojects">
+		<ant antfile="build.manual.xml" dir="${edu.uoc.som.tll.base.location}" inheritAll="false" target="build">
+			<propertyset>
+				<propertyref name="build.compiler" />
+			</propertyset>
+		</ant>
+		<ant antfile="build.manual.xml" dir="${edu.uoc.som.tll.temf.location}" inheritAll="false" target="build">
+			<propertyset>
+				<propertyref name="build.compiler" />
+			</propertyset>
+		</ant>
+		<ant antfile="build.manual.xml" dir="${edu.uoc.som.tll.xmi.location}" inheritAll="false" target="build">
+			<propertyset>
+				<propertyref name="build.compiler" />
+			</propertyset>
+		</ant>
+	</target>
+	<target depends="init" name="build-project">
+		<echo message="${ant.project.name}: ${ant.file}" />
+		<javac debug="true" debuglevel="${debuglevel}" destdir="bin" includeantruntime="false" source="${source}" target="${target}">
+			<src path="src" />
+			<classpath refid="edu.uoc.som.tll.simulation.classpath" />
+		</javac>
+	</target>
+</project>

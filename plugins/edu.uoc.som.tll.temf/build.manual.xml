@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project basedir="." default="build" name="edu.uoc.som.tll.temf">
+	<property environment="env" />
+	<property file = "../config.properties"/>
+	<property name="edu.uoc.som.tll.simulation.location" value="../edu.uoc.som.tll.simulation" />
+	<property name="debuglevel" value="source,lines,vars" />
+	<property name="target" value="1.8" />
+	<property name="source" value="1.8" />
+    <property name="ECLIPSE_HOME" value="${eclipse.home}"/>
+    	
+	<path id="Plug-in Dependencies.libraryclasspath">
+		<fileset dir="${ECLIPSE_HOME}/plugins/" includes="org.eclipse.core.runtime_*.jar" />
+		<fileset dir="${ECLIPSE_HOME}/plugins/" includes="javax.inject_*.jar" />
+		<fileset dir="${ECLIPSE_HOME}/plugins/" includes="org.eclipse.osgi_*.jar" />
+		<fileset dir="${ECLIPSE_HOME}/plugins/" includes="org.eclipse.osgi.compatibility.state_*.jar" />
+		<fileset dir="${ECLIPSE_HOME}/plugins/" includes="org.eclipse.equinox.common_*.jar" />
+		<fileset dir="${ECLIPSE_HOME}/plugins/" includes="org.eclipse.core.jobs_*.jar" />
+		<fileset dir="${ECLIPSE_HOME}/plugins/" includes="org.eclipse.equinox.registry_*.jar" />
+		<fileset dir="${ECLIPSE_HOME}/plugins/" includes="org.eclipse.equinox.preferences_*.jar" />
+		<fileset dir="${ECLIPSE_HOME}/plugins/" includes="org.eclipse.core.contenttype_*.jar" />
+		<fileset dir="${ECLIPSE_HOME}/plugins/" includes="org.eclipse.equinox.app_*.jar" />
+		<fileset dir="${ECLIPSE_HOME}/plugins/" includes="org.eclipse.emf.ecore_*.jar" />
+		<fileset dir="${ECLIPSE_HOME}/plugins/" includes="org.eclipse.emf.common_*.jar" />
+		<fileset dir="${ECLIPSE_HOME}/plugins/" includes="io.github.abelgomez.klyo_*.jar" />
+		<pathelement location="../edu.uoc.som.tll.base/bin" />
+	</path>
+	<path id="edu.uoc.som.tll.temf.classpath">
+		<pathelement location="bin" />
+		<path refid="Plug-in Dependencies.libraryclasspath" />
+	</path>
+	<target name="init">
+		<mkdir dir="bin" />
+		<copy includeemptydirs="false" todir="bin">
+			<fileset dir="src">
+				<exclude name="**/*.java" />
+			</fileset>
+		</copy>
+	</target>
+	<target name="clean">
+		<delete dir="bin" />
+	</target>
+	<target depends="init" name="build">
+		<echo message="${ant.project.name}: ${ant.file}" />
+		<javac debug="true" debuglevel="${debuglevel}" destdir="bin" includeantruntime="false" source="${source}" target="${target}">
+			<src path="src" />
+			<classpath refid="edu.uoc.som.tll.temf.classpath" />
+		</javac>
+	</target>
+</project>

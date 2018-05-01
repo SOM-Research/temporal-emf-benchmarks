@@ -1,0 +1,125 @@
+<?eclipse.ant.import?>
+<project basedir="." name="experiments">
+	
+	<property name="instances.dir" value="benchmark-instances" />
+	
+	<path id="edu.uoc.som.tll.simulation.xmi.classpath">
+		<path refid="Plug-in Dependencies.libraryclasspath" />
+		<path refid="edu.uoc.som.tll.base.classpath" />
+		<path refid="edu.uoc.som.tll.xmi.classpath" />
+		<pathelement location="bin" />
+		<fileset dir="bin/.jars" includes="**/*.jar" />
+	</path>
+	<path id="edu.uoc.som.tll.simulation.temf.classpath">
+		<path refid="Plug-in Dependencies.libraryclasspath" />
+		<path refid="edu.uoc.som.tll.base.classpath" />
+		<path refid="edu.uoc.som.tll.temf.classpath" />
+		<pathelement location="bin" />
+		<fileset dir="bin/.jars" includes="**/*.jar" />
+	</path>
+
+	<target name="sim" depends="build,sim.xmi,sim.temf" />
+
+	<target name="sim.xmi">
+		<for param="instance">
+			<path>
+				<fileset dir="${instances.dir}" includes="singlearea-fullhistory-*.xmi"/>
+			</path>
+      		<sequential>
+				<antcall target="sim.xmi.file">
+					<param name="file" value="@{instance}"/>
+				</antcall>
+      		</sequential>
+		</for>
+	</target>
+
+	<target name="sim.temf">
+		<for param="instance">
+			<path>
+				<fileset dir="${instances.dir}" includes="singlearea-nohistory-*.xmi"/>
+			</path>
+      		<sequential>
+				<antcall target="sim.temf.file">
+					<param name="file" value="@{instance}"/>
+				</antcall>
+      		</sequential>
+		</for>
+	</target>
+
+	<target name="sim.xmi.file.cli">
+		<antcall target="sim.xmi.file">
+			<param name="file" value="${input.file}"/>
+		</antcall>
+	</target>
+
+	<target name="sim.temf.file.cli">
+		<antcall target="sim.temf.file">
+			<param name="file" value="${input.file}"/>
+		</antcall>
+	</target>
+	
+	<target name="sim.xmi.file">
+		<basename property="base.name.dir" file="${file}" suffix=".xmi"/>
+		<property name="cwd" value="${base.name.dir}.xmi"/>
+		<mkdir dir="${cwd}" />
+		<record name="${cwd}/execution.log"/>
+		<copy file="log.properties" tofile="${cwd}/log.properties"/>
+		<java classname="test.SimulateXmi" failonerror="true" fork="yes" dir="${cwd}">
+			<jvmarg line="${sim.vmargs}"/>
+			<env key="tll.memory.period" value="${env.tll.memory.period}" />
+			<env key="tll.iterations.period" value="${env.tll.iterations.period}" />
+			<arg line="../${file}" />
+			<classpath refid="edu.uoc.som.tll.simulation.xmi.classpath" />
+		</java>
+	</target>
+
+	<target name="sim.temf.file">
+		<basename property="base.name.dir" file="${file}" suffix=".xmi"/>
+		<property name="cwd" value="${base.name.dir}.temf"/>
+		<mkdir dir="${cwd}" />
+		<record name="${cwd}/execution.log"/>
+		<copy file="log.properties" tofile="${cwd}/log.properties"/>
+		<java classname="test.SimulateTemf" failonerror="true" fork="yes" dir="${cwd}">
+			<jvmarg line="${sim.vmargs}"/>
+			<env key="hbase.server" value="${env.hbase.server}" />
+			<env key="tll.memory.period" value="${env.tll.memory.period}" />
+			<env key="tll.iterations.period" value="${env.tll.iterations.period}" />
+			<arg line="../${file}" />
+			<classpath refid="edu.uoc.som.tll.simulation.temf.classpath" />
+		</java>
+	</target>
+	
+	<target depends="build" name="sim.xmi.middle">
+		<antcall target="sim.xmi.file">
+			<param name="file" value="test-instances/IAFPlantMultiArea_middle.xmi"/>
+		</antcall>
+	</target>
+
+	<target depends="build" name="sim.temf.middle">
+		<antcall target="sim.temf.file">
+			<param name="file" value="test-instances/IAFPlantMultiArea_middle.xmi"/>
+		</antcall>
+	</target>
+
+	<target name="gen.instances">
+		<mkdir dir="${instances.dir}" />
+		<for list="00020,00040,00080,00160,00320,00640,01280,02560,05120,10240,20480,40960" param="iterations">
+			<sequential>
+				<for list="00,05,10,15,20,25,30,35,40" param="delay">
+					<sequential>
+						<for list="fullhistory,nohistory,storageonly" param="variant">
+							<sequential>
+								<xmltask source="test-instances/singlearea-@{variant}.xmi" dest="${instances.dir}/singlearea-@{variant}-@{delay}-@{iterations}.xmi">
+									<attr path="//component" attr="processingTime" value="@{delay}" />
+									<attr path="//simconfig" attr="iterations" value="@{iterations}" />
+								</xmltask>
+						</sequential>
+					</for>
+					</sequential>
+				</for>
+			</sequential>
+		</for>
+	</target>
+	
+	
+</project>

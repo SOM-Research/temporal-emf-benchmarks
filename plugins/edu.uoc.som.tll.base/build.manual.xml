@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project basedir="." default="build" name="edu.uoc.som.tll.base">
+    <property environment="env"/>
+	<property file = "../config.properties"/>
+    <property name="debuglevel" value="source,lines,vars"/>
+    <property name="target" value="1.8"/>
+    <property name="source" value="1.8"/>
+    <property name="ECLIPSE_HOME" value="${eclipse.home}"/>
+    	
+    <path id="edu.uoc.som.tll.base.classpath">
+        <pathelement location="bin"/>
+    </path>
+    <target name="init">
+        <mkdir dir="bin"/>
+        <copy includeemptydirs="false" todir="bin">
+            <fileset dir="src">
+                <exclude name="**/*.java"/>
+            </fileset>
+        </copy>
+    </target>
+    <target depends="init" name="build">
+        <echo message="${ant.project.name}: ${ant.file}"/>
+        <javac debug="true" debuglevel="${debuglevel}" destdir="bin" includeantruntime="false" source="${source}" target="${target}">
+            <src path="src"/>
+            <classpath refid="edu.uoc.som.tll.base.classpath"/>
+        </javac>
+    </target>
+    <target name="clean">
+        <delete dir="bin"/>
+    </target>
+</project>
