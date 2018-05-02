@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<tll:System xmlns:tll="http://www.example.org/tll" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="IAFPlant" xmi:version="2.0">
+  <area buffer="//@area.0/@component.8" id="Area1" store="//@area.0/@component.9">
+    <component id="a1_t1" neighbour="//@area.0/@component.1" processingTime="35" xsi:type="tll:Turntable"/>
+    <component id="a1_c1" neighbour="//@area.0/@component.2 //@area.0/@component.0" processingTime="35" xsi:type="tll:Conveyor"/>
+    <component id="a1_t2" neighbour="//@area.0/@component.3 //@area.0/@component.1" processingTime="35" xsi:type="tll:Turntable"/>
+    <component id="a1_m1" neighbour="//@area.0/@component.4 //@area.0/@component.2" processingTime="35" xsi:type="tll:Machine"/>
+    <component id="a1_t3" neighbour="//@area.0/@component.5 //@area.0/@component.3" processingTime="35" xsi:type="tll:Turntable"/>
+    <component id="a1_c2" neighbour="//@area.0/@component.6 //@area.0/@component.4" processingTime="35" xsi:type="tll:Conveyor"/>
+    <component id="a1_t4" neighbour="//@area.0/@component.7 //@area.0/@component.5" processingTime="35" xsi:type="tll:Turntable"/>
+    <component id="a1_c3" neighbour="//@area.0/@component.0 //@area.0/@component.6" processingTime="35" xsi:type="tll:Conveyor"/>
+    <component entry="//@area.0/@component.0" id="a1_buffer" processingTime="35" xsi:type="tll:WaitingQueue"/>
+    <component exit="//@area.0/@component.6" id="a1_store" processingTime="35" xsi:type="tll:StorageQueue"/>
+    <itemGen frequency="1"/>
+  </area>
+  <simconfig enableLogging="true" iterations="00080" recordHistory="true" storeProcessedItems="true" timeout="-1"/>
+</tll:System>
