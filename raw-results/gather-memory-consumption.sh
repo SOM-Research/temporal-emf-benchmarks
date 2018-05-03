@@ -92,7 +92,7 @@ gnuplot -p << EOF | cat
 	set xlabel "Iteration";
 	set ylabel "Memory Usage (MB)";
 	set format y "%.0f";
-	set output "memory-iterations-$iterations.png";
+	set output "memoryiterations-$iterations.png";
 	plot for [IDX=0:1] "$plot" index IDX using 3:4 with lines title columnheader(1);
 EOF
 done
@@ -105,7 +105,7 @@ gnuplot -p << EOF | cat
 	set xlabel "Time";
 	set ylabel "Memory Usage (MB)";
 	set format y "%.0f";
-	set output "memory-time-$iterations.png";
+	set output "memorytime-$iterations.png";
 	plot for [IDX=0:1] "$plot" index IDX using 1 with lines title columnheader(1);
 EOF
 done

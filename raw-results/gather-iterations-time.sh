@@ -52,7 +52,7 @@ gnuplot -p << EOF | cat
 	set xlabel "Time";
 	set ylabel "Iterations per unit of time";
 	set format y "%.0f";
-	set output "iterations-time-$iterations.png";
+	set output "iterationstime-$iterations.png";
 	plot for [IDX=0:1] "$plot" index IDX using 1 with lines title columnheader(1);
 EOF
 done
