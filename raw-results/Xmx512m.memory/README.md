@@ -33,36 +33,36 @@
 
 ### 10240 iterations
 
-![](memorytime-10240.png)
-![](memoryiterations-10240.png)
-![](iterationstime-10240.png)
+![](memorytime-0010240.png)
+![](memoryiterations-0010240.png)
+![](iterationstime-0010240.png)
 
 ### 20480 iterations
 
-![](memorytime-20480.png)
-![](memoryiterations-20480.png)
-![](iterationstime-20480.png)
+![](memorytime-0020480.png)
+![](memoryiterations-0020480.png)
+![](iterationstime-0020480.png)
 
 ### 40960 iterations
 
-![](memorytime-40960.png)
-![](memoryiterations-40960.png)
-![](iterationstime-40960.png)
+![](memorytime-0040960.png)
+![](memoryiterations-0040960.png)
+![](iterationstime-0040960.png)
 
 ### 81920 iterations
 
-![](memorytime-81920.png)
-![](memoryiterations-81920.png)
-![](iterationstime-81920.png)
+![](memorytime-0081920.png)
+![](memoryiterations-0081920.png)
+![](iterationstime-0081920.png)
 
 ### 163840 iterations
 
-![](memorytime-163840.png)
-![](memoryiterations-163840.png)
-![](iterationstime-163840.png)
+![](memorytime-0163840.png)
+![](memoryiterations-0163840.png)
+![](iterationstime-0163840.png)
 
 ### 327680 iterations
 
-![](memorytime-327680.png)
-![](memoryiterations-327680.png)
-![](iterationstime-327680.png)
+![](memorytime-0327680.png)
+![](memoryiterations-0327680.png)
+![](iterationstime-0327680.png)
