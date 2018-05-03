@@ -1,5 +1,7 @@
 #! /bin/bash
 
+REGENERATE=false
+
 function delays() {
   ls -d singlearea-*-*-*.xmi | cut -d - -f3 | sort | uniq
 }
@@ -8,26 +10,28 @@ function sizes() {
   ls -d singlearea-*-*-*.xmi | cut -d - -f4 | cut -d . -f1 | sort | uniq
 }
 
-for size in $(sizes); do
-	plotfile=time-$size.dat
-	echo XMI > $plotfile
-	for delay in $(delays); do
-		time=$(cat singlearea-fullhistory-$delay-$size.xmi/execution.log | sed -ne 's|^[[:space:]]\+\[java\] Total time: \([[:digit:]]\+\)|\1|p')
-		echo $delay $time >> $plotfile
+if [[ $REGENERATE == true ]]; then
+	for size in $(sizes); do
+		plotfile=time-$size.dat
+		echo XMI > $plotfile
+		for delay in $(delays); do
+			time=$(cat singlearea-fullhistory-$delay-$size.xmi/execution.log | sed -ne 's|^[[:space:]]\+\[java\] Total time: \([[:digit:]]\+\)|\1|p')
+			echo $delay $time >> $plotfile
+		done
+		echo >> $plotfile
+		echo >> $plotfile
+		echo TEMF >> $plotfile
+		for delay in $(delays); do
+			time=$(cat singlearea-nohistory-$delay-$size.temf/execution.log | sed -ne 's|^[[:space:]]\+\[java\] Total time: \([[:digit:]]\+\)|\1|p')
+			echo $delay $time >> $plotfile
+		done
 	done
-	echo >> $plotfile
-	echo >> $plotfile
-	echo TEMF >> $plotfile
-	for delay in $(delays); do
-		time=$(cat singlearea-nohistory-$delay-$size.temf/execution.log | sed -ne 's|^[[:space:]]\+\[java\] Total time: \([[:digit:]]\+\)|\1|p')
-		echo $delay $time >> $plotfile
-	done
-done
-
+fi
+	
 for plot in $(ls *.dat); do
 iterations=$(echo $plot | cut -d . -f1 | cut -d - -f2)
 gnuplot -p << EOF | cat
-	set terminal png size 800,600;
+	set terminal png size 400,300;
 	set title "$iterations iterations";
 	set xlabel "Thinking time (ms)";
 	set ylabel "Processing time (ms)";

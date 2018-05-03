@@ -1,14 +1,14 @@
 #! /bin/bash
 
-REGENERATE=true
+REGENERATE=false
 
 function sizes() {
   ls -d memory-singlearea-fullhistory-00-*.xmi | cut -d - -f5 | cut -d . -f1 | sort | uniq
 }
 
-if [[ $REGENERATE == true ]]; then
+plotfile=simmemory.dat
 
-  plotfile=simmemory.dat
+if [[ $REGENERATE == true ]]; then
 
   echo Generating $plotfile...
 
@@ -37,17 +37,17 @@ if [[ $REGENERATE == true ]]; then
     if [ -z $temfbefore ]; then
           temfbefore=!
     fi
-    if [ -z $temfbefore ]; then
-          temfbefore=!
+    if [ -z $temfafter ]; then
+          temfafter=!
     fi
 
-echo $size $xmibefore $xmiafter $temfbefore $temfafter >> $plotfile
+	echo $size $xmibefore $xmiafter $temfbefore $temfafter >> $plotfile
 
   done
 fi
 
 gnuplot -p << EOF | cat
-	set terminal png size 1200,800;
+	set terminal png size 800,600;
 	set title "Memory usage";
 	set xlabel "Size";
 	set ylabel "Memory Usage (MB)";

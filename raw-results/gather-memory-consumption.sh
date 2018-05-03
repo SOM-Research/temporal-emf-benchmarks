@@ -1,6 +1,6 @@
 #! /bin/bash
 
-REGENERATE=true
+REGENERATE=false
 
 function sizes() {
   ls -d memory-singlearea-fullhistory-00-*.xmi | cut -d - -f5 | cut -d . -f1 | sort | uniq
@@ -87,7 +87,7 @@ fi
 for plot in $(ls memoryiterations-*.dat); do
 iterations=$(echo $plot | cut -d . -f1 | cut -d - -f2)
 gnuplot -p << EOF | cat
-	set terminal png size 1200,800;
+	set terminal png size 640,480;
 	set title "Memory usage";
 	set xlabel "Iteration";
 	set ylabel "Memory Usage (MB)";
@@ -100,7 +100,7 @@ done
 for plot in $(ls memorytime-*.dat); do
 iterations=$(echo $plot | cut -d . -f1 | cut -d - -f2)
 gnuplot -p << EOF | cat
-	set terminal png size 1200,800;
+	set terminal png size 640,480;
 	set title "Memory usage";
 	set xlabel "Time";
 	set ylabel "Memory Usage (MB)";
