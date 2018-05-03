@@ -2,9 +2,9 @@
 
 ## Contents:
 
-* Diretory `benchmark-instances`: Instances used for the simulations.
-* Directories `singlearea-fullhistory-<processingTime>-<iterations>`: Directoty with the execution logs for the combination simulation parameters *processing time* and *iterations*.
-* Script `gather-exec-times.sh`: Script that analyzes the logs, and generates the `*.dat` files and the plots.
+* Directory `benchmark-instances`: Instances used for the simulations.
+* Directories `singlearea-fullhistory-<processingTime>-<iterations>`: Directoty with the execution logs for the combination simulation parameters *processing time* and *iterations* for *StandardEMF*.
+* Directories `singlearea-nohistory-<processingTime>-<iterations>`: Directoty with the execution logs for the combination simulation parameters *processing time* and *iterations* for *TemporalEMF*.
 * Files `time-<iterations>.dat`: Files with the execution times with varying *processing time* and fixed *iterations*.
 * Files `time-<iterations>-linear.png` and `time-<iterations>-log2.png`: Plots for the exeuction times for a specific number of iterations, using a *linear* and *log2* scale in the Y axis respectively.
 
