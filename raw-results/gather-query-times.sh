@@ -12,7 +12,7 @@ if [[ $REGENERATE == true ]]; then
 
   echo Generating $plotfile...
 
-  echo 'XMI'  > $plotfile
+  echo 'XMI Q1 Q2 Q3 Q4'  > $plotfile
 
   for size in $(sizes); do
 
@@ -56,7 +56,7 @@ if [[ $REGENERATE == true ]]; then
   echo >> $plotfile
   echo >> $plotfile
 
-  echo 'TEMF' >> $plotfile
+  echo 'TEMF Q1 Q2 Q3 Q4' >> $plotfile
   
   for size in $(sizes); do
     while read -r line; do
