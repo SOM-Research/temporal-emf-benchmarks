@@ -20,7 +20,8 @@ This study aims to evaluate the possible distinct behavior of current in-memory 
 
 In all the experiments we have used a model with a single *System* and varying *SimConfig* parameters. The base model is available in [`plugins/edu.uoc.som.tll.simulation/test-instances/singlearea-fullhistory.xmi`](plugins/edu.uoc.som.tll.simulation/test-instances/singlearea-fullhistory.xmi) for *StandardEMF* and [`plugins/edu.uoc.som.tll.simulation/test-instances/singlearea-nohistory.xmi`](plugins/edu.uoc.som.tll.simulation/test-instances/singlearea-nohistory.xmi) for *TemporalEMF*.
 
-Based on the parameters below:
+Based on the parameters on the table below, we created the instances available for the different experiments. These test instances are available in [`raw-results/Xmx2g.exectime/benchmark-instances`](raw-results/Xmx2g.exectime/benchmark-instances), [`raw-results/Xmx2g.memory/benchmark-instances`](raw-results/Xmx2g.memory/benchmark-instances), and [`raw-results/Xmx512m.memory/benchmark-instances`](raw-results/Xmx512m.memory/benchmark-instances).
+
 
 | RQ  |               Processing Time          |            Iterations          |   Java Heap   |
 |-----|----------------------------------------|--------------------------------|---------------|
@@ -28,7 +29,6 @@ Based on the parameters below:
 | RQ2 | 0 ms                                   | 20 -- 655360 (common ratio x2) | 512 MB & 2 GB |
 | RQ3 | 0 ms                                   | 20 -- 655360 (common ratio x2) | 512 MB & 2 GB |
 
-We created the instances available for the different experiments. These test instances are available in [`raw-results/Xmx2g.exectime/benchmark-instances`](raw-results/Xmx2g.exectime/benchmark-instances), [`raw-results/Xmx2g.memory/benchmark-instances`](raw-results/Xmx2g.memory/benchmark-instances), and [`raw-results/Xmx512m.memory/benchmark-instances`](raw-results/Xmx512m.memory/benchmark-instances).
 
 # Results
 
