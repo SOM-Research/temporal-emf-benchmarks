@@ -14,7 +14,9 @@ This study aims to evaluate the possible distinct behavior of current in-memory 
 
 **RQ2**: Is there a significant difference in the memory used and the storage size of temporal models? 
 
-**RQ3**: Is there a significant difference of restoring previous versions of temporal model elements?
+**RQ3**: Is there a significant difference of restoring previous versions of temporal model elements? For an implementation of the queries used to evaluate this (Q1-Q4), please check  [`plugins/edu.uoc.som.tll.simulation/src/test/SimulateXmi.java`](plugins/edu.uoc.som.tll.simulation/src/test/SimulateXmi.java) and [`plugins/edu.uoc.som.tll.simulation/src/test/SimulateTemf.java`](plugins/edu.uoc.som.tll.simulation/src/test/SimulateTemf.java).
+
+
 
 # Models
 
