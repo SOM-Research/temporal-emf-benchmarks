@@ -32,4 +32,5 @@ Based on the parameters on the table below, we created the instances available f
 
 # Results
 
-* See [`raw-results/Xmx2g.exectime/README.md`](raw-results/Xmx2g.exectime/README.md), [`raw-results/Xmx2g.memory/README.md`](raw-results/Xmx2g.memory/README.md) and [`raw-results/Xmx512m.memory/README.md`](raw-results/Xmx512m.memory/README.md).
+* For RQ1 see [`raw-results/Xmx2g.exectime/README.md`](raw-results/Xmx2g.exectime/README.md),
+* For RQ2 and RQ3 see [`raw-results/Xmx2g.memory/README.md`](raw-results/Xmx2g.memory/README.md), and [`raw-results/Xmx512m.memory/README.md`](raw-results/Xmx512m.memory/README.md).
