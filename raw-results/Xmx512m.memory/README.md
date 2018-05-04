@@ -66,3 +66,14 @@
 ![](memorytime-0327680.png)
 ![](memoryiterations-0327680.png)
 ![](iterationstime-0327680.png)
+
+### Final memory usage
+
+Memory usage after running the simulation (X Axis = number of iterations; Y Axis = Ocuppied memory before/after saving into disk).
+
+![](simmemory.png)
+
+### Query execution times
+
+See [querytime.dat](querytime.dat)
+
