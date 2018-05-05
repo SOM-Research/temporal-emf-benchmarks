@@ -1,4 +1,4 @@
-# Memory Usage and Query Time - 512MB eap
+# Memory Usage and Query Time - 512MB Heap
 
 ## Contents:
 
