@@ -34,5 +34,8 @@ Based on the parameters on the table below, we created the instances available f
 
 # Results
 
+From the experiments listed above, a set of **numerical data** and **graphs** has been gathered and produced for an easy interpretation of results.
+For a better organization, these results have been included in their corresponding subfolders, together with the raw data:
+
 * For RQ1 see [`raw-results/Xmx2g.exectime/README.md`](raw-results/Xmx2g.exectime/README.md),
 * For RQ2 and RQ3 see [`raw-results/Xmx2g.memory/README.md`](raw-results/Xmx2g.memory/README.md), and [`raw-results/Xmx512m.memory/README.md`](raw-results/Xmx512m.memory/README.md).
