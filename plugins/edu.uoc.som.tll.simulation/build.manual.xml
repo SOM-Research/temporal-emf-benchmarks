@@ -11,7 +11,7 @@
 		</classpath>
 	</taskdef>
 	<property environment="env" />
-	<property file = "config.properties"/>
+	<property file = "../config.properties"/>
 	<property name="edu.uoc.som.tll.base.location" value="../edu.uoc.som.tll.base" />
 	<property name="edu.uoc.som.tll.temf.location" value="../edu.uoc.som.tll.temf" />
 	<property name="edu.uoc.som.tll.xmi.location" value="../edu.uoc.som.tll.xmi" />
