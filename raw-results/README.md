@@ -1,6 +1,6 @@
 # *TemporalEMF* Benchmarks Results
 
-## Repository contents:
+## Repository contents
 
 ### Directories
 
