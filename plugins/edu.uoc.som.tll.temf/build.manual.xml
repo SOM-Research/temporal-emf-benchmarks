@@ -21,7 +21,7 @@
 		<fileset dir="${ECLIPSE_HOME}/plugins/" includes="org.eclipse.equinox.app_*.jar" />
 		<fileset dir="${ECLIPSE_HOME}/plugins/" includes="org.eclipse.emf.ecore_*.jar" />
 		<fileset dir="${ECLIPSE_HOME}/plugins/" includes="org.eclipse.emf.common_*.jar" />
-		<fileset dir="${ECLIPSE_HOME}/plugins/" includes="io.github.abelgomez.klyo_*.jar" />
+		<fileset dir="${ECLIPSE_HOME}/plugins/" includes="edu.uoc.som.temf_*.jar" />
 		<pathelement location="../edu.uoc.som.tll.base/bin" />
 	</path>
 	<path id="edu.uoc.som.tll.temf.classpath">
