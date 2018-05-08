@@ -1,14 +1,14 @@
 # *TemporalEMF* Benchmarks Results
 
-# Repository contents:
+## Repository contents:
 
-## Directories
+### Directories
 
 * `Xmx2g.exectime`: Execution time for both *TemporalEMF* and *StandardEMF*, using a heap limited to 2 GB.
 * `Xmx2g.memory`: Memory used by both *TemporalEMF* and *StandardEMF*, using a heap limited to 2 GB.
 * `Xmx512g.memory`: Memory used by both *TemporalEMF* and *StandardEMF*, using a heap limited to 512 MB.
 
-## Scripts
+### Scripts
 
 * `gather-exec-times.sh`: Script that analyzes the logs and extracts the total execution time of a simulation, generates `*.dat` files and  produces the corresponding plots.
 
