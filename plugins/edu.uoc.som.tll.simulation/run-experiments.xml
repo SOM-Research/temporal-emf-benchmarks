@@ -60,6 +60,7 @@
 	
 	<target name="sim.xmi.file">
 		<basename property="base.name.dir" file="${file}" suffix=".xmi"/>
+		<property name="absolute.file" location="${file}"/>
 		<property name="cwd" value="${base.name.dir}.xmi"/>
 		<mkdir dir="${cwd}" />
 		<record name="${cwd}/execution.log"/>
@@ -68,13 +69,14 @@
 			<jvmarg line="${sim.vmargs}"/>
 			<env key="tll.memory.period" value="${env.tll.memory.period}" />
 			<env key="tll.iterations.period" value="${env.tll.iterations.period}" />
-			<arg line="${file}" />
+			<arg line="${absolute.file}" />
 			<classpath refid="edu.uoc.som.tll.simulation.xmi.classpath" />
 		</java>
 	</target>
 
 	<target name="sim.temf.file">
 		<basename property="base.name.dir" file="${file}" suffix=".xmi"/>
+		<property name="absolute.file" location="${file}"/>
 		<property name="cwd" value="${base.name.dir}.temf"/>
 		<mkdir dir="${cwd}" />
 		<record name="${cwd}/execution.log"/>
@@ -84,7 +86,7 @@
 			<env key="hbase.server" value="${env.hbase.server}" />
 			<env key="tll.memory.period" value="${env.tll.memory.period}" />
 			<env key="tll.iterations.period" value="${env.tll.iterations.period}" />
-			<arg line="${file}" />
+			<arg line="${absolute.file}" />
 			<classpath refid="edu.uoc.som.tll.simulation.temf.classpath" />
 		</java>
 	</target>
