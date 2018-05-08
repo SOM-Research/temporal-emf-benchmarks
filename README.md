@@ -2,8 +2,8 @@
 
 Repository contents:
 
-* Go to [`plugins`](plugins/README.md) to inspect the sources of the simulator and the test code.
-* Go to [`raw-results`](raw-results/README.md) to inspect the execution logs, `*.dat` files generated from them, and the plots generated with `gnuplot`.
+* Go to [`plugins`](plugins/) to inspect the sources of the simulator and the test code.
+* Go to [`raw-results`](raw-results/) to inspect the execution logs, `*.dat` files generated from them, and the plots generated with `gnuplot`.
 
 
 # Questions
