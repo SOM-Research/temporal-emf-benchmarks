@@ -68,7 +68,7 @@
 			<jvmarg line="${sim.vmargs}"/>
 			<env key="tll.memory.period" value="${env.tll.memory.period}" />
 			<env key="tll.iterations.period" value="${env.tll.iterations.period}" />
-			<arg line="../${file}" />
+			<arg line="${file}" />
 			<classpath refid="edu.uoc.som.tll.simulation.xmi.classpath" />
 		</java>
 	</target>
@@ -84,7 +84,7 @@
 			<env key="hbase.server" value="${env.hbase.server}" />
 			<env key="tll.memory.period" value="${env.tll.memory.period}" />
 			<env key="tll.iterations.period" value="${env.tll.iterations.period}" />
-			<arg line="../${file}" />
+			<arg line="${file}" />
 			<classpath refid="edu.uoc.som.tll.simulation.temf.classpath" />
 		</java>
 	</target>
