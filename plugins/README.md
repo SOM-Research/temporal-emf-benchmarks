@@ -1,3 +1,6 @@
+:warning: | **This repository has been archived and scripts and code in this directory and subdirectories may be outdated and may no longer work** | :warning:
+----------|----------------------------------------------------------------------------------------------------------------------------------------|----------
+
 # Running the experiments
 
 ## Preparing the environment
