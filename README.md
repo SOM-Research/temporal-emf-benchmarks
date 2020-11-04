@@ -1,3 +1,6 @@
+:warning: | **This repository has been archived and scripts and code under [`plugins`](plugins/) may be outdated and may no longer work** | :warning:
+----------|-------------------------------------------------------------------------------------------------------------------------------|----------
+
 # *TemporalEMF* Benchmarks
 
 Repository contents:
